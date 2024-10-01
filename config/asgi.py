@@ -1,7 +1,4 @@
 import os
-
-import eventlet
-import eventlet.wsgi
 import socketio
 from django.core.asgi import get_asgi_application
 
