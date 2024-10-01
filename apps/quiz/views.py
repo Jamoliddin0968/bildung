@@ -34,21 +34,21 @@ class RandomQuestionListView(GenericAPIView):
         return Response(serializer.data)
 
 
-# 3. Проверка ответов и возврат правильных ответов
+
 class CheckAnswersView(APIView):
 
     def post(self, request, pk, format=None):
         question = get_object_or_404(Question, pk=pk)
-        given_answers = request.data.get('answers', [])  # Ожидаемый формат: {"answers": [1, 2, 3]}
+        given_answers = request.data.get('answers', [])  
         
-        # Получаем правильные ответы
+
         correct_answers = question.answers.filter(is_correct=True)
         correct_answers_ids = [answer.id for answer in correct_answers]
 
-        # Проверяем, совпадают ли переданные ответы с правильными
+   
         is_correct = set(given_answers) == set(correct_answers_ids)
 
-        # Формируем ответ
         return Response({
-            'is_correct': "sdbjh"
+            'is_correct': is_correct,
+            'correct_answers': AnswerSerializer(correct_answers, many=True).data
         }, status=status.HTTP_200_OK)

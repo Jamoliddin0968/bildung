@@ -51,7 +51,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     # dsfdsfs
     "apps.authentication",
-    'apps.quiz'
+    'apps.quiz',
+    'apps.users'
 ]
 SITE_ID=1
 
@@ -214,3 +215,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+AUTH_USER_MODEL = 'users.CustomUser'
