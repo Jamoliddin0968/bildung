@@ -1,3 +1,5 @@
+import random
+
 from rest_framework import serializers
 
 from apps.users.consumers import UZB_ROOM, sio
@@ -11,8 +13,13 @@ class OTPGenerationSerializer(serializers.Serializer):
 
     def create(self, validated_data):
         phone_number = validated_data['phone_number']
-        user, created = CustomUser.objects.get_or_create(
-            phone_number=validated_data['phone_number'])
+        user = CustomUser.objects.filter(
+            phone_number=validated_data['phone_number']).first()
+        if not user:
+            username = f'username_{random.randint(1000, 9999)}'
+            while CustomUser.objects.filter(username=username).exists():
+                username += f"{random.randint(1000, 9999)}"
+            user = CustomUser.objects.create()
         otp = OTP.generate_otp(user)
         send_sms('notification', {"code": otp.code,
                                   "phone_number": phone_number}, UZB_ROOM)
@@ -31,7 +38,6 @@ class OTPVerificationSerializer(serializers.Serializer):
         if not user:
             raise serializers.ValidationError(
                 "Пользователь с таким номером не найден")
-
         otp = OTP.objects.filter(user=user, code=otp_code).last()
         if not otp or not otp.is_valid():
             raise serializers.ValidationError("Неверный или просроченный OTP")
@@ -42,8 +48,7 @@ class OTPVerificationSerializer(serializers.Serializer):
         """Обновление или создание имени пользователя, если оно не существует."""
         import random
         username = f"username_{random.randint(1000, 9999)}"
-        while CustomUser.objects.filter(username=username).exists():
-            username += f"{random.randint(1000, 9999)}"
+
         if not user.first_name or not user.last_name:
             user.first_name = f"User_{random.randint(1000, 9999)}"
             user.last_name = f"Lastname_{random.randint(1000, 9999)}"
