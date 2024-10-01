@@ -9,7 +9,7 @@ from .serializers import SubjectSerializer, QuestionSerializer, AnswerSerializer
 from django.db.models import Count
 import random
 from rest_framework.pagination import PageNumberPagination
-
+from rest_framework.generics import GenericAPIView
 class SubjectListView(generics.ListAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
@@ -23,16 +23,14 @@ class SubjectListView(generics.ListAPIView):
         return self.queryset
 
 
-# 2. Случайный список вопросов
-class RandomQuestionListView(APIView):
+class RandomQuestionListView(GenericAPIView):
+    serializer_class = QuestionSerializer
 
     def get(self, request, pk, format=None):
         subject = get_object_or_404(Subject, pk=pk)
         question_count = subject.question_count
-        questions = list(subject.questions.all())
-        random.shuffle(questions)
-        selected_questions = questions[:question_count]
-        serializer = QuestionSerializer(selected_questions, many=True)
+        questions = Question.objects.filter(subject=subject).order_by('?')[:question_count]
+        serializer = QuestionSerializer(questions, many=True)
         return Response(serializer.data)
 
 
