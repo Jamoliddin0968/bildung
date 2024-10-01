@@ -19,7 +19,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('auth/', include('apps.authentication.urls'))
+    # path('auth/', include('apps.authentication.urls')),
+    path('',include('apps.quiz.urls'))
 ]
 from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
 urlpatterns += [
