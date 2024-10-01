@@ -50,6 +50,5 @@ class CheckAnswersView(APIView):
 
         # Формируем ответ
         return Response({
-            'is_correct': is_correct,
-            'correct_answers': AnswerSerializer(correct_answers, many=True).data
+            'is_correct': "sdbjh"
         }, status=status.HTTP_200_OK)
