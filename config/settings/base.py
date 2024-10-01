@@ -208,3 +208,7 @@ MEDIA_URL = '/media/'  # URL-адрес для доступа к медиафа�
 import os
 # Папка, где будут храниться загружаемые медиафайлы
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
+
+STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
