@@ -1,3 +1,4 @@
+from .models import CustomUser
 import random
 
 from rest_framework import serializers
@@ -52,3 +53,11 @@ class OTPVerificationSerializer(serializers.Serializer):
             user.first_name = f"User_{random.randint(1000, 9999)}"
             user.last_name = f"Lastname_{random.randint(1000, 9999)}"
             user.save()
+
+
+class CustomUserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CustomUser
+        fields = ['username', 'first_name', 'last_name', 'phone_number']
+        # phone_number доступен только для чтения
+        read_only_fields = ['phone_number']
