@@ -14,8 +14,8 @@ class QuestionSerializer(serializers.ModelSerializer):
         fields = ['id', 'text', 'code', 'answers']
 
 class SubjectSerializer(serializers.ModelSerializer):
-    questions = QuestionSerializer(many=True, read_only=True)
+
 
     class Meta:
         model = Subject
-        fields = ['id', 'name', 'language', 'image', 'question_count', 'question_time', 'questions']
+        fields = ['id', 'name', 'language', 'image', 'question_count', 'question_time']

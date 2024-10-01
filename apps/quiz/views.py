@@ -7,14 +7,15 @@ from .serializers import SubjectSerializer, QuestionSerializer, AnswerSerializer
 from django.db.models import Count
 import random
 
-# 1. Список предметов с пагинацией и фильтрацией по языку
+
 class SubjectListView(generics.ListAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
-    pagination_class = None  # Можно подключить стандартный пагинатор или кастомный
+    pagination_class = None  
 
     def get_queryset(self):
-        language = self.request.query_params.get('language')
+        language = self.request.query_params.get('language') or 'uz'
+        language = language.lower()
         if language:
             return self.queryset.filter(language=language)
         return self.queryset
