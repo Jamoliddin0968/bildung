@@ -11,7 +11,7 @@ class Command(BaseCommand):
 
         # Генерация данных для предметов
         languages = ['ru', 'uz']
-        for _ in range(50):  # Создадим 5 предметов
+        for _ in range(10):  # Создадим 5 предметов
             subject = Subject.objects.create(
                 name=faker.word(),
                 language=random.choice(languages),
