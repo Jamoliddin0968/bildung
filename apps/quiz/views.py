@@ -2,16 +2,18 @@ from rest_framework import generics, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
+
+from apps.core.paginations import CustomPagination
 from .models import Subject, Question, Answer
 from .serializers import SubjectSerializer, QuestionSerializer, AnswerSerializer
 from django.db.models import Count
 import random
-
+from rest_framework.pagination import PageNumberPagination
 
 class SubjectListView(generics.ListAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
-    pagination_class = None  
+    pagination_class = CustomPagination  
 
     def get_queryset(self):
         language = self.request.query_params.get('language') or 'uz'
