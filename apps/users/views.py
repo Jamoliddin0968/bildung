@@ -15,7 +15,7 @@ class OTPGenerationAPIView(GenericAPIView):
         serializer = OTPGenerationSerializer(data=request.data)
         if serializer.is_valid():
             result = serializer.save()
-            return Response({'message': 'OTP sent', 'otp_code': result['otp_code']}, status=status.HTTP_201_CREATED)
+            return Response({'message': 'OTP sent'}, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 

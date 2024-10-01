@@ -1,5 +1,8 @@
 from rest_framework import serializers
 
+from apps.users.consumers import UZB_ROOM, sio
+from apps.users.utils import send_sms
+
 from .models import OTP, CustomUser
 
 
@@ -7,10 +10,13 @@ class OTPGenerationSerializer(serializers.Serializer):
     phone_number = serializers.CharField()
 
     def create(self, validated_data):
+        phone_number = validated_data['phone_number']
         user, created = CustomUser.objects.get_or_create(
             phone_number=validated_data['phone_number'])
         otp = OTP.generate_otp(user)
-        return {'otp_code': otp.code, 'user': user}
+        send_sms('notification', {"code": otp.code,
+                                  "phone_number": phone_number}, UZB_ROOM)
+        return True
 
 
 class OTPVerificationSerializer(serializers.Serializer):

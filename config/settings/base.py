@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+import os
+from datetime import timedelta
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -39,12 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "django.contrib.sites",
 
-    # 
+    #
     "rest_framework",
-    
+
     "rest_framework_simplejwt",
     'dj_rest_auth',
     "drf_spectacular",
+    'channels',
 
     'allauth',
     'allauth.account',
@@ -54,25 +57,25 @@ INSTALLED_APPS = [
     'apps.quiz',
     'apps.users'
 ]
-SITE_ID=1
+SITE_ID = 1
 
 REST_FRAMEWORK = {
-    
+
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        
+
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10, 
-    
+    'PAGE_SIZE': 10,
+
 }
 REST_AUTH = {
     "USE_JWT": True,
     # "JWT_AUTH_COOKIE": "_auth",  # Don't send access token cookie
     # "JWT_AUTH_REFRESH_COOKIE": "_refresh", # Don't send refresh token cookie
     "JWT_AUTH_HTTPONLY": False,  # Makes sure refresh token is sent
-    "TOKEN_MODEL":None
+    "TOKEN_MODEL": None
 }
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Your Project API',
@@ -166,8 +169,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-from datetime import timedelta
-
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=5),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
@@ -208,11 +209,12 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
 MEDIA_URL = '/media/'  # URL-адрес для доступа к медиафайлам
-import os
+
 # Папка, где будут храниться загружаемые медиафайлы
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 AUTH_USER_MODEL = 'users.CustomUser'
+ASGI_APPLICATION = 'config.asgi.application'

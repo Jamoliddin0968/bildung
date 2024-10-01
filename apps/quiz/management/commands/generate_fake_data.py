@@ -19,15 +19,13 @@ class Command(BaseCommand):
             subject = Subject.objects.create(
                 name=faker.word(),
                 language=random.choice(languages),
-                question_count=20,  # количество вопросов
-                # время на вопрос в секундах
+                question_count=20,
                 question_time=random.randint(30, 120),
-                image=None  # Если нужно добавить изображение, это можно сделать позже
+                image=None
             )
             self.stdout.write(self.style.SUCCESS(
                 f'Subject "{subject.name}" created'))
 
-            # Генерация вопросов для каждого предмета
             for _ in range(100):
                 question = Question.objects.create(
                     text=faker.sentence(),
