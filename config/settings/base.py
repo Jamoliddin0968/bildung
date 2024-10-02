@@ -218,3 +218,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 AUTH_USER_MODEL = 'users.CustomUser'
 ASGI_APPLICATION = 'config.asgi.application'
+CSRF_TRUSTED_ORIGINS = ['https://bildung.uz',
+                        'localhost:8000', 'http://127.0.0.1:8000']
