@@ -38,11 +38,11 @@ class OTPVerificationSerializer(serializers.Serializer):
 
         user = CustomUser.objects.filter(phone_number=phone_number).first()
         if not user:
-            raise serializers.ValidationError(
-                "Пользователь с таким номером не найден")
+            raise serializers.ValidationError({"detail":"Пользователь с таким номером не найден"}
+                )
         otp = OTP.objects.filter(user=user, code=otp_code).last()
         if not otp or not otp.is_valid():
-            raise serializers.ValidationError("Неверный или просроченный OTP")
+            raise serializers.ValidationError({"detail":"Неверный или просроченный OTP"})
         data['user'] = user
         return data
 

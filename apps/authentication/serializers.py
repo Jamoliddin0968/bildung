@@ -39,8 +39,8 @@ class GoogleSocialAuthSerializer(serializers.Serializer):
         try:
             user_data['sub']
         except:
-            raise serializers.ValidationError(
-                'The token is invalid or expired. Please login again.'
+            raise serializers.ValidationError({
+                "detail": 'The token is invalid or expired. Please login again.'}
             )
 
         # if user_data['aud'] != os.environ.get('GOOGLE_CLIENT_ID'):
