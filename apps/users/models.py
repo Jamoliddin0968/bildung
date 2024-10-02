@@ -9,6 +9,7 @@ from django.utils import timezone
 
 class CustomUser(AbstractUser):
     phone_number = models.CharField(max_length=15, unique=True)
+    image = models.ImageField(upload_to="images", null=True, blank=True)
 
 
 class OTP(models.Model):

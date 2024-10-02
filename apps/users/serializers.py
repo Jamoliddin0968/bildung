@@ -1,4 +1,3 @@
-from .models import CustomUser
 import random
 
 from rest_framework import serializers
@@ -38,11 +37,12 @@ class OTPVerificationSerializer(serializers.Serializer):
 
         user = CustomUser.objects.filter(phone_number=phone_number).first()
         if not user:
-            raise serializers.ValidationError({"detail":"Пользователь с таким номером не найден"}
-                )
+            raise serializers.ValidationError({"detail": "Пользователь с таким номером не найден"}
+                                              )
         otp = OTP.objects.filter(user=user, code=otp_code).last()
         if not otp or not otp.is_valid():
-            raise serializers.ValidationError({"detail":"Неверный или просроченный OTP"})
+            raise serializers.ValidationError(
+                {"detail": "Неверный или просроченный OTP"})
         data['user'] = user
         return data
 
@@ -58,6 +58,7 @@ class OTPVerificationSerializer(serializers.Serializer):
 class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
-        fields = ['username', 'first_name', 'last_name', 'phone_number']
+        fields = ['username', 'first_name',
+                  'last_name', 'phone_number', 'image']
         # phone_number доступен только для чтения
         read_only_fields = ['phone_number']

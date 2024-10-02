@@ -2,3 +2,5 @@ env
 config/db.sqlite3
 *.pyc
 config/static
+media
+config/media
