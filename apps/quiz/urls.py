@@ -9,5 +9,5 @@ urlpatterns = [
          RandomQuestionListView.as_view(), name='random-question-list'),
     path('questions/<int:pk>/check-answers/',
          CheckAnswersView.as_view(), name='check-answers'),
-    path('recommmendations/', SubjectRecommendationListView)
+    path('recommmendations/', SubjectRecommendationListView.as_view())
 ]
