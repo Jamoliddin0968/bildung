@@ -1,10 +1,13 @@
 from rest_framework import serializers
-from .models import Subject, Question, Answer
+
+from .models import Answer, Question, Subject
+
 
 class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
         fields = ['id', 'text', 'is_correct']
+
 
 class QuestionSerializer(serializers.ModelSerializer):
     answers = AnswerSerializer(many=True, read_only=True)
@@ -13,9 +16,10 @@ class QuestionSerializer(serializers.ModelSerializer):
         model = Question
         fields = ['id', 'text', 'code', 'answers']
 
-class SubjectSerializer(serializers.ModelSerializer):
 
+class SubjectSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Subject
-        fields = ['id', 'name', 'language', 'image', 'question_count', 'question_time']
+        fields = ['id', 'name', 'language', 'image',
+                  'question_count', 'question_time']
