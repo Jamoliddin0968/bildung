@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from apps.utils.models import Banner
+
+
+@admin.register(Banner)
+class BannerAdmin(admin.ModelAdmin):
+    list_display = ('id', 'title')
