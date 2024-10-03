@@ -55,7 +55,8 @@ INSTALLED_APPS = [
     # dsfdsfs
     "apps.authentication",
     'apps.quiz',
-    'apps.users'
+    'apps.users',
+    'apps.utils'
 ]
 SITE_ID = 1
 
@@ -219,4 +220,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 AUTH_USER_MODEL = 'users.CustomUser'
 ASGI_APPLICATION = 'config.asgi.application'
 CSRF_TRUSTED_ORIGINS = ['https://bildung.uz',
-                        'localhost:8000', 'http://127.0.0.1:8000']
+                        'http://localhost:8000', 'http://127.0.0.1:8000']

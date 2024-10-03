@@ -10,6 +10,7 @@ from django.db.models import Count
 import random
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.generics import GenericAPIView
+
 class SubjectListView(generics.ListAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
@@ -32,7 +33,6 @@ class RandomQuestionListView(GenericAPIView):
         questions = Question.objects.filter(subject=subject).order_by('?')[:question_count]
         serializer = QuestionSerializer(questions, many=True)
         return Response(serializer.data)
-
 
 
 class CheckAnswersView(APIView):

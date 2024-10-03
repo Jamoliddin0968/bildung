@@ -9,7 +9,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('auth/', include('apps.authentication.urls')),
     path('', include('apps.quiz.urls')),
-    path('', include('apps.users.urls'))
+    path('', include('apps.users.urls')),
+    path('', include('apps.utils.urls'))
 ]
 
 urlpatterns += [
