@@ -1,10 +1,11 @@
 from django.contrib import admin
-from .models import Subject, Question, Answer
+
+from .models import Answer, Question, Subject
 
 
-class AnswerInline(admin.TabularInline):  
+class AnswerInline(admin.TabularInline):
     model = Answer
-    extra = 1  
+    extra = 1
 
 
 @admin.register(Subject)
@@ -15,7 +16,8 @@ class SubjectAdmin(admin.ModelAdmin):
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
     list_display = ('text', 'subject', 'code')
-    inlines = [AnswerInline]  
+    inlines = [AnswerInline]
+    list_filter = ['subject',]
 
 
 @admin.register(Answer)
