@@ -10,11 +10,11 @@ from rest_framework.views import APIView
 
 from apps.core.paginations import CustomPagination
 
-from .models import Answer, Question, Subject
-from .serializers import (AnswerSerializer, QuestionSerializer,
+from .models import Answer, AudioFile, Question, Subject
+from .serializers import (AnswerSerializer, AudioSerializer, QuestionSerializer,
                           SubjectSerializer)
 
-
+from rest_framework.viewsets import ModelViewSet
 class SubjectListView(generics.ListAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
@@ -70,3 +70,8 @@ class SubjectRecommendationListView(generics.ListAPIView):
         if language:
             return self.queryset.filter(language=language)
         return self.queryset.order_by("?")
+
+
+class AudioViewSet(ModelViewSet):
+    queryset = AudioFile.objects.all()
+    serializer_class = AudioSerializer

@@ -1,9 +1,14 @@
-from django.urls import path
+from django.urls import include, path
+from rest_framework.routers import DefaultRouter
 
-from .views import (CheckAnswersView, RandomQuestionListView, SubjectListView,
-                    SubjectRecommendationListView)
+from .views import (AudioViewSet, CheckAnswersView, RandomQuestionListView,
+                    SubjectListView, SubjectRecommendationListView)
+
+router = DefaultRouter()
+router.register('audios', AudioViewSet)
 
 urlpatterns = [
+    path("", include(router.urls)),
     path('subjects/', SubjectListView.as_view(), name='subject-list'),
     path('subjects/<int:pk>/questions/random/',
          RandomQuestionListView.as_view(), name='random-question-list'),

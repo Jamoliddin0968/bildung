@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Answer, Question, Subject
+from .models import Answer, AudioFile, Question, Subject
 
 
 class AnswerSerializer(serializers.ModelSerializer):
@@ -27,3 +27,9 @@ class SubjectSerializer(serializers.ModelSerializer):
 
     def get_total_questions(self, obj):
         return obj.questions.count()
+
+
+class AudioSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = AudioFile
+        fields = "__all__"
