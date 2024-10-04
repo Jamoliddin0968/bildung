@@ -18,8 +18,12 @@ class QuestionSerializer(serializers.ModelSerializer):
 
 
 class SubjectSerializer(serializers.ModelSerializer):
+    total_questions = serializers.SerializerMethodField()
 
     class Meta:
         model = Subject
         fields = ['id', 'name', 'language', 'image',
                   'question_count', 'question_time']
+
+    def get_total_questions(self, obj):
+        return obj.questions.count()
