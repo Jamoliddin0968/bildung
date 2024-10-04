@@ -23,7 +23,7 @@ class SubjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subject
         fields = ['id', 'name', 'language', 'image',
-                  'question_count', 'question_time']
+                  'question_count', 'question_time', "total_questions"]
 
     def get_total_questions(self, obj):
         return obj.questions.count()
