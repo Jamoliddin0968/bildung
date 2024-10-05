@@ -38,7 +38,7 @@ class RandomQuestionListView(GenericAPIView):
         question_count = subject.question_count
         answers_queryset = Answer.objects.order_by('?')
         questions = Question.objects.filter(
-            subject=subject).prefetch_related(
+            subject=subject, is_active=True).prefetch_related(
             Prefetch('answers', queryset=answers_queryset)
         ).order_by('?')[:question_count]
         serializer = QuestionSerializer(questions, many=True)
