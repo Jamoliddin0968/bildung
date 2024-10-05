@@ -12,8 +12,8 @@ from rest_framework.viewsets import ModelViewSet
 from apps.core.paginations import CustomPagination
 
 from .models import Answer, Question, Subject
-from .serializers import (AnswerSerializer, QuestionCreateSerializer, QuestionSerializer,
-                          SubjectSerializer)
+from .serializers import (AnswerSerializer, QuestionCreateSerializer,
+                          QuestionSerializer, SubjectSerializer)
 
 
 class SubjectListView(generics.ListAPIView):
@@ -31,6 +31,7 @@ class SubjectListView(generics.ListAPIView):
 
 class RandomQuestionListView(GenericAPIView):
     serializer_class = QuestionSerializer
+    queryset = Question.objects.all()
 
     def get(self, request, pk, format=None):
         subject = get_object_or_404(Subject, pk=pk)
