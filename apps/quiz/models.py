@@ -16,6 +16,7 @@ class Subject(models.Model):
         default=0)  # Поле для количества вопросов
     # Поле для времени на вопрос (в секундах)
     question_time = models.IntegerField(default=60)
+    is_active = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.name} ({self.get_language_display()})"
