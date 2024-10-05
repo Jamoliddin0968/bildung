@@ -117,6 +117,6 @@ def main(pdf_path, output_json_path):
 
 
 # Running with the provided PDF path
-pdf_path = 'mnt/data/base.pdf'
+pdf_path = "D:/Documents/tests/ona_tili.pdf"
 output_json_path = 'parsed_questions_with_ids.json'
 main(pdf_path, output_json_path)
