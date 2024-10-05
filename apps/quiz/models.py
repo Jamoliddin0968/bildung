@@ -22,7 +22,7 @@ class Subject(models.Model):
 
 
 class Question(models.Model):
-    text = models.CharField(max_length=255)
+    text = models.TextField()
     code = models.CharField(max_length=20, blank=True, null=True)
     subject = models.ForeignKey(
         Subject, on_delete=models.CASCADE, related_name='questions')

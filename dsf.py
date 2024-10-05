@@ -52,7 +52,7 @@ def save_to_json(qa_list, output_path):
 
 
 # Основной код
-pdf_path = "D:/Documents/tests/english.pdf"
+pdf_path = "D:/Documents/tests/tarih.pdf"
 # pdf_path = ''  # путь к вашему PDF-файлу
 output_path = 'questions_answers.json'  # путь для сохранения результата
 
