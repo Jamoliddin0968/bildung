@@ -1,11 +1,11 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
-from .views import (AudioViewSet, CheckAnswersView, RandomQuestionListView,
+from .views import (CheckAnswersView, QuestionViewSet, RandomQuestionListView,
                     SubjectListView, SubjectRecommendationListView)
 
 router = DefaultRouter()
-router.register('audios', AudioViewSet)
+router.register('api/questions', QuestionViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),

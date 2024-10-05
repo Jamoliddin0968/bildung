@@ -29,7 +29,7 @@ class SubjectSerializer(serializers.ModelSerializer):
         return obj.questions.count()
 
 
-class AudioSerializer(serializers.ModelSerializer):
+class QuestionCreateSerializer(serializers.ModelSerializer):
     class Meta:
-        model = AudioFile
+        model = Question
         fields = "__all__"

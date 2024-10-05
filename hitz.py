@@ -1,20 +1,19 @@
 import json
 import re
 
-import PyPDF2  # PyMuPDF library for extracting text from PDF
+import fitz  # PyMuPDF library for extracting text from PDF
 
 
 # Function to extract text from PDF using PyMuPDF
-def extract_text_from_pdf(pdf_path):
-    text = ""
-    with open(pdf_path, 'rb') as file:
-        reader = PyPDF2.PdfReader(file)
-        for page_num in range(len(reader.pages)):
-            page = reader.pages[page_num]
-            text += page.extract_text().replace('-\n',
-                                                '').replace('\n', ' ').replace(', ', ',')
-
+def extract_text_from_pdf_fitz(pdf_path):
+    text = ''
+    with fitz.open(pdf_path) as pdf:
+        for page_num in range(len(pdf)):
+            page = pdf.load_page(page_num)
+            text += page.get_text("text").replace('-\n',
+                                                  '').replace('\n', ' ').replace(', ', ',')
     return text
+
 # Function to clean special characters in the extracted text
 
 
@@ -100,7 +99,7 @@ def save_to_json(questions, output_path):
 # Main function
 def main(pdf_path, output_json_path):
     # Extract text from the PDF using PyMuPDF (fitz)
-    text = extract_text_from_pdf(pdf_path)
+    text = extract_text_from_pdf_fitz(pdf_path)
     print(text[90000:92000])
     # Clean the text by replacing special characters
     cleaned_text = clean_text(text)
