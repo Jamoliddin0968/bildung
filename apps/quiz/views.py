@@ -25,7 +25,7 @@ class SubjectListView(generics.ListAPIView):
         language = self.request.query_params.get('language') or 'uz'
         language = language.lower()
         if language:
-            return self.queryset.filter(language=language)
+            return self.queryset.filter(language=language, is_active=True)
         return self.queryset
 
 
