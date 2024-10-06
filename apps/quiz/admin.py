@@ -17,7 +17,7 @@ class SubjectAdmin(admin.ModelAdmin):
 class QuestionAdmin(admin.ModelAdmin):
     list_display = ('text', 'subject', 'code')
     inlines = [AnswerInline]
-    list_filter = ['subject',]
+    list_filter = ['subject', 'is_active']
 
 
 @admin.register(Answer)
