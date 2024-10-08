@@ -29,7 +29,8 @@ class Command(BaseCommand):
             question = Question.objects.create(
                 text=item.get('question'),
                 code=item.get('question_number'),
-                subject=subject  # Указываем объект subject напрямую
+                subject=subject,
+                is_active=True
             )
 
             # Получаем ответы и создаем объекты Answer
