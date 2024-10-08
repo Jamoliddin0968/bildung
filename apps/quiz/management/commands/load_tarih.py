@@ -11,11 +11,8 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         # Создаем предмет
         subject, _ = Subject.objects.get_or_create(
-            name="Biologiya",
-            language="uz",
-            question_count=20,
-            question_time=500,
-            image=None
+            name="Tarix",
+            language="uz"
         )
         Question.objects.filter(subject=subject).delete()
         self.stdout.write(self.style.SUCCESS(
