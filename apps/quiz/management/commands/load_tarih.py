@@ -17,6 +17,7 @@ class Command(BaseCommand):
             question_time=500,
             image=None
         )
+        Question.objects.delete(subject=subject)
         self.stdout.write(self.style.SUCCESS(
             f'Subject "{subject.name}" created'))
 
