@@ -2,7 +2,8 @@ import random
 
 from django.db.models import Count, Prefetch
 from django.shortcuts import get_object_or_404
-from rest_framework import generics, status
+from rest_framework import generics, status, viewsets
+from rest_framework.decorators import action
 from rest_framework.generics import GenericAPIView
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
@@ -12,7 +13,8 @@ from rest_framework.viewsets import ModelViewSet
 from apps.core.paginations import CustomPagination
 
 from .models import Answer, Question, Subject
-from .serializers import (AnswerSerializer, QuestionCreateSerializer,
+from .serializers import (AnswerSerializer, CustomQuestionSerializer,
+                          CustomSubjectSerializer, QuestionCreateSerializer,
                           QuestionSerializer, SubjectSerializer)
 
 
@@ -77,3 +79,37 @@ class SubjectRecommendationListView(generics.ListAPIView):
 class QuestionViewSet(ModelViewSet):
     queryset = Question.objects.all()
     serializer_class = QuestionCreateSerializer
+
+
+class CustomStandardResultsSetPagination(PageNumberPagination):
+    page_size = 20  # 20 вопросов на страницу
+    page_size_query_param = 'page_size'
+    max_page_size = 100
+
+
+class CustomSubjectViewSet(ModelViewSet):
+    queryset = Subject.objects.all()
+    serializer_class = CustomSubjectSerializer
+
+
+class CustomQuestionViewSet(ModelViewSet):
+    queryset = Question.objects.all()
+    serializer_class = CustomQuestionSerializer
+    pagination_class = CustomStandardResultsSetPagination
+
+    # Фильтрация вопросов по предмету
+    def get_queryset(self):
+        queryset = Question.objects.all()
+        subject_id = self.request.query_params.get('subject')
+        if subject_id:
+            queryset = queryset.filter(subject__id=subject_id)
+        return queryset
+
+    @action(detail=False, methods=['post'])
+    def bulk_edit(self, request):
+        data = request.data.get('questions')
+        for item in data:
+            question = Question.objects.get(id=item['id'])
+            question.is_active = item['is_active']
+            question.save()
+        return Response({'status': 'Bulk edit successful'})

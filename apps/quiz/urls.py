@@ -1,14 +1,17 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
-from .views import (CheckAnswersView, QuestionViewSet, RandomQuestionListView,
-                    SubjectListView, SubjectRecommendationListView)
+from .views import (CheckAnswersView, CustomQuestionViewSet,
+                    CustomSubjectViewSet, QuestionViewSet,
+                    RandomQuestionListView, SubjectListView,
+                    SubjectRecommendationListView)
 
 router = DefaultRouter()
-router.register('api/questions', QuestionViewSet)
+router.register(r'subjects', CustomSubjectViewSet)
+router.register(r'questions', CustomQuestionViewSet)
 
 urlpatterns = [
-    path("", include(router.urls)),
+    path("api/", include(router.urls)),
     path('subjects/', SubjectListView.as_view(), name='subject-list'),
     path('subjects/<int:pk>/questions/random/',
          RandomQuestionListView.as_view(), name='random-question-list'),

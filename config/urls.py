@@ -10,7 +10,8 @@ urlpatterns = [
     # path('auth/', include('apps.authentication.urls')),
     path('', include('apps.quiz.urls')),
     path('', include('apps.users.urls')),
-    path('', include('apps.utils.urls'))
+    path('', include('apps.utils.urls')),
+    path('', include('django_prometheus.urls')),
 ]
 
 urlpatterns += [

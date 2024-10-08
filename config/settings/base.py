@@ -56,7 +56,9 @@ INSTALLED_APPS = [
     "apps.authentication",
     'apps.quiz',
     'apps.users',
-    'apps.utils'
+    'apps.utils',
+
+    # 'django_prometheus',
 ]
 SITE_ID = 1
 
