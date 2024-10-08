@@ -4,3 +4,4 @@ config/db.sqlite3
 config/static
 media
 config/media
+.env
