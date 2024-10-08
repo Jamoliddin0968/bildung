@@ -21,9 +21,10 @@ class Command(BaseCommand):
             f'Subject "{subject.name}" created'))
 
         # Чтение данных из JSON файла
-        with open('apps/quiz/datas/biology.json', 'r', encoding='utf-8') as file:
+        with open('apps/quiz/datas/biologiya.json', 'r', encoding='utf-8') as file:
             data_list = json.load(file)
 
+        answers = []
         # Обработка вопросов и ответов
         for item in data_list:
             # Создаем вопрос
@@ -39,7 +40,7 @@ class Command(BaseCommand):
             correct_answer = item.get('correct_answer')
 
             # Создаем список объектов Answer для bulk_create
-            answers = [
+            answers += [
                 Answer(
                     question=question,
                     text=answer_text,
@@ -50,10 +51,10 @@ class Command(BaseCommand):
             ]
 
             # Массово создаем ответы
-            Answer.objects.bulk_create(answers)
+        Answer.objects.bulk_create(answers)
 
-            self.stdout.write(self.style.SUCCESS(
-                f'Question "{question.text}" with answers created'))
+        # self.stdout.write(self.style.SUCCESS(
+        #     f'Question "{question.text}" with answers created'))
 
         self.stdout.write(self.style.SUCCESS(
             'All data successfully generated!'))
