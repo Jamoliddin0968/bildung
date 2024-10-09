@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Answer, AudioFile, Question, Subject
+from .models import Answer, AudioFile, BachelorProgram, Question, Subject
 
 
 class AnswerSerializer(serializers.ModelSerializer):
@@ -51,3 +51,18 @@ class CustomAnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
         fields = ['id', 'text', 'question', 'is_correct']
+
+
+class SubjectShortSerializer(serializers.ModelSerializer):
+    class Meta:
+        fields = "__all__"
+        model = Subject
+
+
+class BachelorProgramSerializer(serializers.ModelSerializer):
+    first_subject = SubjectShortSerializer()
+    second_subject = SubjectShortSerializer()
+
+    class Meta:
+        model = BachelorProgram
+        fields = "__all__"

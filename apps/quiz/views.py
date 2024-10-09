@@ -1,3 +1,6 @@
+from rest_framework import viewsets
+from .serializers import BachelorProgramSerializer
+from .models import BachelorProgram
 import random
 
 from django.db.models import Count, Prefetch
@@ -113,3 +116,12 @@ class CustomQuestionViewSet(ModelViewSet):
             question.is_active = item['is_active']
             question.save()
         return Response({'status': 'Bulk edit successful'})
+
+
+class BachelorProgramViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    A simple ViewSet for viewing Bachelor programs.
+    """
+    queryset = BachelorProgram.objects.all()
+    serializer_class = BachelorProgramSerializer
+    pagination_class = CustomStandardResultsSetPagination

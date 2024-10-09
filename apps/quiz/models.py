@@ -22,6 +22,18 @@ class Subject(models.Model):
         return f"{self.name} ({self.get_language_display()})"
 
 
+class BachelorProgram(models.Model):
+    code = models.CharField(max_length=20)
+    name = models.CharField(max_length=255)
+    first_subject = models.ForeignKey(
+        Subject, on_delete=models.CASCADE, null=True, blank=True)
+    second_subject = models.ForeignKey(
+        Subject, on_delete=models.CASCADE, related_name="second_bachelor", null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Category(models.Model):
     subject = models.ForeignKey(
         Subject, on_delete=models.CASCADE, related_name='themes', null=True, blank=True)

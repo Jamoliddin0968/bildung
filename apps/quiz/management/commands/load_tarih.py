@@ -37,7 +37,6 @@ class Command(BaseCommand):
                 subject=subject,
                 is_active=True
             )
-
             answers += [
                 Answer(
                     question=question,

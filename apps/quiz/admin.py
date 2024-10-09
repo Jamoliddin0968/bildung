@@ -1,11 +1,16 @@
 from django.contrib import admin
 
-from .models import Answer, Question, Subject
+from .models import Answer, BachelorProgram, Question, Subject
 
 
 class AnswerInline(admin.TabularInline):
     model = Answer
     extra = 1
+
+
+@admin.register(BachelorProgram)
+class BachelorProgramAdmin(admin.ModelAdmin):
+    list_display = ('code', 'first_subject', 'second_subject')
 
 
 @admin.register(Subject)
