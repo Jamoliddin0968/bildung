@@ -70,7 +70,8 @@ def normalize(text: str):
 
         "′\nК": "Q",
         "′ Х": "H",
-        "′\nХ": "H", "D)\n": "D)",
+        "′\nХ": "H",
+        "D)\n": "D)",
     }
 
     # Проходим по каждому ключу и заменяем в тексте соответствующее значение
@@ -117,6 +118,7 @@ def generate_answers_json(text_data, correct_answer_font='Fm'):
     """Генерация JSON с правильными ответами на основе шрифтов."""
     correct_answers = {}
     question_code = None
+    theme_id = None
     cnt = 0
     prev_text = ""  # Для хранения предыдущего текста
 
@@ -127,9 +129,14 @@ def generate_answers_json(text_data, correct_answer_font='Fm'):
                 font = span["font"]
                 size = span["size"]
 
-                # Проверяем, если предыдущий текст содержит шестизначное число
+                if not theme_id:
+                    ab_c_match = re.search(r"^(\d+\.\d+-\d+)", text)
+                    if ab_c_match:
+                        ab_c_value = ab_c_match.group(0)
+                        theme_id = ab_c_value
+
                 if not question_code:
-                    match = re.search(r"(\d{6})\)", prev_text)  # исправлено
+                    match = re.search(r"(\d{6})\)", prev_text)
                     if match:
                         # Сохраняем шестизначный код
                         question_code = match.group(1)
@@ -138,8 +145,13 @@ def generate_answers_json(text_data, correct_answer_font='Fm'):
                 if font == correct_answer_font and text[:2] in ['A)', 'B)', 'C)', 'D)']:
                     cnt += 1
                     if question_code:
-                        correct_answers[question_code] = text[0]
+                        print(theme_id)
+                        correct_answers[question_code] = {
+                            'answer': text[0],
+                            'theme_id': theme_id
+                        }
                         question_code = None
+                        theme_id = None
 
                 prev_text = text
 
