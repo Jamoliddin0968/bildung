@@ -1,4 +1,7 @@
+from django.contrib.auth import get_user_model
 from django.db import models
+
+User = get_user_model()
 
 
 class Subject(models.Model):
@@ -29,6 +32,13 @@ class BachelorProgram(models.Model):
         Subject, on_delete=models.CASCADE, null=True, blank=True)
     second_subject = models.ForeignKey(
         Subject, on_delete=models.CASCADE, related_name="second_bachelor", null=True, blank=True)
+
+    required_subject1 = models.ForeignKey(
+        Subject, on_delete=models.CASCADE, related_name="required_subject_first", null=True, blank=True)
+    required_subject2 = models.ForeignKey(
+        Subject, on_delete=models.CASCADE, related_name="required_subject_second", null=True, blank=True)
+    required_subject3 = models.ForeignKey(
+        Subject, on_delete=models.CASCADE, related_name="required_subject_third", null=True, blank=True)
 
     def __str__(self):
         return self.name

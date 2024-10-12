@@ -66,3 +66,22 @@ class BachelorProgramSerializer(serializers.ModelSerializer):
     class Meta:
         model = BachelorProgram
         fields = "__all__"
+
+
+class OnlyAnswerSerializer(serializers.ModelSerializer):
+    class Meta:
+        fields = ("text",)
+        model = Answer
+
+
+class ExamQuestionItemSerializer(serializers.ModelSerializer):
+    answers = AnswerSerializer(many=True)
+
+    class Meta:
+        fields = ("text", "answers")
+        model = Question
+
+
+class ExamSerializer(serializers.ModelSerializer):
+    class Meta:
+        pass

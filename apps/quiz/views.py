@@ -1,6 +1,3 @@
-from rest_framework import viewsets
-from .serializers import BachelorProgramSerializer
-from .models import BachelorProgram
 import random
 
 from django.db.models import Count, Prefetch
@@ -15,10 +12,11 @@ from rest_framework.viewsets import ModelViewSet
 
 from apps.core.paginations import CustomPagination
 
-from .models import Answer, Question, Subject
-from .serializers import (AnswerSerializer, CustomQuestionSerializer,
-                          CustomSubjectSerializer, QuestionCreateSerializer,
-                          QuestionSerializer, SubjectSerializer)
+from .models import Answer, BachelorProgram, Question, Subject
+from .serializers import (AnswerSerializer, BachelorProgramSerializer,
+                          CustomQuestionSerializer, CustomSubjectSerializer,
+                          QuestionCreateSerializer, QuestionSerializer,
+                          SubjectSerializer)
 
 
 class SubjectListView(generics.ListAPIView):
@@ -125,3 +123,7 @@ class BachelorProgramViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = BachelorProgram.objects.all()
     serializer_class = BachelorProgramSerializer
     pagination_class = CustomStandardResultsSetPagination
+
+
+class ExamViewSet(GenericAPIView):
+    pass
