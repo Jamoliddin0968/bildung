@@ -4,7 +4,7 @@ from django.db.models import Count, Prefetch
 from django.shortcuts import get_object_or_404
 from rest_framework import generics, status, viewsets
 from rest_framework.decorators import action
-from rest_framework.generics import GenericAPIView
+from rest_framework.generics import GenericAPIView, RetrieveAPIView
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -15,8 +15,8 @@ from apps.core.paginations import CustomPagination
 from .models import Answer, BachelorProgram, Question, Subject
 from .serializers import (AnswerSerializer, BachelorProgramSerializer,
                           CustomQuestionSerializer, CustomSubjectSerializer,
-                          QuestionCreateSerializer, QuestionSerializer,
-                          SubjectSerializer)
+                          ExamSerializer, QuestionCreateSerializer,
+                          QuestionSerializer, SubjectSerializer)
 
 
 class SubjectListView(generics.ListAPIView):
@@ -125,5 +125,6 @@ class BachelorProgramViewSet(viewsets.ReadOnlyModelViewSet):
     pagination_class = CustomStandardResultsSetPagination
 
 
-class ExamViewSet(GenericAPIView):
-    pass
+class ExamDetail(RetrieveAPIView):
+    serializer_class = ExamSerializer
+    queryset = BachelorProgram.objects.all()

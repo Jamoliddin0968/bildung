@@ -74,14 +74,37 @@ class OnlyAnswerSerializer(serializers.ModelSerializer):
         model = Answer
 
 
-class ExamQuestionItemSerializer(serializers.ModelSerializer):
-    answers = AnswerSerializer(many=True)
+class SubjectQuestionSerializer(serializers.ModelSerializer):
+    questions = serializers.SerializerMethodField()
+
+    def get_questions(self, obj):
+        qs = obj.questions.all().order_by('?')[:30]
+        return QuestionSerializer(qs, many=True).data
 
     class Meta:
-        fields = ("text", "answers")
-        model = Question
+        model = Subject
+        fields = "__all__"
+
+
+class RequiredSubjectQuestionSerializer(serializers.ModelSerializer):
+    questions = serializers.SerializerMethodField()
+
+    def get_questions(self, obj):
+        qs = obj.questions.all().order_by('?')[:10]
+        return QuestionSerializer(qs, many=True).data
+
+    class Meta:
+        model = Subject
+        fields = "__all__"
 
 
 class ExamSerializer(serializers.ModelSerializer):
+    first_subject = SubjectQuestionSerializer()
+    second_subject = SubjectQuestionSerializer()
+    required_subject1 = RequiredSubjectQuestionSerializer()
+    required_subject2 = RequiredSubjectQuestionSerializer()
+    required_subject3 = RequiredSubjectQuestionSerializer()
+
     class Meta:
-        pass
+        model = BachelorProgram
+        fields = "__all__"

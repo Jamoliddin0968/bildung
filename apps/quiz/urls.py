@@ -2,7 +2,7 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from .views import (BachelorProgramViewSet, CheckAnswersView,
-                    CustomQuestionViewSet, CustomSubjectViewSet,
+                    CustomQuestionViewSet, CustomSubjectViewSet, ExamDetail,
                     QuestionViewSet, RandomQuestionListView, SubjectListView,
                     SubjectRecommendationListView)
 
@@ -18,5 +18,6 @@ urlpatterns = [
          RandomQuestionListView.as_view(), name='random-question-list'),
     path('questions/<int:pk>/check-answers/',
          CheckAnswersView.as_view(), name='check-answers'),
-    path('recommmendations/', SubjectRecommendationListView.as_view())
+    path('recommmendations/', SubjectRecommendationListView.as_view()),
+    path('test-dtm/<int:pk>/', ExamDetail.as_view())
 ]
