@@ -1,57 +1,56 @@
 import json
-import random
 
 from django.core.management.base import BaseCommand
-from faker import Faker
 
-from apps.quiz.models import (Answer, Question,  # Замените на ваше приложение
-                              Subject)
+from apps.quiz.models import Answer, Category, Question, Subject
 
 
 class Command(BaseCommand):
     help = 'Generate fake data for Subjects, Questions, and Answers'
 
     def handle(self, *args, **kwargs):
-
+        # Создаем предмет
         subject, _ = Subject.objects.get_or_create(
             name="Matematika",
-            language="uz",
-            question_count=20,
-            question_time=500,
-            image=None
+            language="uz"
         )
+        Question.objects.filter(subject=subject).delete()
         self.stdout.write(self.style.SUCCESS(
             f'Subject "{subject.name}" created'))
 
+        # Чтение данных из JSON файла
         with open('apps/quiz/datas/matematika.json', 'r', encoding='utf-8') as file:
             data_list = json.load(file)
+
         answers = []
         for item in data_list:
-            # print(item)
+            ans_item = item.get('answers')
+            correct_answer = item.get('correct_answer')
+            category, _ = Category.objects.get_or_create(
+                subject_id=subject.id,
+                name=correct_answer.get('theme_id')
+            )
             question = Question.objects.create(
+                category=category,
                 text=item.get('question'),
                 code=item.get('question_number'),
-                subject_id=subject.id
+                subject=subject,
+                is_active=True
             )
-            ans_item = item.get('answers')
-            answers.append(Answer(
-                question_id=question.id,
-                text=ans_item.get('A'),
-                is_correct=True
-            ))
-            answers.append(Answer(
-                question_id=question.id,
-                text=ans_item.get('B'),
-                is_correct=False
-            ))
-            answers.append(Answer(
-                question_id=question.id,
-                text=ans_item.get('C'),
-                is_correct=False
-            ))
-            answers.append(Answer(
-                question_id=question.id,
-                text=ans_item.get('D'),
-                is_correct=False
-            ))
+            answers += [
+                Answer(
+                    question=question,
+                    text=answer_text,
+                    is_correct=(key == correct_answer.get('answer'))
+                )
+                for key, answer_text in ans_item.items()
+            ]
+
+            # Массово создаем ответы
         Answer.objects.bulk_create(answers)
+
+        # self.stdout.write(self.style.SUCCESS(
+        #     f'Question "{question.text}" with answers created'))
+
+        self.stdout.write(self.style.SUCCESS(
+            'All data successfully generated!'))

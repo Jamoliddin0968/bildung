@@ -2,7 +2,7 @@ import json
 
 from django.core.management.base import BaseCommand
 
-from apps.quiz.models import Answer, Question, Subject
+from apps.quiz.models import Answer, Category, Question, Subject
 
 
 class Command(BaseCommand):
@@ -12,11 +12,9 @@ class Command(BaseCommand):
         # Создаем предмет
         subject, _ = Subject.objects.get_or_create(
             name="Biologiya",
-            language="uz",
-            question_count=20,
-            question_time=500,
-            image=None
+            language="uz"
         )
+        Question.objects.filter(subject=subject).delete()
         self.stdout.write(self.style.SUCCESS(
             f'Subject "{subject.name}" created'))
 
@@ -25,27 +23,25 @@ class Command(BaseCommand):
             data_list = json.load(file)
 
         answers = []
-        # Обработка вопросов и ответов
         for item in data_list:
-            # Создаем вопрос
+            ans_item = item.get('answers')
+            correct_answer = item.get('correct_answer')
+            category, _ = Category.objects.get_or_create(
+                subject_id=subject.id,
+                name=correct_answer.get('theme_id')
+            )
             question = Question.objects.create(
+                category=category,
                 text=item.get('question'),
                 code=item.get('question_number'),
-                subject=subject  # Указываем объект subject напрямую
+                subject=subject,
+                is_active=True
             )
-
-            # Получаем ответы и создаем объекты Answer
-            ans_item = item.get('answers')
-            # получаем правильный ответ
-            correct_answer = item.get('correct_answer')
-
-            # Создаем список объектов Answer для bulk_create
             answers += [
                 Answer(
                     question=question,
                     text=answer_text,
-                    # помечаем правильный ответ
-                    is_correct=(key == correct_answer)
+                    is_correct=(key == correct_answer.get('answer'))
                 )
                 for key, answer_text in ans_item.items()
             ]
