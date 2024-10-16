@@ -12,6 +12,7 @@ urlpatterns = [
     path('', include('apps.users.urls')),
     path('', include('apps.utils.urls')),
     path('', include('django_prometheus.urls')),
+
 ]
 
 urlpatterns += [

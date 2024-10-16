@@ -1,3 +1,4 @@
+from typing import List
 from rest_framework import serializers
 
 from .models import Answer, AudioFile, BachelorProgram, Question, Subject
@@ -99,11 +100,37 @@ class RequiredSubjectQuestionSerializer(serializers.ModelSerializer):
 
 
 class ExamSerializer(serializers.ModelSerializer):
-    first_subject = SubjectQuestionSerializer()
-    second_subject = SubjectQuestionSerializer()
-    required_subject1 = RequiredSubjectQuestionSerializer()
-    required_subject2 = RequiredSubjectQuestionSerializer()
-    required_subject3 = RequiredSubjectQuestionSerializer()
+    subjects = serializers.SerializerMethodField()
+
+    def get_subjects(self, obj: BachelorProgram) -> List[RequiredSubjectQuestionSerializer]:
+        data = []
+        first_subject_data = SubjectQuestionSerializer(obj.first_subject).data
+        first_subject_data['point'] = obj.first_subject_point
+        data.append(first_subject_data)
+
+        # Добавляем второй предмет и его баллы
+        second_subject_data = SubjectQuestionSerializer(
+            obj.second_subject).data
+        second_subject_data['point'] = obj.second_subject_point
+        data.append(second_subject_data)
+
+        # Добавляем обязательные предметы и их баллы
+        required_subject1_data = RequiredSubjectQuestionSerializer(
+            obj.required_subject1).data
+        required_subject1_data['point'] = obj.required_subject1_point
+        data.append(required_subject1_data)
+
+        required_subject2_data = RequiredSubjectQuestionSerializer(
+            obj.required_subject2).data
+        required_subject2_data['point'] = obj.required_subject2_point
+        data.append(required_subject2_data)
+
+        required_subject3_data = RequiredSubjectQuestionSerializer(
+            obj.required_subject3).data
+        required_subject3_data['point'] = obj.required_subject3_point
+        data.append(required_subject3_data)
+
+        return data
 
     class Meta:
         model = BachelorProgram
