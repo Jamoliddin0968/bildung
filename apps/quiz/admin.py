@@ -7,6 +7,8 @@ from .models import Answer, BachelorProgram, Question, Subject
 class AnswerInline(admin.TabularInline):
     model = Answer
     extra = 1
+    max_num = 4
+    min_num = 4
 
 
 @admin.register(BachelorProgram)
@@ -24,6 +26,7 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ('text', 'subject', 'code')
     inlines = [AnswerInline]
     list_filter = ['subject', 'is_active']
+    search_fields = ('code')
 
 
 @admin.register(Answer)
