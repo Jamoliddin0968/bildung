@@ -26,7 +26,7 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ('text', 'subject', 'code')
     inlines = [AnswerInline]
     list_filter = ['subject', 'is_active']
-    search_fields = ('code')
+    search_fields = ('code',)
 
 
 @admin.register(Answer)
