@@ -61,6 +61,8 @@ INSTALLED_APPS = [
 
     # 'django_prometheus',
 
+    'quill',
+
 ]
 SITE_ID = 1
 
