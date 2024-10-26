@@ -212,7 +212,7 @@ def save_to_txt(qa_list, output_path):
 
 
 # Основной код
-pdf_path = "D://documents/tests/tarih.pdf"  # путь к вашему PDF-файлу
+pdf_path = "D://documents/tests/kimyo.pdf"  # путь к вашему PDF-файлу
 # путь для сохранения результата JSON
 output_json_path = 'questions_answers.json'
 # путь для сохранения результата TXT
@@ -223,7 +223,7 @@ pdf_text = extract_text_from_pdf(pdf_path)
 answers_text = extract_text_with_fonts_from_pdf(pdf_path)
 
 # Генерируем JSON с правильными ответами
-answer_list = generate_answers_json(answers_text, correct_answer_font='Ff')
+answer_list = generate_answers_json(answers_text, correct_answer_font='Fn')
 
 # Парсим вопросы и ответы
 qa_list = parse_questions_and_answers(pdf_text, answer_list)

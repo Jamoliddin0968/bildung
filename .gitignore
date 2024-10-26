@@ -5,3 +5,4 @@ config/static
 media
 config/media
 .env
+output_images
