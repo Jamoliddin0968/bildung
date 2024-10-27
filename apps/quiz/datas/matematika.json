@@ -3,10 +3,10 @@
         "question_number": "72753",
         "question": "M та соннинг ˇурта арифметиги 14 га, бошка N тасиники - 28 га тенг. Шу M + N та соннинг ˇурта арифметигини топинг.",
         "answers": {
-            "A": "$$b\\ {\frac{N}{M}}$$",
-            "B": "$${\frac{M+N}{42}}$$",
-            "C": "$$\frac{14N+28M}{M+N}$$",
-            "D": "$${\frac{14M+28N}{M+N}}$$"
+            "A": "$$b\\ {\\frac{N}{M}}$$",
+            "B": "$${\\frac{M+N}{42}}$$",
+            "C": "$$\\frac{14N+28M}{M+N}$$",
+            "D": "$${\\frac{14M+28N}{M+N}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -169,7 +169,7 @@
     },
     {
         "question_number": "704011",
-        "question": "$$n(n\\in N){\\mathrm{ning}}\\;{\frac{8+5n^{4}+4n^{2}}{n^{2}}}$$ kasr butun son bo‘ladigan barcha qiymatlarini toping.",
+        "question": "$$n(n\\in N){\\mathrm{ning}}\\;{\\frac{8+5n^{4}+4n^{2}}{n^{2}}}$$ kasr butun son bo‘ladigan barcha qiymatlarini toping.",
         "answers": {
             "A": "1",
             "B": "1; 2",
@@ -365,7 +365,7 @@
     },
     {
         "question_number": "719010",
-        "question": "$9m^{2}\\;1dm^{2}\\;5sm^{2}$. necha $$s m^{2}$$ ga teng?",
+        "question": "$$9m^{2}\\;1dm^{2}\\;5sm^{2}$$. necha $$s m^{2}$$ ga teng?",
         "answers": {
             "A": "90105",
             "B": "9105",
@@ -379,7 +379,7 @@
     },
     {
         "question_number": "719011",
-        "question": "$$\frac{\\left(3^{2}\right)^{8}\\cdot5^{16}}{15^{14}}$$ ni hisoblang.",
+        "question": "$$\\frac{\\left(3^{2}\\right)^{8}\\cdot5^{16}}{15^{14}}$$ ni hisoblang.",
         "answers": {
             "A": "105",
             "B": "225",
@@ -421,7 +421,7 @@
     },
     {
         "question_number": "109040",
-        "question": "$$\\ {\frac{n^{3}-2n^{2}-12}{n}}$$ (n ∈N) kasrning natural sonlardan iborat barcha qiymatlari yig'indisini toping.",
+        "question": "$$\\ {\\frac{n^{3}-2n^{2}-12}{n}}$$ (n ∈N) kasrning natural sonlardan iborat barcha qiymatlari yig'indisini toping.",
         "answers": {
             "A": "102",
             "B": "105",
@@ -491,7 +491,7 @@
     },
     {
         "question_number": "315004",
-        "question": "$$\frac{18n^{2}-162}{n^{2}}$$ ifoda natural son bo‘ladigan n ning barcha natural qiymatlari nechta?",
+        "question": "$$\\frac{18n^{2}-162}{n^{2}}$$ ifoda natural son bo‘ladigan n ning barcha natural qiymatlari nechta?",
         "answers": {
             "A": "3",
             "B": "1",
@@ -519,7 +519,7 @@
     },
     {
         "question_number": "315006",
-        "question": "$$\frac{n^{2}-24}{n}$$ ifoda natural son bo‘ladigan n ning barcha natural qiymatlari yig‘indisini toping.",
+        "question": "$$\\frac{n^{2}-24}{n}$$ ifoda natural son bo‘ladigan n ning barcha natural qiymatlari yig‘indisini toping.",
         "answers": {
             "A": "44",
             "B": "54",
@@ -563,10 +563,10 @@
         "question_number": "315009",
         "question": "Agar x, y, z va t ketma-ket keladigan natural sonlar bo‘lsa, quyidagilarning qaysi biri albatta juft son bo‘ladi?",
         "answers": {
-            "A": "$$\frac{x+y+z}{3}$$",
-            "B": "$$\frac{x y z t}{24}$$",
-            "C": "$$\frac{x y z}{6}$$",
-            "D": "$$\frac{y z t}{3}$$"
+            "A": "$$\\frac{x+y+z}{3}$$",
+            "B": "$$\\frac{x y z t}{24}$$",
+            "C": "$$\\frac{x y z}{6}$$",
+            "D": "$$\\frac{y z t}{3}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -577,10 +577,10 @@
         "question_number": "315010",
         "question": "M ta sonning o‘rta arifmetigi 14 ga, boshqa N tasiniki - 28 ga teng. Shu M + N ta sonning o‘rta arifmetigini toping.",
         "answers": {
-            "A": "$$\frac{N}{M}$$",
-            "B": "$$\frac{M+N}{42}$$",
-            "C": "$$\frac{14N+28M}{M+N}$$",
-            "D": "$$\frac{14M+28N}{M+N}$$"
+            "A": "$$\\frac{N}{M}$$",
+            "B": "$$\\frac{M+N}{42}$$",
+            "C": "$$\\frac{14N+28M}{M+N}$$",
+            "D": "$$\\frac{14M+28N}{M+N}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -631,7 +631,7 @@
     },
     {
         "question_number": "315014",
-        "question": "$$\frac{n^{3}-2n^{2}-12}{n}$$ (n ∈N) kasrning natural sonlardan iborat barcha qiymatlari yig‘indisini toping.",
+        "question": "$$\\frac{n^{3}-2n^{2}-12}{n}$$ (n ∈N) kasrning natural sonlardan iborat barcha qiymatlari yig‘indisini toping.",
         "answers": {
             "A": "102",
             "B": "105",
@@ -659,7 +659,7 @@
     },
     {
         "question_number": "401531",
-        "question": "$$\frac{12-3n}{n}$$ ifoda n ning nechta natural qiymatida natural son bo‘ladi?",
+        "question": "$$\\frac{12-3n}{n}$$ ifoda n ning nechta natural qiymatida natural son bo‘ladi?",
         "answers": {
             "A": "6",
             "B": "3",
@@ -673,7 +673,7 @@
     },
     {
         "question_number": "401532",
-        "question": "$$\frac{3n-24}{n}$$ ifoda natural son bo‘ladigan n ning natural qiymatlari nechta?",
+        "question": "$$\\frac{3n-24}{n}$$ ifoda natural son bo‘ladigan n ning natural qiymatlari nechta?",
         "answers": {
             "A": "2",
             "B": "7",
@@ -687,7 +687,7 @@
     },
     {
         "question_number": "401533",
-        "question": "$$\frac{{3n-4}}{{n-5}}$$ ifoda n ning nechta natural qiymatida butun son bo‘ladi?",
+        "question": "$$\\frac{{3n-4}}{{n-5}}$$ ifoda n ning nechta natural qiymatida butun son bo‘ladi?",
         "answers": {
             "A": "4",
             "B": "3",
@@ -869,12 +869,12 @@
     },
     {
         "question_number": "704015",
-        "question": "$${\frac{3,2\\cdot0,15\\cdot9,2}{4,6\\cdot0,03\\cdot19,23}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{3,2\\cdot0,15\\cdot9,2}{4,6\\cdot0,03\\cdot19,23}}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{5}{3}$$",
-            "B": "$$\frac{2}{5}$$",
+            "A": "$$\\frac{5}{3}$$",
+            "B": "$$\\frac{2}{5}$$",
             "C": "2",
-            "D": "$$\frac{5}{2}$$"
+            "D": "$$\\frac{5}{2}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -883,12 +883,12 @@
     },
     {
         "question_number": "704016",
-        "question": "$-5\frac{3}{4}$ ga teskari sonni toping.",
+        "question": "$$-5\\frac{3}{4}$$ ga teskari sonni toping.",
         "answers": {
-            "A": "$5\frac{3}{4}$",
-            "B": "$-\frac{23}{4}$",
-            "C": "$-\frac{4}{23}$",
-            "D": "$\frac{4}{23}$"
+            "A": "$$5\\frac{3}{4}$$",
+            "B": "$$-\\frac{23}{4}$$",
+            "C": "$$-\\frac{4}{23}$$",
+            "D": "$$\\frac{4}{23}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -911,12 +911,12 @@
     },
     {
         "question_number": "704018",
-        "question": "$$\frac{2,6\\cdot0,21\\cdot1,8}{7,2\\cdot7,8\\cdot0,28}$$ ning qiymatini toping.",
+        "question": "$$\\frac{2,6\\cdot0,21\\cdot1,8}{7,2\\cdot7,8\\cdot0,28}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$\frac{1}{24}$",
-            "B": "$\frac{2}{5}$",
-            "C": "$\frac{1}{16}$",
-            "D": "$\frac{1}{12}$"
+            "A": "$$\\frac{1}{24}$$",
+            "B": "$$\\frac{2}{5}$$",
+            "C": "$$\\frac{1}{16}$$",
+            "D": "$$\\frac{1}{12}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -925,12 +925,12 @@
     },
     {
         "question_number": "704019",
-        "question": "3$\frac{3}{4}$ songa teskari sonni toping.",
+        "question": "3$$\\frac{3}{4}$$ songa teskari sonni toping.",
         "answers": {
-            "A": "−3$\frac{3}{4}$",
-            "B": "$\frac{15}{4}$",
-            "C": "−$\frac{4}{15}$",
-            "D": "$\frac{4}{15}$"
+            "A": "−3$$\\frac{3}{4}$$",
+            "B": "$$\\frac{15}{4}$$",
+            "C": "−$$\\frac{4}{15}$$",
+            "D": "$$\\frac{4}{15}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -1065,7 +1065,7 @@
     },
     {
         "question_number": "719017",
-        "question": "$1,015\\cdot10^{-5}+4,24\\cdot10^{-4}$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
+        "question": "$$1,015\\cdot10^{-5}+4,24\\cdot10^{-4}$$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
         "answers": {
             "A": "$$3.2415\\cdot10^{-4}$$",
             "B": "$$4,2415\\cdot10^{-4}$$",
@@ -1079,7 +1079,7 @@
     },
     {
         "question_number": "719018",
-        "question": "$3,104\\cdot10^{-3}+2,81\\cdot10^{-2}$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
+        "question": "$$3,104\\cdot10^{-3}+2,81\\cdot10^{-2}$$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
         "answers": {
             "A": "$$3,1204\\cdot10^{-2}$$",
             "B": "$$3,285\\cdot10^{-2}$$",
@@ -1093,12 +1093,12 @@
     },
     {
         "question_number": "719019",
-        "question": "1, 011. 10${}^{-4}$ + 3, 1. 10${}^{-3}$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
+        "question": "1, 011. 10$${}^{-4}$$ + 3, 1. 10$${}^{-3}$$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
         "answers": {
-            "A": "$2,2011\\cdot10^{-3}$",
-            "B": "$3,111\\cdot10^{-4}$",
-            "C": "$3,2011\\cdot10^{-3}$",
-            "D": "$1,221\\cdot10^{-3}$"
+            "A": "$$2,2011\\cdot10^{-3}$$",
+            "B": "$$3,111\\cdot10^{-4}$$",
+            "C": "$$3,2011\\cdot10^{-3}$$",
+            "D": "$$1,221\\cdot10^{-3}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -1107,12 +1107,12 @@
     },
     {
         "question_number": "719020",
-        "question": "$${\frac{1,65\\cdot0,04\\cdot0,85}{0,16\\cdot0,68\\cdot3,3}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{1,65\\cdot0,04\\cdot0,85}{0,16\\cdot0,68\\cdot3,3}}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{5}{32}$$",
-            "B": "$$\frac{1}{2}$$",
-            "C": "$$\frac{2}{3}$$",
-            "D": "$$\frac{1}{6}$$"
+            "A": "$$\\frac{5}{32}$$",
+            "B": "$$\\frac{1}{2}$$",
+            "C": "$$\\frac{2}{3}$$",
+            "D": "$$\\frac{1}{6}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -1121,12 +1121,12 @@
     },
     {
         "question_number": "719021",
-        "question": " ga 4$$\frac{2}{3}$$teskari sonni toping.",
+        "question": " ga 4$$\\frac{2}{3}$$teskari sonni toping.",
         "answers": {
-            "A": "−4$$\frac{2}{3}$$",
-            "B": "$$\frac{3}{14}$$",
-            "C": "$$\frac{14}{3}$$",
-            "D": "−3$$\frac{3}{14}$$"
+            "A": "−4$$\\frac{2}{3}$$",
+            "B": "$$\\frac{3}{14}$$",
+            "C": "$$\\frac{14}{3}$$",
+            "D": "−3$$\\frac{3}{14}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -1261,7 +1261,7 @@
     },
     {
         "question_number": "315016",
-        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\frac{10}{65}};$$ 2) $${\frac{7}{40}};$$ 3) $${\frac{15}{85}};$$ 4) $${\frac{18}{250}}$$?",
+        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\\frac{10}{65}};$$ 2) $${\\frac{7}{40}};$$ 3) $${\\frac{15}{85}};$$ 4) $${\\frac{18}{250}}$$?",
         "answers": {
             "A": "1; 2",
             "B": "2; 3",
@@ -1275,7 +1275,7 @@
     },
     {
         "question_number": "315017",
-        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\frac{15}{35}};$$ 2) $${\frac{4}{125}};$$ 3)$${\frac{11}{80}};$$ 4)$${\frac{20}{55}};$$?",
+        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\\frac{15}{35}};$$ 2) $${\\frac{4}{125}};$$ 3)$${\\frac{11}{80}};$$ 4)$${\\frac{20}{55}};$$?",
         "answers": {
             "A": "1; 2",
             "B": "3; 4",
@@ -1289,7 +1289,7 @@
     },
     {
         "question_number": "315018",
-        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\frac{2}{34}};$$ 2) $${\frac{14}{625}};$$ 3) $${\frac{4}{90}};$$ 4) $${\frac{11}{125}}$$?",
+        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\\frac{2}{34}};$$ 2) $${\\frac{14}{625}};$$ 3) $${\\frac{4}{90}};$$ 4) $${\\frac{11}{125}}$$?",
         "answers": {
             "A": "1; 3",
             "B": "2; 3",
@@ -1303,7 +1303,7 @@
     },
     {
         "question_number": "315019",
-        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\frac{7}{32}};$$ 2) $${\frac{10}{55}};$$ 3) $${\frac{11}{160}};$$ 4) $${\frac{20}{35}}$$ ?",
+        "question": "Quyidagi oddiy kasr ko‘rinishida berilgan sonlardan qaysilarini chekli o‘nli kasr ko‘rinishiga keltirib bo‘lmaydi: 1) $${\\frac{7}{32}};$$ 2) $${\\frac{10}{55}};$$ 3) $${\\frac{11}{160}};$$ 4) $${\\frac{20}{35}}$$ ?",
         "answers": {
             "A": "2; 3",
             "B": "3; 4",
@@ -1373,7 +1373,7 @@
     },
     {
         "question_number": "315024",
-        "question": "$${\frac{0,005\\cdot0,081\\cdot3,2}{0,09\\cdot0,0025\\cdot6,4}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{0,005\\cdot0,081\\cdot3,2}{0,09\\cdot0,0025\\cdot6,4}}$$ ning qiymatini toping.",
         "answers": {
             "A": "3",
             "B": "0, 3",
@@ -1415,7 +1415,7 @@
     },
     {
         "question_number": "315027",
-        "question": "$${\frac{0,4^{2}-1,6\\cdot0,8+1,6^{2}}{1,6^{2}-0,4^{2}}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{0,4^{2}-1,6\\cdot0,8+1,6^{2}}{1,6^{2}-0,4^{2}}}$$ ni soddalashtiring.",
         "answers": {
             "A": "1, 6",
             "B": "0, 375",
@@ -1461,7 +1461,7 @@
         "answers": {
             "A": "0, 75",
             "B": "0, 1",
-            "C": "$$\frac{1}{4}$$",
+            "C": "$$\\frac{1}{4}$$",
             "D": "0, 2"
         },
         "correct_answer": {
@@ -1471,7 +1471,7 @@
     },
     {
         "question_number": "315031",
-        "question": "$${\frac{0,26}{0,00026}}+{\frac{0,24}{0,0015}}-{\frac{0,7}{0,0014}}$$ ni hisoblang.",
+        "question": "$${\\frac{0,26}{0,00026}}+{\\frac{0,24}{0,0015}}-{\\frac{0,7}{0,0014}}$$ ni hisoblang.",
         "answers": {
             "A": "540",
             "B": "340",
@@ -1485,7 +1485,7 @@
     },
     {
         "question_number": "315032",
-        "question": "$${\frac{0,28}{0,84}}+{\frac{0,23}{0,03}}-{\frac{0,9}{0,05}}$$ ifodaning qiymatini toping.",
+        "question": "$${\\frac{0,28}{0,84}}+{\\frac{0,23}{0,03}}-{\\frac{0,9}{0,05}}$$ ifodaning qiymatini toping.",
         "answers": {
             "A": "25",
             "B": "−10",
@@ -1499,7 +1499,7 @@
     },
     {
         "question_number": "315033",
-        "question": "25$$\frac{1}{2}$$ sonini 6; 7; 4 sonlariga mutanosib bo‘laklarga bo‘lgandagi eng kichik sonni toping.",
+        "question": "25$$\\frac{1}{2}$$ sonini 6; 7; 4 sonlariga mutanosib bo‘laklarga bo‘lgandagi eng kichik sonni toping.",
         "answers": {
             "A": "3",
             "B": "4",
@@ -1527,12 +1527,12 @@
     },
     {
         "question_number": "315035",
-        "question": "$${\frac{0,1^{2}-0,6\\cdot0,2+0,6^{2}}{2,5-2,5^{2}}}$$ ni hisoblang.",
+        "question": "$${\\frac{0,1^{2}-0,6\\cdot0,2+0,6^{2}}{2,5-2,5^{2}}}$$ ni hisoblang.",
         "answers": {
-            "A": "$$-{\frac{1}{15}}$$",
-            "B": "$$-{\frac{1}{3}}$$",
+            "A": "$$-{\\frac{1}{15}}$$",
+            "B": "$$-{\\frac{1}{3}}$$",
             "C": "−3",
-            "D": "−1$${\frac{2}{3}}$$"
+            "D": "−1$${\\frac{2}{3}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -1555,12 +1555,12 @@
     },
     {
         "question_number": "401547",
-        "question": "3$${\frac{3}{4}}$$ songa teskari sonni toping.",
+        "question": "3$${\\frac{3}{4}}$$ songa teskari sonni toping.",
         "answers": {
-            "A": "−3$${\frac{3}{4}}$$",
-            "B": "$${\frac{15}{4}}$$",
-            "C": "−$${\frac{4}{15}}$$",
-            "D": "$${\frac{4}{15}}$$"
+            "A": "−3$${\\frac{3}{4}}$$",
+            "B": "$${\\frac{15}{4}}$$",
+            "C": "−$${\\frac{4}{15}}$$",
+            "D": "$${\\frac{4}{15}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -1611,12 +1611,12 @@
     },
     {
         "question_number": "401551",
-        "question": "$3,701\\cdot10^{-3}+3,305\\cdot10^{-4}$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
+        "question": "$$3,701\\cdot10^{-3}+3,305\\cdot10^{-4}$$ yig‘indi quyidagi sonlarning qaysi biriga teng?",
         "answers": {
-            "A": "$4,0215\\cdot10^{-3}$",
-            "B": "$5,906\\cdot10^{-7}$",
-            "C": "$3,4751\\cdot10^{-3}$",
-            "D": "$4,0315\\cdot10^{-3}$"
+            "A": "$$4,0215\\cdot10^{-3}$$",
+            "B": "$$5,906\\cdot10^{-7}$$",
+            "C": "$$3,4751\\cdot10^{-3}$$",
+            "D": "$$4,0315\\cdot10^{-3}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -1627,10 +1627,10 @@
         "question_number": "401552",
         "question": "1, 015 · 10−5 + 4, 24 · 10−4 yig‘indi quyidagi sonlarning qaysi biriga teng?",
         "answers": {
-            "A": "$3, 2415\\cdot10^{-4}$",
-            "B": "$4, 2415\\cdot10^{-4}$",
-            "C": "$4, 155\\cdot10^{-9}$",
-            "D": "$4, 3415\\cdot10^{-4}$"
+            "A": "$$3, 2415\\cdot10^{-4}$$",
+            "B": "$$4, 2415\\cdot10^{-4}$$",
+            "C": "$$4, 155\\cdot10^{-9}$$",
+            "D": "$$4, 3415\\cdot10^{-4}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -1639,12 +1639,12 @@
     },
     {
         "question_number": "401553",
-        "question": "$${\frac{1,65\\cdot0,04\\cdot0,85}{0,16\\cdot0,68\\cdot3,3}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{1,65\\cdot0,04\\cdot0,85}{0,16\\cdot0,68\\cdot3,3}}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{5}{32}$$",
-            "B": "$$\frac{1}{2}$$",
-            "C": "$$\frac{2}{3}$$",
-            "D": "$$\frac{1}{6}$$"
+            "A": "$$\\frac{5}{32}$$",
+            "B": "$$\\frac{1}{2}$$",
+            "C": "$$\\frac{2}{3}$$",
+            "D": "$$\\frac{1}{6}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -1653,12 +1653,12 @@
     },
     {
         "question_number": "401554",
-        "question": "4$$\frac{2}{3}$$ ga teskari sonni toping.",
+        "question": "4$$\\frac{2}{3}$$ ga teskari sonni toping.",
         "answers": {
-            "A": "−4$$\frac{2}{3}$$",
-            "B": "$$\frac{3}{14}$$",
-            "C": "$$\frac{14}{3}$$",
-            "D": "−$$\frac{3}{14}$$"
+            "A": "−4$$\\frac{2}{3}$$",
+            "B": "$$\\frac{3}{14}$$",
+            "C": "$$\\frac{14}{3}$$",
+            "D": "−$$\\frac{3}{14}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -1681,12 +1681,12 @@
     },
     {
         "question_number": "401556",
-        "question": "$${\frac{3,2\\cdot0,15\\cdot9,2}{4,6\\cdot0,03\\cdot19,2}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{3,2\\cdot0,15\\cdot9,2}{4,6\\cdot0,03\\cdot19,2}}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{5}{3}$$",
-            "B": "$$\frac{2}{5}$$",
+            "A": "$$\\frac{5}{3}$$",
+            "B": "$$\\frac{2}{5}$$",
             "C": "2",
-            "D": "$$\frac{5}{2}$$"
+            "D": "$$\\frac{5}{2}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -1695,12 +1695,12 @@
     },
     {
         "question_number": "401557",
-        "question": "−5$$\frac{3}{4}$$ ga teskari sonni toping.",
+        "question": "−5$$\\frac{3}{4}$$ ga teskari sonni toping.",
         "answers": {
-            "A": "5$$\frac{3}{4}$$",
-            "B": "−$$\frac{23}{4}$$",
-            "C": "−$$\frac{4}{23}$$",
-            "D": "$$\frac{4}{23}$$"
+            "A": "5$$\\frac{3}{4}$$",
+            "B": "−$$\\frac{23}{4}$$",
+            "C": "−$$\\frac{4}{23}$$",
+            "D": "$$\\frac{4}{23}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -1723,12 +1723,12 @@
     },
     {
         "question_number": "401559",
-        "question": "$${\frac{2,6\\cdot0,21\\cdot1,8}{7,2\\cdot7,8\\cdot0,28}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{2,6\\cdot0,21\\cdot1,8}{7,2\\cdot7,8\\cdot0,28}}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{1}{24}$$ ",
-            "B": "$$\frac{2}{5}$$",
-            "C": "$$\frac{1}{16}$$",
-            "D": "1$$\frac{1}{12}$$"
+            "A": "$$\\frac{1}{24}$$ ",
+            "B": "$$\\frac{2}{5}$$",
+            "C": "$$\\frac{1}{16}$$",
+            "D": "1$$\\frac{1}{12}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -1947,7 +1947,7 @@
     },
     {
         "question_number": "315040",
-        "question": "Mis va qo‘rg‘oshindan iborat qotishmaning 60% i mis bo‘lib, mis qo‘rg‘oshindan 1$$\frac{5}{6}$$ kg ko‘p. Qotishmada qancha mis bor?",
+        "question": "Mis va qo‘rg‘oshindan iborat qotishmaning 60% i mis bo‘lib, mis qo‘rg‘oshindan 1$$\\frac{5}{6}$$ kg ko‘p. Qotishmada qancha mis bor?",
         "answers": {
             "A": "5",
             "B": "7",
@@ -1989,12 +1989,12 @@
     },
     {
         "question_number": "315043",
-        "question": "Agar A, B, C va D sonlarning nisbati 2:3:4:2$$\frac{3}{4}$$ kabi bo‘lsa, $$\frac{A+B}{C+D}$$ ning qiymatini aniqlang.",
+        "question": "Agar A, B, C va D sonlarning nisbati 2:3:4:2$$\\frac{3}{4}$$ kabi bo‘lsa, $$\\frac{A+B}{C+D}$$ ning qiymatini aniqlang.",
         "answers": {
-            "A": "$$\frac{20}{27}$$",
-            "B": "$$\frac{3}{4}$$",
-            "C": "$$\frac{5}{9}$$",
-            "D": "$$\frac{9}{5}$$"
+            "A": "$$\\frac{20}{27}$$",
+            "B": "$$\\frac{3}{4}$$",
+            "C": "$$\\frac{5}{9}$$",
+            "D": "$$\\frac{9}{5}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -2020,9 +2020,9 @@
         "question": "To‘g‘ri to‘rtburchakning bo‘yi 20% ga orttirildi. Uning yuzi o‘zgarmasligi uchun enini necha foizga kamaytirish kerak?",
         "answers": {
             "A": "20",
-            "B": "16$$\frac{2}{3}$$",
+            "B": "16$$\\frac{2}{3}$$",
             "C": "25",
-            "D": "18$$\frac{1}{3}$$"
+            "D": "18$$\\frac{1}{3}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -2145,10 +2145,10 @@
         "question_number": "315054",
         "question": "x(x > 0) ga teskari bo‘lgan son x ning 16% ini tashkil etadi. x ning qiymatini toping.",
         "answers": {
-            "A": "2$$\frac{1}{2}$$",
-            "B": "2$$\frac{3}{4}$$",
-            "C": "2$$\frac{1}{4}$$",
-            "D": "3$$\frac{1}{4}$$"
+            "A": "2$$\\frac{1}{2}$$",
+            "B": "2$$\\frac{3}{4}$$",
+            "C": "2$$\\frac{1}{4}$$",
+            "D": "3$$\\frac{1}{4}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4187,12 +4187,12 @@
     },
     {
         "question_number": "315071",
-        "question": "Birinchi kuni ish normasining $$\frac{2}{5}$$ qismi bajarildi. Ikkinchi kuni birinchi kunda bajarilgan ishning $$\frac{1}{6}$$ qismicha ko‘p ish bajarildi. Shu ikki kunda qancha ish normasi bajarildi?",
+        "question": "Birinchi kuni ish normasining $$\\frac{2}{5}$$ qismi bajarildi. Ikkinchi kuni birinchi kunda bajarilgan ishning $$\\frac{1}{6}$$ qismicha ko‘p ish bajarildi. Shu ikki kunda qancha ish normasi bajarildi?",
         "answers": {
-            "A": "$$\frac{13}{15}$$",
-            "B": "$$\frac{7}{15}$$",
-            "C": "$$\frac{4}{5}$$",
-            "D": "$$\frac{11}{15}$$"
+            "A": "$$\\frac{13}{15}$$",
+            "B": "$$\\frac{7}{15}$$",
+            "C": "$$\\frac{4}{5}$$",
+            "D": "$$\\frac{11}{15}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4201,12 +4201,12 @@
     },
     {
         "question_number": "315072",
-        "question": "Birinchi kuni ish normasining $$\frac{2}{5}$$ qismi bajarildi. Ikkinchi kuni birinchi kunda bajarilgan ishning $$\frac{1}{8}$$ qismicha ko‘p ish bajarildi. Shu ikki kunda qancha ish normasi bajarildi?",
+        "question": "Birinchi kuni ish normasining $$\\frac{2}{5}$$ qismi bajarildi. Ikkinchi kuni birinchi kunda bajarilgan ishning $$\\frac{1}{8}$$ qismicha ko‘p ish bajarildi. Shu ikki kunda qancha ish normasi bajarildi?",
         "answers": {
-            "A": "$$\frac{17}{20}$$",
-            "B": "$$\frac{9}{20}$$",
-            "C": "$$\frac{4}{5}$$",
-            "D": "$$\frac{13}{20}$$"
+            "A": "$$\\frac{17}{20}$$",
+            "B": "$$\\frac{9}{20}$$",
+            "C": "$$\\frac{4}{5}$$",
+            "D": "$$\\frac{13}{20}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4215,12 +4215,12 @@
     },
     {
         "question_number": "315073",
-        "question": "Birinchi kuni ish normasining $$\frac{1}{2}$$ qismi bajarildi. Ikkinchi kuni birinchi kunda bajarilgan ishning $$\frac{1}{6}$$ qismicha ko‘p ish bajarildi. Shu ikki kunda qancha ish normasi bajarildi?",
+        "question": "Birinchi kuni ish normasining $$\\frac{1}{2}$$ qismi bajarildi. Ikkinchi kuni birinchi kunda bajarilgan ishning $$\\frac{1}{6}$$ qismicha ko‘p ish bajarildi. Shu ikki kunda qancha ish normasi bajarildi?",
         "answers": {
             "A": "1",
-            "B": "$$\frac{11}{12}$$",
-            "C": "1$$\frac{1}{12}$$",
-            "D": "1$$\frac{1}{6}$$"
+            "B": "$$\\frac{11}{12}$$",
+            "C": "1$$\\frac{1}{12}$$",
+            "D": "1$$\\frac{1}{6}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4229,12 +4229,12 @@
     },
     {
         "question_number": "315074",
-        "question": "$$\\left(3,5-3{\frac{1}{3}}\right)\\cdot10,4:5{\frac{1}{5}}$$ ni hisoblang.",
+        "question": "$$\\left(3,5-3{\\frac{1}{3}}\\right)\\cdot10,4:5{\\frac{1}{5}}$$ ni hisoblang.",
         "answers": {
-            "A": "$$\frac{2}{5}$$",
-            "B": "$$\frac{1}{3}$$",
-            "C": "$$\frac{1}{12}$$",
-            "D": "$$\frac{3}{7}$$"
+            "A": "$$\\frac{2}{5}$$",
+            "B": "$$\\frac{1}{3}$$",
+            "C": "$$\\frac{1}{12}$$",
+            "D": "$$\\frac{3}{7}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -4243,12 +4243,12 @@
     },
     {
         "question_number": "315075",
-        "question": "$$3{\frac{1}{3}}:5{\frac{5}{7}}=2{\frac{4}{5}}:x$$ proporsiyaning noma’lum hadini toping.",
+        "question": "$$3{\\frac{1}{3}}:5{\\frac{5}{7}}=2{\\frac{4}{5}}:x$$ proporsiyaning noma’lum hadini toping.",
         "answers": {
-            "A": "$$\frac{1}{2}$$",
-            "B": "$$\frac{2}{3}$$",
-            "C": "4$$\frac{4}{5}$$",
-            "D": "$$\frac{3}{5}$$"
+            "A": "$$\\frac{1}{2}$$",
+            "B": "$$\\frac{2}{3}$$",
+            "C": "4$$\\frac{4}{5}$$",
+            "D": "$$\\frac{3}{5}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4257,9 +4257,9 @@
     },
     {
         "question_number": "315076",
-        "question": "$$(11{\frac{2}{3}}-7,4):5{\frac{1}{3}}+1{\frac{2}{5}}$$ ni hisoblang.",
+        "question": "$$(11{\\frac{2}{3}}-7,4):5{\\frac{1}{3}}+1{\\frac{2}{5}}$$ ni hisoblang.",
         "answers": {
-            "A": "2$$\frac{1}{2}$$",
+            "A": "2$$\\frac{1}{2}$$",
             "B": "2, 2",
             "C": "3, 2",
             "D": "2"
@@ -4271,12 +4271,12 @@
     },
     {
         "question_number": "315077",
-        "question": "$$7{\frac{1}{2}}:6{\frac{2}{5}}=5{\frac{5}{8}}:x$$ proporsiyaning noma’lum hadini toping.",
+        "question": "$$7{\\frac{1}{2}}:6{\\frac{2}{5}}=5{\\frac{5}{8}}:x$$ proporsiyaning noma’lum hadini toping.",
         "answers": {
-            "A": "4$$\frac{4}{5}$$",
-            "B": "3$$\frac{2}{5}$$",
-            "C": "5$$\frac{1}{8}$$",
-            "D": "4$$\frac{1}{5}$$"
+            "A": "4$$\\frac{4}{5}$$",
+            "B": "3$$\\frac{2}{5}$$",
+            "C": "5$$\\frac{1}{8}$$",
+            "D": "4$$\\frac{1}{5}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4285,12 +4285,12 @@
     },
     {
         "question_number": "315078",
-        "question": "$$6{\frac{3}{8}}-(2,5-2{\frac{1}{3}}):1{\frac{1}{3}}$$ ni hisoblang.",
+        "question": "$$6{\\frac{3}{8}}-(2,5-2{\\frac{1}{3}}):1{\\frac{1}{3}}$$ ni hisoblang.",
         "answers": {
-            "A": "5$$\frac{2}{3}$$",
-            "B": "5$$\frac{1}{4}$$",
-            "C": "4$$\frac{1}{2}$$",
-            "D": "6$$\frac{1}{4}$$"
+            "A": "5$$\\frac{2}{3}$$",
+            "B": "5$$\\frac{1}{4}$$",
+            "C": "4$$\\frac{1}{2}$$",
+            "D": "6$$\\frac{1}{4}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -4299,12 +4299,12 @@
     },
     {
         "question_number": "315079",
-        "question": "$$3{\frac{3}{5}}:2{\frac{7}{10}}=3{\frac{3}{4}}:x$$ proporsiyaning noma’lum hadini toping.",
+        "question": "$$3{\\frac{3}{5}}:2{\\frac{7}{10}}=3{\\frac{3}{4}}:x$$ proporsiyaning noma’lum hadini toping.",
         "answers": {
-            "A": "2$$\frac{13}{16}$$",
-            "B": "2$$\frac{3}{10}$$",
-            "C": "3$$\frac{1}{3}$$",
-            "D": "1$$\frac{15}{16}$$"
+            "A": "2$$\\frac{13}{16}$$",
+            "B": "2$$\\frac{3}{10}$$",
+            "C": "3$$\\frac{1}{3}$$",
+            "D": "1$$\\frac{15}{16}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4313,12 +4313,12 @@
     },
     {
         "question_number": "315080",
-        "question": "G‘ildirak 6$$\frac{2}{9}$$ minutda 11$$\frac{1}{5}$$ marta aylanadi. U 1 minutda necha marta aylanadi?",
+        "question": "G‘ildirak 6$$\\frac{2}{9}$$ minutda 11$$\\frac{1}{5}$$ marta aylanadi. U 1 minutda necha marta aylanadi?",
         "answers": {
-            "A": "1$$\frac{4}{5}$$",
+            "A": "1$$\\frac{4}{5}$$",
             "B": "1",
-            "C": "1$$\frac{3}{5}$$",
-            "D": "1$$\frac{2}{5}$$"
+            "C": "1$$\\frac{3}{5}$$",
+            "D": "1$$\\frac{2}{5}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4327,12 +4327,12 @@
     },
     {
         "question_number": "315081",
-        "question": "Chumoli 5 minutda 18$$\frac{1}{3}$$ m yuradi. U 1 minutda necha metr yuradi?",
+        "question": "Chumoli 5 minutda 18$$\\frac{1}{3}$$ m yuradi. U 1 minutda necha metr yuradi?",
         "answers": {
-            "A": "3$$\frac{5}{6}$$",
-            "B": "3$$\frac{2}{3}$$",
-            "C": "3$$\frac{1}{6}$$",
-            "D": "3$$\frac{1}{3}$$"
+            "A": "3$$\\frac{5}{6}$$",
+            "B": "3$$\\frac{2}{3}$$",
+            "C": "3$$\\frac{1}{6}$$",
+            "D": "3$$\\frac{1}{3}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -4341,12 +4341,12 @@
     },
     {
         "question_number": "315082",
-        "question": "$${\frac{84}{95}}\\cdot1{\frac{3}{14}}:1{\frac{1}{5}}:4\\cdot4{\frac{3}{4}}$$ ni hisoblang.",
+        "question": "$${\\frac{84}{95}}\\cdot1{\\frac{3}{14}}:1{\\frac{1}{5}}:4\\cdot4{\\frac{3}{4}}$$ ni hisoblang.",
         "answers": {
-            "A": "1$$\frac{1}{16}$$",
-            "B": "1$$\frac{3}{8}$$",
-            "C": "2$$\frac{1}{8}$$",
-            "D": "1$$\frac{5}{7}$$"
+            "A": "1$$\\frac{1}{16}$$",
+            "B": "1$$\\frac{3}{8}$$",
+            "C": "2$$\\frac{1}{8}$$",
+            "D": "1$$\\frac{5}{7}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4355,12 +4355,12 @@
     },
     {
         "question_number": "315083",
-        "question": "$$2{\frac{16}{17}}\\cdot3{\frac{2}{5}}:{\frac{11}{12}}\\cdot2{\frac{1}{5}}:2{\frac{2}{3}}$$ ni hisoblang.",
+        "question": "$$2{\\frac{16}{17}}\\cdot3{\\frac{2}{5}}:{\\frac{11}{12}}\\cdot2{\\frac{1}{5}}:2{\\frac{2}{3}}$$ ni hisoblang.",
         "answers": {
             "A": "9",
-            "B": "24$$\frac{3}{17}$$",
+            "B": "24$$\\frac{3}{17}$$",
             "C": "27",
-            "D": "29$$\frac{1}{9}$$"
+            "D": "29$$\\frac{1}{9}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4369,12 +4369,12 @@
     },
     {
         "question_number": "315084",
-        "question": "$$({\frac{5}{9}}-1{\frac{1}{6}}\\cdot{\frac{1}{2}}):{\frac{5}{9}}+{\frac{17}{60}}$$ ni hisoblang.",
+        "question": "$$({\\frac{5}{9}}-1{\\frac{1}{6}}\\cdot{\\frac{1}{2}}):{\\frac{5}{9}}+{\\frac{17}{60}}$$ ni hisoblang.",
         "answers": {
-            "A": "$$\frac{3}{20}$$",
-            "B": "$$\frac{17}{60}$$",
-            "C": "$$\frac{7}{30}$$",
-            "D": "$$\frac{37}{60}$$"
+            "A": "$$\\frac{3}{20}$$",
+            "B": "$$\\frac{17}{60}$$",
+            "C": "$$\\frac{7}{30}$$",
+            "D": "$$\\frac{37}{60}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4383,12 +4383,12 @@
     },
     {
         "question_number": "315085",
-        "question": "$$8{\frac{3}{4}}+{\frac{5}{12}}:\\left({\frac{1}{3}}\\cdot2{\frac{1}{2}}-{\frac{7}{8}}\right)$$ ni hisoblang.",
+        "question": "$$8{\\frac{3}{4}}+{\\frac{5}{12}}:\\left({\\frac{1}{3}}\\cdot2{\\frac{1}{2}}-{\\frac{7}{8}}\\right)$$ ni hisoblang.",
         "answers": {
-            "A": "−6$$\frac{3}{4}$$",
-            "B": "−1$$\frac{1}{4}$$",
-            "C": "9$$\frac{1}{4}$$",
-            "D": "−8$$\frac{3}{4}$$"
+            "A": "−6$$\\frac{3}{4}$$",
+            "B": "−1$$\\frac{1}{4}$$",
+            "C": "9$$\\frac{1}{4}$$",
+            "D": "−8$$\\frac{3}{4}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -4397,10 +4397,10 @@
     },
     {
         "question_number": "315086",
-        "question": "$$(2{\frac{17}{36}}-4{\frac{7}{12}}):{\frac{2}{9}}-{\frac{3}{26}}\\cdot4{\frac{1}{3}}$$ ni hisoblang.",
+        "question": "$$(2{\\frac{17}{36}}-4{\\frac{7}{12}}):{\\frac{2}{9}}-{\\frac{3}{26}}\\cdot4{\\frac{1}{3}}$$ ni hisoblang.",
         "answers": {
             "A": "−9",
-            "B": "8$$\frac{1}{2}$$",
+            "B": "8$$\\frac{1}{2}$$",
             "C": "9",
             "D": "−10"
         },
@@ -4411,7 +4411,7 @@
     },
     {
         "question_number": "315087",
-        "question": "$$-1{\frac{3}{4}}\\cdot6,5\\cdot(-{\frac{4}{7}})-9,25$$ ni hisoblang.",
+        "question": "$$-1{\\frac{3}{4}}\\cdot6,5\\cdot(-{\\frac{4}{7}})-9,25$$ ni hisoblang.",
         "answers": {
             "A": "−2, 75",
             "B": "−10, 25",
@@ -4439,7 +4439,7 @@
     },
     {
         "question_number": "315089",
-        "question": "$$5,8-{\frac{3}{7}}\\cdot2,2\\cdot(-2{\frac{1}{3}})$$ ni hisoblang.",
+        "question": "$$5,8-{\\frac{3}{7}}\\cdot2,2\\cdot(-2{\\frac{1}{3}})$$ ni hisoblang.",
         "answers": {
             "A": "6",
             "B": "−8",
@@ -4453,7 +4453,7 @@
     },
     {
         "question_number": "315090",
-        "question": "$$-{\frac{8}{9}}\\cdot18,75\\cdot1{\frac{1}{8}}-(-4,25)$$ ni hisoblang.",
+        "question": "$$-{\\frac{8}{9}}\\cdot18,75\\cdot1{\\frac{1}{8}}-(-4,25)$$ ni hisoblang.",
         "answers": {
             "A": "−8",
             "B": "−14, 5",
@@ -4481,12 +4481,12 @@
     },
     {
         "question_number": "315092",
-        "question": "$${\frac{15}{56}}\\cdot1{\frac{1}{7}}:{\frac{2}{15}}\\cdot24{\frac{1}{2}}:7{\frac{1}{2}}$$ ni hisoblang.",
+        "question": "$${\\frac{15}{56}}\\cdot1{\\frac{1}{7}}:{\\frac{2}{15}}\\cdot24{\\frac{1}{2}}:7{\\frac{1}{2}}$$ ni hisoblang.",
         "answers": {
-            "A": "10$${\frac{1}{2}}$$",
+            "A": "10$${\\frac{1}{2}}$$",
             "B": "11",
             "C": "21",
-            "D": "7$${\frac{1}{2}}$$"
+            "D": "7$${\\frac{1}{2}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -4495,7 +4495,7 @@
     },
     {
         "question_number": "315093",
-        "question": "$$6{\frac{2}{3}}\\cdot2{\frac{1}{4}}\\cdot(-{\frac{1}{2}})\\cdot{\frac{2}{5}}$$ ni hisoblang.",
+        "question": "$$6{\\frac{2}{3}}\\cdot2{\\frac{1}{4}}\\cdot(-{\\frac{1}{2}})\\cdot{\\frac{2}{5}}$$ ni hisoblang.",
         "answers": {
             "A": "3",
             "B": "−3",
@@ -4509,12 +4509,12 @@
     },
     {
         "question_number": "315094",
-        "question": "$$2{\frac{2}{3}}:1{\frac{1}{7}}\\cdot3{\frac{3}{7}}\\cdot(-{\frac{1}{2}})$$ ni hisoblang.",
+        "question": "$$2{\\frac{2}{3}}:1{\\frac{1}{7}}\\cdot3{\\frac{3}{7}}\\cdot(-{\\frac{1}{2}})$$ ni hisoblang.",
         "answers": {
             "A": "−4",
             "B": "3",
             "C": "−2",
-            "D": "$${\frac{2}{7}}$$"
+            "D": "$${\\frac{2}{7}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4523,12 +4523,12 @@
     },
     {
         "question_number": "315095",
-        "question": "$$(1992{\frac{3}{5}}-1990{\frac{2}{3}})\\cdot1{\frac{1}{29}}$$ ni hisoblang.",
+        "question": "$$(1992{\\frac{3}{5}}-1990{\\frac{2}{3}})\\cdot1{\\frac{1}{29}}$$ ni hisoblang.",
         "answers": {
             "A": "4",
-            "B": "$${\frac{14}{435}}$$",
+            "B": "$${\\frac{14}{435}}$$",
             "C": "2",
-            "D": "2$${\frac{2}{29}}$$"
+            "D": "2$${\\frac{2}{29}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4537,7 +4537,7 @@
     },
     {
         "question_number": "315096",
-        "question": "$$\frac{0,202-0,004}{\frac{1+7}{9}\\cdot81\\cdot0,125}$$ ni hisoblang.",
+        "question": "$$\\frac{0,202-0,004}{\\frac{1+7}{9}\\cdot81\\cdot0,125}$$ ni hisoblang.",
         "answers": {
             "A": "0, 099",
             "B": "0, 99",
@@ -4551,12 +4551,12 @@
     },
     {
         "question_number": "315097",
-        "question": "$$(1997{\frac{1}{5}}-1996{\frac{1}{6}})\\cdot1{\frac{29}{31}}$$ ni hisoblang.",
+        "question": "$$(1997{\\frac{1}{5}}-1996{\\frac{1}{6}})\\cdot1{\\frac{29}{31}}$$ ni hisoblang.",
         "answers": {
-            "A": "2$${\frac{29}{31}}$$",
-            "B": "2$${\frac{28}{29}}$$",
+            "A": "2$${\\frac{29}{31}}$$",
+            "B": "2$${\\frac{28}{29}}$$",
             "C": "2",
-            "D": "3$${\frac{1}{29}}$$"
+            "D": "3$${\\frac{1}{29}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4565,12 +4565,12 @@
     },
     {
         "question_number": "315098",
-        "question": "$${\frac{26}{15}}$$ + 2 · (0, 63 : 0, 6 −1, 6) ni hisoblang.",
+        "question": "$${\\frac{26}{15}}$$ + 2 · (0, 63 : 0, 6 −1, 6) ni hisoblang.",
         "answers": {
-            "A": "$${\frac{19}{30}}$$",
-            "B": "−1$${\frac{1}{6}}$$",
-            "C": "−$${\frac{4}{15}}$$",
-            "D": "−1$${\frac{4}{15}}$$"
+            "A": "$${\\frac{19}{30}}$$",
+            "B": "−1$${\\frac{1}{6}}$$",
+            "C": "−$${\\frac{4}{15}}$$",
+            "D": "−1$${\\frac{4}{15}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -4579,12 +4579,12 @@
     },
     {
         "question_number": "315099",
-        "question": "(0, 98 −0, 312 : 0, 3) · 25 + $${\frac{1}{9}}$$ ni hisoblang.",
+        "question": "(0, 98 −0, 312 : 0, 3) · 25 + $${\\frac{1}{9}}$$ ni hisoblang.",
         "answers": {
-            "A": "−1$${\frac{5}{18}}$$",
-            "B": "−14$${\frac{8}{9}}$$",
-            "C": "−10$${\frac{7}{18}}$$",
-            "D": "−1$${\frac{7}{18}}$$"
+            "A": "−1$${\\frac{5}{18}}$$",
+            "B": "−14$${\\frac{8}{9}}$$",
+            "C": "−10$${\\frac{7}{18}}$$",
+            "D": "−1$${\\frac{7}{18}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -4607,12 +4607,12 @@
     },
     {
         "question_number": "315101",
-        "question": "Bir kombaynchi bug‘doyzorning $${\frac{2}{9}}$$ qismidagi bug‘doyni, ikkinchisi $${\frac{4}{9}}$$ qismidagi bug‘doyni o‘rib oldi. Bug‘doyzorning qancha qismi o‘rilmay qoldi?",
+        "question": "Bir kombaynchi bug‘doyzorning $${\\frac{2}{9}}$$ qismidagi bug‘doyni, ikkinchisi $${\\frac{4}{9}}$$ qismidagi bug‘doyni o‘rib oldi. Bug‘doyzorning qancha qismi o‘rilmay qoldi?",
         "answers": {
-            "A": "$${\frac{2}{9}}$$",
-            "B": "$${\frac{1}{9}}$$",
-            "C": "$${\frac{1}{3}}$$",
-            "D": "$${\frac{4}{9}}$$"
+            "A": "$${\\frac{2}{9}}$$",
+            "B": "$${\\frac{1}{9}}$$",
+            "C": "$${\\frac{1}{3}}$$",
+            "D": "$${\\frac{4}{9}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4621,7 +4621,7 @@
     },
     {
         "question_number": "401621",
-        "question": "$$\frac{2,15-1,6\\cdot2,15}{3,45-3\frac{3}{20}}$$ ni hisoblang.",
+        "question": "$$\\frac{2,15-1,6\\cdot2,15}{3,45-3\\frac{3}{20}}$$ ni hisoblang.",
         "answers": {
             "A": "−0, 43",
             "B": "0, 43",
@@ -4635,7 +4635,7 @@
     },
     {
         "question_number": "401622",
-        "question": "$$\frac{0,64\\cdot4,5-4,5}{1,05-{\frac{3}{5}}}$$ ni hisoblang.",
+        "question": "$$\\frac{0,64\\cdot4,5-4,5}{1,05-{\\frac{3}{5}}}$$ ni hisoblang.",
         "answers": {
             "A": "−3, 6",
             "B": "0, 36",
@@ -4649,7 +4649,7 @@
     },
     {
         "question_number": "401623",
-        "question": "a = 2, (4); b = 2, 5 −$${\frac{1}{8}}$$ va c = 1, 2 : 0, 5 sonlarini kamayish tartibida joylashtiring.",
+        "question": "a = 2, (4); b = 2, 5 −$${\\frac{1}{8}}$$ va c = 1, 2 : 0, 5 sonlarini kamayish tartibida joylashtiring.",
         "answers": {
             "A": "a > b > c",
             "B": "a > c > b",
@@ -4663,7 +4663,7 @@
     },
     {
         "question_number": "401624",
-        "question": "a = 3, (6); b = 3, 91 −$${\frac{1}{4}}$$ va c = 4, 68 : 1, 3 sonlarni o‘sish tartibida joylashtiring.",
+        "question": "a = 3, (6); b = 3, 91 −$${\\frac{1}{4}}$$ va c = 4, 68 : 1, 3 sonlarni o‘sish tartibida joylashtiring.",
         "answers": {
             "A": "b < a < c",
             "B": "a < c < b",
@@ -4677,7 +4677,7 @@
     },
     {
         "question_number": "401625",
-        "question": "$$\frac{2,1}{(4{\frac{2}{5}}\\cdot6{\frac{1}{3}}-5{\frac{19}{21}}\\cdot4,4)\\cdot{\frac{5}{22}}}$$ ni hisoblang.",
+        "question": "$$\\frac{2,1}{(4{\\frac{2}{5}}\\cdot6{\\frac{1}{3}}-5{\\frac{19}{21}}\\cdot4,4)\\cdot{\\frac{5}{22}}}$$ ni hisoblang.",
         "answers": {
             "A": "0, 45",
             "B": "4, 5",
@@ -4691,12 +4691,12 @@
     },
     {
         "question_number": "401626",
-        "question": "$$(4{\frac{5}{8}}\\cdot4{\frac{1}{5}}\\cdot{\frac{8}{37}}-3{\frac{3}{5}})^{-1}$$ ni hisoblang.",
+        "question": "$$(4{\\frac{5}{8}}\\cdot4{\\frac{1}{5}}\\cdot{\\frac{8}{37}}-3{\\frac{3}{5}})^{-1}$$ ni hisoblang.",
         "answers": {
-            "A": "1$${\frac{3}{5}}$$",
-            "B": "1$${\frac{2}{5}}$$",
-            "C": "1$${\frac{3}{4}}$$",
-            "D": "1$${\frac{2}{3}}$$"
+            "A": "1$${\\frac{3}{5}}$$",
+            "B": "1$${\\frac{2}{5}}$$",
+            "C": "1$${\\frac{3}{4}}$$",
+            "D": "1$${\\frac{2}{3}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -4705,7 +4705,7 @@
     },
     {
         "question_number": "401627",
-        "question": "$${\frac{{\frac{5}{11}}\\cdot0,006\\cdot2{\frac{1}{5}}+1{\frac{1}{8}}\\cdot1,004\\cdot{\frac{8}{9}}}{25\\cdot0,0009+0,0001\\cdot25}}$$ ni hisoblang.",
+        "question": "$${\\frac{{\\frac{5}{11}}\\cdot0,006\\cdot2{\\frac{1}{5}}+1{\\frac{1}{8}}\\cdot1,004\\cdot{\\frac{8}{9}}}{25\\cdot0,0009+0,0001\\cdot25}}$$ ni hisoblang.",
         "answers": {
             "A": "40",
             "B": "0, 4",
@@ -4719,12 +4719,12 @@
     },
     {
         "question_number": "401628",
-        "question": "$$\frac{400-21,5\\cdot18,5}{1,5\\cdot1\frac{1}{10}+3,4\\cdot1\frac{1}{2}}$$ ni hisoblang.",
+        "question": "$$\\frac{400-21,5\\cdot18,5}{1,5\\cdot1\\frac{1}{10}+3,4\\cdot1\\frac{1}{2}}$$ ni hisoblang.",
         "answers": {
-            "A": "$${\frac{3}{10}}$$",
-            "B": "$${\frac{1}{3}}$$",
-            "C": "$${\frac{3}{7}}$$",
-            "D": "$${\frac{5}{7}}$$"
+            "A": "$${\\frac{3}{10}}$$",
+            "B": "$${\\frac{1}{3}}$$",
+            "C": "$${\\frac{3}{7}}$$",
+            "D": "$${\\frac{5}{7}}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -4735,10 +4735,10 @@
         "question_number": "401629",
         "question": "Bir ishchi buyurtmani 6 soatda, boshqasi esa 10 soatda bajaradi (tugatadi). Ular birgalikda 3 soat ishlaganlaridan keyin ishning qancha qismi bajarilmay qolgan bo‘ladi?",
         "answers": {
-            "A": "$${\frac{1}{4}}$$",
-            "B": "$${\frac{1}{3}}$$",
-            "C": "$${\frac{1}{5}}$$",
-            "D": "$${\frac{2}{5}}$$"
+            "A": "$${\\frac{1}{4}}$$",
+            "B": "$${\\frac{1}{3}}$$",
+            "C": "$${\\frac{1}{5}}$$",
+            "D": "$${\\frac{2}{5}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4761,10 +4761,10 @@
     },
     {
         "question_number": "401631",
-        "question": "$$\\left(\begin{array}{c}3\frac{3}{8}\\end{array}\right)^{-\frac{2}{3}}+27^{\frac{2}{3}}\\cdot9^{0,5}\\cdot3^{-2}+\\left(\\left(\begin{array}{c}\frac{7}{9}\\end{array}\right)^{3}\right)^{0}-\\left(\begin{array}{c}\frac{1}{2}\\end{array}\right)^{-2}$$ ni hisoblang.",
+        "question": "$$\\left(\\begin{array}{c}3\\frac{3}{8}\\end{array}\\right)^{-\\frac{2}{3}}+27^{\\frac{2}{3}}\\cdot9^{0,5}\\cdot3^{-2}+\\left(\\left(\\begin{array}{c}\\frac{7}{9}\\end{array}\\right)^{3}\\right)^{0}-\\left(\\begin{array}{c}\\frac{1}{2}\\end{array}\\right)^{-2}$$ ni hisoblang.",
         "answers": {
-            "A": "$${\frac{4}{9}}$$",
-            "B": "$${\frac{8}{9}}$$",
+            "A": "$${\\frac{4}{9}}$$",
+            "B": "$${\\frac{8}{9}}$$",
             "C": "1",
             "D": "0"
         },
@@ -4775,12 +4775,12 @@
     },
     {
         "question_number": "401632",
-        "question": "Avtomobil butun yo‘lning $${\frac{3}{7}}$$ qismini 1 soatda, qolgan qismini 2 soatda bosib o‘tdi. Uning birinchi tezligi ikkinchi tezligidan necha marta katta?",
+        "question": "Avtomobil butun yo‘lning $${\\frac{3}{7}}$$ qismini 1 soatda, qolgan qismini 2 soatda bosib o‘tdi. Uning birinchi tezligi ikkinchi tezligidan necha marta katta?",
         "answers": {
-            "A": "$${\frac{2}{3}}$$",
-            "B": "$${\frac{3}{2}}$$",
-            "C": "$${\frac{9}{8}}$$",
-            "D": "$${\frac{8}{9}}$$"
+            "A": "$${\\frac{2}{3}}$$",
+            "B": "$${\\frac{3}{2}}$$",
+            "C": "$${\\frac{9}{8}}$$",
+            "D": "$${\\frac{8}{9}}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -4805,10 +4805,10 @@
         "question_number": "401634",
         "question": "y minutda x (mm) yomg‘ir yog‘adi. 2,5 soatda necha mm yomg‘ir yog‘adi?",
         "answers": {
-            "A": "$${\frac{x}{150}}$$",
-            "B": "$${\frac{xy}{150}}$$",
-            "C": "$${\frac{150x}{y}}$$",
-            "D": "$${\frac{150y}{x}}$$"
+            "A": "$${\\frac{x}{150}}$$",
+            "B": "$${\\frac{xy}{150}}$$",
+            "C": "$${\\frac{150x}{y}}$$",
+            "D": "$${\\frac{150y}{x}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -4817,7 +4817,7 @@
     },
     {
         "question_number": "401635",
-        "question": "Sinfdagi qizlar sonining o‘g‘il bolalar soniga nisbati $${\frac{5}{7}}$$ bo‘lsa, sinfdagi jami o‘quvchilar soni quyidagilarning qaysi biriga teng bo‘lishi mumkin?",
+        "question": "Sinfdagi qizlar sonining o‘g‘il bolalar soniga nisbati $${\\frac{5}{7}}$$ bo‘lsa, sinfdagi jami o‘quvchilar soni quyidagilarning qaysi biriga teng bo‘lishi mumkin?",
         "answers": {
             "A": "36",
             "B": "34",
@@ -4831,7 +4831,7 @@
     },
     {
         "question_number": "704055",
-        "question": "$$\frac{0,075-0,075\\cdot6,4}{0,175-{\frac{39}{200}}}$$ ni hisoblang.",
+        "question": "$$\\frac{0,075-0,075\\cdot6,4}{0,175-{\\frac{39}{200}}}$$ ni hisoblang.",
         "answers": {
             "A": "4, 05",
             "B": "40, 5",
@@ -4901,7 +4901,7 @@
     },
     {
         "question_number": "704060",
-        "question": "O'zaro teskari solarnni anujang: 1) $\frac{\\sqrt{7}}{2}$ va $\frac{2\\sqrt{7}}{7}$;2) $\\sqrt{6}-\\sqrt{5}$ va $\\sqrt{6}+\\sqrt{5}$; 3) $\frac{2\\sqrt{5}}{9}$ va $\frac{9\\sqrt{5}}{10}$ 4) $\\sqrt{3}-1$ va $\\sqrt{3}+1$;",
+        "question": "O'zaro teskari solarnni anujang: 1) $$\\frac{\\sqrt{7}}{2}$$ va $$\\frac{2\\sqrt{7}}{7}$$;2) $$\\sqrt{6}-\\sqrt{5}$$ va $$\\sqrt{6}+\\sqrt{5}$$; 3) $$\\frac{2\\sqrt{5}}{9}$$ va $$\\frac{9\\sqrt{5}}{10}$$ 4) $$\\sqrt{3}-1$$ va $$\\sqrt{3}+1$$;",
         "answers": {
             "A": "hammasi",
             "B": "2; 3; 4",
@@ -4915,7 +4915,7 @@
     },
     {
         "question_number": "704061",
-        "question": "O'zaro teskari solarní aniqlang: 1) $3-\\sqrt{2}$ va $3+\\sqrt{2}$; 2) $\\dfrac{\\sqrt{5}}{3}$ va $\\dfrac{3\\sqrt{5}}{5}$; 3) $\\dfrac{2\\sqrt{3}}{5}$ va $\\dfrac{5\\sqrt{3}}{6}$; 4) $\\sqrt{2}+1$ va $\\sqrt{2}-1$.",
+        "question": "O'zaro teskari solarní aniqlang: 1) $$3-\\sqrt{2}$$ va $$3+\\sqrt{2}$$; 2) $$\\dfrac{\\sqrt{5}}{3}$$ va $$\\dfrac{3\\sqrt{5}}{5}$$; 3) $$\\dfrac{2\\sqrt{3}}{5}$$ va $$\\dfrac{5\\sqrt{3}}{6}$$; 4) $$\\sqrt{2}+1$$ va $$\\sqrt{2}-1$$.",
         "answers": {
             "A": "1; 3; 4",
             "B": "1; 2; 3",
@@ -4957,7 +4957,7 @@
     },
     {
         "question_number": "704064",
-        "question": "Proporsiyaning dastlabki uchta hadi yig‘indisi 78 ga teng. Uning ikkinchi hadi birinchi hadining $$\frac{1}{2}$$ qismini, uchinchi hadi esa- $$\frac{2}{3}$$ qismini tashkil etadi. Proporsiyaning uchinchi hadini toping.",
+        "question": "Proporsiyaning dastlabki uchta hadi yig‘indisi 78 ga teng. Uning ikkinchi hadi birinchi hadining $$\\frac{1}{2}$$ qismini, uchinchi hadi esa- $$\\frac{2}{3}$$ qismini tashkil etadi. Proporsiyaning uchinchi hadini toping.",
         "answers": {
             "A": "12",
             "B": "18",
@@ -4971,12 +4971,12 @@
     },
     {
         "question_number": "704065",
-        "question": "$$5{\frac{1}{4}}\\cdot6{\frac{3}{4}}-4{\frac{5}{8}}\\cdot5{\frac{3}{8}}$$ ni hisoblang.",
+        "question": "$$5{\\frac{1}{4}}\\cdot6{\\frac{3}{4}}-4{\\frac{5}{8}}\\cdot5{\\frac{3}{8}}$$ ni hisoblang.",
         "answers": {
-            "A": "10$$\frac{19}{64}$$",
-            "B": "11$$\frac{27}{64}$$",
-            "C": "11$$\frac{9}{64}$$",
-            "D": "10$$\frac{37}{64}$$"
+            "A": "10$$\\frac{19}{64}$$",
+            "B": "11$$\\frac{27}{64}$$",
+            "C": "11$$\\frac{9}{64}$$",
+            "D": "10$$\\frac{37}{64}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -4985,9 +4985,9 @@
     },
     {
         "question_number": "704066",
-        "question": "$$\frac{19,5:4{\frac{1}{2}}+3{\frac{1}{3}}\\cdot1,9}{{\frac{62}{75}}-0,16}$$ ni hisoblang.",
+        "question": "$$\\frac{19,5:4{\\frac{1}{2}}+3{\\frac{1}{3}}\\cdot1,9}{{\\frac{62}{75}}-0,16}$$ ni hisoblang.",
         "answers": {
-            "A": "4$$\frac{1}{2}$$",
+            "A": "4$$\\frac{1}{2}$$",
             "B": "16",
             "C": "7, 45",
             "D": "12"
@@ -5027,12 +5027,12 @@
     },
     {
         "question_number": "704069",
-        "question": "$$5{\frac{4}{19}}\\cdot3{\frac{4}{7}}+1{\frac{15}{19}}:{\frac{7}{25}}-2{\frac{1}{3}}$$ ni hisoblang.",
+        "question": "$$5{\\frac{4}{19}}\\cdot3{\\frac{4}{7}}+1{\\frac{15}{19}}:{\\frac{7}{25}}-2{\\frac{1}{3}}$$ ni hisoblang.",
         "answers": {
-            "A": "23$$\frac{2}{3}$$",
-            "B": "23$$\frac{1}{3}$$",
-            "C": "22$$\frac{2}{3}$$",
-            "D": "24$$\frac{1}{3}$$"
+            "A": "23$$\\frac{2}{3}$$",
+            "B": "23$$\\frac{1}{3}$$",
+            "C": "22$$\\frac{2}{3}$$",
+            "D": "24$$\\frac{1}{3}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -5041,11 +5041,11 @@
     },
     {
         "question_number": "719053",
-        "question": "$$(12{\frac{1}{9}}-10{\frac{2}{5}}):38{\frac{1}{2}}+24{\frac{1}{45}}$$ ni hisoblang.",
+        "question": "$$(12{\\frac{1}{9}}-10{\\frac{2}{5}}):38{\\frac{1}{2}}+24{\\frac{1}{45}}$$ ni hisoblang.",
         "answers": {
-            "A": "24$$\frac{1}{15}$$",
-            "B": "32$$\frac{7}{45}$$",
-            "C": "24$$\frac{1}{9}$$",
+            "A": "24$$\\frac{1}{15}$$",
+            "B": "32$$\\frac{7}{45}$$",
+            "C": "24$$\\frac{1}{9}$$",
             "D": "47"
         },
         "correct_answer": {
@@ -5055,7 +5055,7 @@
     },
     {
         "question_number": "719054",
-        "question": "$$\frac{2,15-1,6\\cdot2,15}{3,45-3\frac{3}{20}}$$ ni hisoblang.",
+        "question": "$$\\frac{2,15-1,6\\cdot2,15}{3,45-3\\frac{3}{20}}$$ ni hisoblang.",
         "answers": {
             "A": "−0, 43",
             "B": "0, 43",
@@ -5069,7 +5069,7 @@
     },
     {
         "question_number": "719055",
-        "question": "$$\frac{0,64\\cdot4,5-4,5}{1,05-{\frac{3}{5}}}$$ ni hisoblang.",
+        "question": "$$\\frac{0,64\\cdot4,5-4,5}{1,05-{\\frac{3}{5}}}$$ ni hisoblang.",
         "answers": {
             "A": "−3, 6",
             "B": "0, 36",
@@ -5083,12 +5083,12 @@
     },
     {
         "question_number": "719056",
-        "question": "$${\frac{1}{16}}\\cdot(0,312:0,3-1{\frac{1}{25}})+{\frac{3}{16}}$$ ni hisoblang.",
+        "question": "$${\\frac{1}{16}}\\cdot(0,312:0,3-1{\\frac{1}{25}})+{\\frac{3}{16}}$$ ni hisoblang.",
         "answers": {
-            "A": "$${\frac{1}{4}}$$",
-            "B": "$${\frac{3}{16}}$$",
-            "C": "−$${\frac{1}{16}}$$",
-            "D": "−$${\frac{1}{8}}$$"
+            "A": "$${\\frac{1}{4}}$$",
+            "B": "$${\\frac{3}{16}}$$",
+            "C": "−$${\\frac{1}{16}}$$",
+            "D": "−$${\\frac{1}{8}}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -5097,7 +5097,7 @@
     },
     {
         "question_number": "719057",
-        "question": "$$\frac{2,1}{(4\frac{2}{5}\\cdot6\frac{1}{3}-5\frac{19}{21}\\cdot4,4)\\cdot\frac{5}{22}}$$ ni hisoblang.",
+        "question": "$$\\frac{2,1}{(4\\frac{2}{5}\\cdot6\\frac{1}{3}-5\\frac{19}{21}\\cdot4,4)\\cdot\\frac{5}{22}}$$ ni hisoblang.",
         "answers": {
             "A": "0, 45",
             "B": "4, 5",
@@ -5111,7 +5111,7 @@
     },
     {
         "question_number": "719058",
-        "question": "$$\frac{{\frac{5}{19}}(3{\frac{4}{5}}\\cdot5{\frac{1}{3}}+6{\frac{4}{15}}\\cdot3,8)}{0,005}$$ ni hisoblang.",
+        "question": "$$\\frac{{\\frac{5}{19}}(3{\\frac{4}{5}}\\cdot5{\\frac{1}{3}}+6{\\frac{4}{15}}\\cdot3,8)}{0,005}$$ ni hisoblang.",
         "answers": {
             "A": "2320",
             "B": "1800",
@@ -5125,7 +5125,7 @@
     },
     {
         "question_number": "719059",
-        "question": "$${\frac{8,45+{\frac{13}{17}}\\cdot0,15\\cdot1{\frac{4}{13}}\\cdot6{\frac{2}{3}}}{0,2\\cdot4,3+0,19}}$$ ni hisoblang.",
+        "question": "$${\\frac{8,45+{\\frac{13}{17}}\\cdot0,15\\cdot1{\\frac{4}{13}}\\cdot6{\\frac{2}{3}}}{0,2\\cdot4,3+0,19}}$$ ni hisoblang.",
         "answers": {
             "A": "10",
             "B": "8",
@@ -5139,11 +5139,11 @@
     },
     {
         "question_number": "719060",
-        "question": "$$2,8\\cdot(2{\frac{1}{3}}:2,8-1)+3{\frac{4}{15}}$$ ni hisoblang.",
+        "question": "$$2,8\\cdot(2{\\frac{1}{3}}:2,8-1)+3{\\frac{4}{15}}$$ ni hisoblang.",
         "answers": {
-            "A": "2$${\frac{4}{5}}$$",
-            "B": "2$${\frac{2}{3}}$$",
-            "C": "2$${\frac{1}{3}}$$",
+            "A": "2$${\\frac{4}{5}}$$",
+            "B": "2$${\\frac{2}{3}}$$",
+            "C": "2$${\\frac{1}{3}}$$",
             "D": "2, 8"
         },
         "correct_answer": {
@@ -5153,12 +5153,12 @@
     },
     {
         "question_number": "719061",
-        "question": "$$7{\frac{5}{13}}\\cdot2-1{\frac{2}{5}}\\cdot6+4\\cdot2{\frac{4}{13}}-2\\cdot1{\frac{2}{5}}$$ ni hisoblang.",
+        "question": "$$7{\\frac{5}{13}}\\cdot2-1{\\frac{2}{5}}\\cdot6+4\\cdot2{\\frac{4}{13}}-2\\cdot1{\\frac{2}{5}}$$ ni hisoblang.",
         "answers": {
-            "A": "11$${\frac{2}{5}}$$",
+            "A": "11$${\\frac{2}{5}}$$",
             "B": "12",
-            "C": "12$${\frac{4}{5}}$$",
-            "D": "11$${\frac{8}{13}}$$"
+            "C": "12$${\\frac{4}{5}}$$",
+            "D": "11$${\\frac{8}{13}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -5167,7 +5167,7 @@
     },
     {
         "question_number": "719062",
-        "question": "$${\frac{\frac{5}{11}+0,006*2\frac{1}{5}+1\frac{1}{8}*1,004*\frac{8}{9}}{25*0,0009 + 0, 0001*25}}$$ ni hisoblang.",
+        "question": "$${\\frac{\\frac{5}{11}+0,006*2\\frac{1}{5}+1\\frac{1}{8}*1,004*\\frac{8}{9}}{25*0,0009 + 0, 0001*25}}$$ ni hisoblang.",
         "answers": {
             "A": "40",
             "B": "0, 4",
@@ -5181,12 +5181,12 @@
     },
     {
         "question_number": "719063",
-        "question": "$${\frac{400-21,5\\cdot18,5}{1,5\\cdot1{\frac{1}{10}}+3,4\\cdot1{\frac{1}{2}}}}$$ ni hisoblang.",
+        "question": "$${\\frac{400-21,5\\cdot18,5}{1,5\\cdot1{\\frac{1}{10}}+3,4\\cdot1{\\frac{1}{2}}}}$$ ni hisoblang.",
         "answers": {
-            "A": "$${\frac{3}{10}$$",
-            "B": "$${\frac{1}{3}$$",
-            "C": "$${\frac{3}{7}$$",
-            "D": "$${\frac{5}{7}$$"
+            "A": "$${\\frac{3}{10}$$",
+            "B": "$${\\frac{1}{3}$$",
+            "C": "$${\\frac{3}{7}$$",
+            "D": "$${\\frac{5}{7}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -5198,8 +5198,8 @@
         "question": "Detal 1:5 masshtabdagi chizmada 2,1 sm uzunlikka ega. Shu detal 1:3,5 masshtabdagi chizmada qancha (sm) uzunlikka ega bo‘ladi?",
         "answers": {
             "A": "3",
-            "B": "2$${\frac{1}{3}$$",
-            "C": "$${\frac{3}{5}$$",
+            "B": "2$${\\frac{1}{3}$$",
+            "C": "$${\\frac{3}{5}$$",
             "D": "3, 1"
         },
         "correct_answer": {
@@ -5209,12 +5209,12 @@
     },
     {
         "question_number": "719065",
-        "question": "$$3{\frac{1}{5}}\\cdot(2{\frac{1}{3}}:3,2\\,-\\,3)\\,+\\,7,6$$ ning qiymatini toping.",
+        "question": "$$3{\\frac{1}{5}}\\cdot(2{\\frac{1}{3}}:3,2\\,-\\,3)\\,+\\,7,6$$ ning qiymatini toping.",
         "answers": {
-            "A": "1$${\frac{2}{3}$$",
-            "B": "2$${\frac{1}{3}$$",
-            "C": "1$${\frac{1}{3}$$",
-            "D": "$${\frac{1}{3}$$"
+            "A": "1$${\\frac{2}{3}$$",
+            "B": "2$${\\frac{1}{3}$$",
+            "C": "1$${\\frac{1}{3}$$",
+            "D": "$${\\frac{1}{3}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5223,12 +5223,12 @@
     },
     {
         "question_number": "719066",
-        "question": "$$\\left(6{\frac{1}{2}}-8{\frac{3}{4}}\right):{\frac{1}{8}}+12{\frac{4}{7}}$$ ni hisoblang.",
+        "question": "$$\\left(6{\\frac{1}{2}}-8{\\frac{3}{4}}\\right):{\\frac{1}{8}}+12{\\frac{4}{7}}$$ ni hisoblang.",
         "answers": {
-            "A": "−7$${\frac{3}{7}$$",
-            "B": "6$${\frac{3}{7}$$",
-            "C": "−5$${\frac{3}{7}$$",
-            "D": "−7$${\frac{5}{7}$$"
+            "A": "−7$${\\frac{3}{7}$$",
+            "B": "6$${\\frac{3}{7}$$",
+            "C": "−5$${\\frac{3}{7}$$",
+            "D": "−7$${\\frac{5}{7}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -5237,12 +5237,12 @@
     },
     {
         "question_number": "719067",
-        "question": "$$10-2{\frac{1}{2}}:3{\frac{3}{4}}+\\left(2{\frac{1}{2}}-1{\frac{4}{9}}\right)\\cdot3$$ ni hisoblang.",
+        "question": "$$10-2{\\frac{1}{2}}:3{\\frac{3}{4}}+\\left(2{\\frac{1}{2}}-1{\\frac{4}{9}}\\right)\\cdot3$$ ni hisoblang.",
         "answers": {
-            "A": "12$${\frac{1}{2}$$",
+            "A": "12$${\\frac{1}{2}$$",
             "B": "9",
-            "C": "15$${\frac{2}{3}$$",
-            "D": "16$${\frac{1}{3}$$"
+            "C": "15$${\\frac{2}{3}$$",
+            "D": "16$${\\frac{1}{3}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -5309,10 +5309,10 @@
         "question_number": "315103",
         "question": "Agar ab = 9 va 3b = 8, 1c bo‘lsa, ac ni hisoblang.",
         "answers": {
-            "A": "3$${\frac{1}{3}}$$",
-            "B": "2$${\frac{5}{8}}$$",
-            "C": "2$${\frac{4}{9}}$$",
-            "D": "2$${\frac{1}{2}}$$"
+            "A": "3$${\\frac{1}{3}}$$",
+            "B": "2$${\\frac{5}{8}}$$",
+            "C": "2$${\\frac{4}{9}}$$",
+            "D": "2$${\\frac{1}{2}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -5321,10 +5321,10 @@
     },
     {
         "question_number": "315104",
-        "question": "a = 4b va c + 12b = 0 (b ̸= 0) bo‘lsa, $$-{\frac{a}{c}}$$ ni toping.",
+        "question": "a = 4b va c + 12b = 0 (b ̸= 0) bo‘lsa, $$-{\\frac{a}{c}}$$ ni toping.",
         "answers": {
-            "A": "$$-{\frac{1}{3}}$$",
-            "B": "$$-{\frac{1}{4}}$$",
+            "A": "$$-{\\frac{1}{3}}$$",
+            "B": "$$-{\\frac{1}{4}}$$",
             "C": "3",
             "D": "−4"
         },
@@ -5335,7 +5335,7 @@
     },
     {
         "question_number": "315105",
-        "question": "$\frac{1}{3}\\cdot(\frac{6}{7}m-3)-1\frac{2}{3}\\cdot(\frac{6}{7}m-6)$ ni soddalashtiring.",
+        "question": "$$\\frac{1}{3}\\cdot(\\frac{6}{7}m-3)-1\\frac{2}{3}\\cdot(\\frac{6}{7}m-6)$$ ni soddalashtiring.",
         "answers": {
             "A": "m −2",
             "B": "4",
@@ -5349,7 +5349,7 @@
     },
     {
         "question_number": "315106",
-        "question": "$${\frac{{\\sqrt{32}}+{\\sqrt{98}}-{\\sqrt{50}}}{{\\sqrt{72}}}}:{\frac{1}{{\\sqrt{2}}}}$$ ni hisoblang.",
+        "question": "$${\\frac{{\\sqrt{32}}+{\\sqrt{98}}-{\\sqrt{50}}}{{\\sqrt{72}}}}:{\\frac{1}{{\\sqrt{2}}}}$$ ni hisoblang.",
         "answers": {
             "A": "2",
             "B": "1",
@@ -5363,7 +5363,7 @@
     },
     {
         "question_number": "315107",
-        "question": "$${\frac{{\\sqrt[3]{-24}}+{\\sqrt[3]{81}}+{\\sqrt[3]{192}}+3{\\sqrt[3]{-375}}}{{\\sqrt[3]{-375}}}}-1$$ ni hisoblang.",
+        "question": "$${\\frac{{\\sqrt[3]{-24}}+{\\sqrt[3]{81}}+{\\sqrt[3]{192}}+3{\\sqrt[3]{-375}}}{{\\sqrt[3]{-375}}}}-1$$ ni hisoblang.",
         "answers": {
             "A": "−1",
             "B": "1",
@@ -5405,7 +5405,7 @@
     },
     {
         "question_number": "315110",
-        "question": "$${\frac{x^{3}-8}{x^{2}+2x+4}}-{\frac{x^{3}+8}{x^{2}-2x+4}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{x^{3}-8}{x^{2}+2x+4}}-{\\frac{x^{3}+8}{x^{2}-2x+4}}$$ ni soddalashtiring.",
         "answers": {
             "A": "−4",
             "B": "4x",
@@ -5419,7 +5419,7 @@
     },
     {
         "question_number": "315111",
-        "question": "$${\frac{x^{3}+y^{3}}{x^{2}-x y+y^{2}}}\\,-\\,{\frac{x^{3}-y^{3}}{x^{2}+x y+y^{2}}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{x^{3}+y^{3}}{x^{2}-x y+y^{2}}}\\,-\\,{\\frac{x^{3}-y^{3}}{x^{2}+x y+y^{2}}}$$ ni soddalashtiring.",
         "answers": {
             "A": "2x",
             "B": "2y",
@@ -5433,7 +5433,7 @@
     },
     {
         "question_number": "315112",
-        "question": "$$\\sqrt{a-2a^{1/2}b^{1/2}+b}-\frac{a-b}{a^{1/2}-b^{1/2}}$$ ni soddalashtiring (b > a > 0).",
+        "question": "$$\\sqrt{a-2a^{1/2}b^{1/2}+b}-\\frac{a-b}{a^{1/2}-b^{1/2}}$$ ni soddalashtiring (b > a > 0).",
         "answers": {
             "A": "$$ 2a^{1/2}-2b^{1/2}$$",
             "B": "−$$2a^{1/2}$$",
@@ -5447,12 +5447,12 @@
     },
     {
         "question_number": "315113",
-        "question": "$${\frac{y^{2}-x^{2}}{2x y}}:{\frac{x+y}{2y}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{y^{2}-x^{2}}{2x y}}:{\\frac{x+y}{2y}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$${\frac{x-y}{y}}$$",
-            "B": "$${\frac{x-y}{y(1 + y)}}$$",
-            "C": "1−$${\frac{x}{y}}$$",
-            "D": "$${\frac{y-x}{x}}$$"
+            "A": "$${\\frac{x-y}{y}}$$",
+            "B": "$${\\frac{x-y}{y(1 + y)}}$$",
+            "C": "1−$${\\frac{x}{y}}$$",
+            "D": "$${\\frac{y-x}{x}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5475,7 +5475,7 @@
     },
     {
         "question_number": "315115",
-        "question": "$$\\left({\frac{\\sqrt{2+{\\sqrt{3}}}}{\\sqrt{2-{\\sqrt{3}}}}}+{\frac{\\sqrt{2-{\\sqrt{3}}}}{\\sqrt{2+{\\sqrt{3}}}}}\right)^{2}-2$$ ni hisoblang.",
+        "question": "$$\\left({\\frac{\\sqrt{2+{\\sqrt{3}}}}{\\sqrt{2-{\\sqrt{3}}}}}+{\\frac{\\sqrt{2-{\\sqrt{3}}}}{\\sqrt{2+{\\sqrt{3}}}}}\\right)^{2}-2$$ ni hisoblang.",
         "answers": {
             "A": "12",
             "B": "14",
@@ -5489,7 +5489,7 @@
     },
     {
         "question_number": "315116",
-        "question": "$$\frac{1-b^{-1}+b^{-2}}{1-b+b^{2}}$$ ni soddalashtiring.",
+        "question": "$$\\frac{1-b^{-1}+b^{-2}}{1-b+b^{2}}$$ ni soddalashtiring.",
         "answers": {
             "A": "$$b^{-1}$$",
             "B": "$$b^{-2}$$",
@@ -5503,7 +5503,7 @@
     },
     {
         "question_number": "315117",
-        "question": "$$\frac{c-2{\\sqrt{c}}+1}{1-{\\sqrt{c}}}$$ kasrni qisqartiring.",
+        "question": "$$\\frac{c-2{\\sqrt{c}}+1}{1-{\\sqrt{c}}}$$ kasrni qisqartiring.",
         "answers": {
             "A": "$${\\sqrt{c}}-1$$",
             "B": "c −1",
@@ -5517,12 +5517,12 @@
     },
     {
         "question_number": "401666",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{5}{48}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{5}{48}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{5}}}{{\\sqrt{16}}{\\sqrt{3}}}$$",
-            "B": "$${\frac{1}{12}}{\\sqrt{15}}$$",
-            "C": "$$\frac{1}{4}\frac{{\\sqrt{5}}}{{\\sqrt{3}}}$$",
-            "D": "$${\frac{1}{12}}{\\sqrt{5}}$$"
+            "A": "$$\\frac{{\\sqrt{5}}}{{\\sqrt{16}}{\\sqrt{3}}}$$",
+            "B": "$${\\frac{1}{12}}{\\sqrt{15}}$$",
+            "C": "$$\\frac{1}{4}\\frac{{\\sqrt{5}}}{{\\sqrt{3}}}$$",
+            "D": "$${\\frac{1}{12}}{\\sqrt{5}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5531,12 +5531,12 @@
     },
     {
         "question_number": "401667",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{7}{108}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{7}{108}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{7}}}{{\\sqrt{36}}{\\sqrt{3}}}$$",
-            "B": "$${\frac{1}{18}}{\\sqrt{21}}$$",
-            "C": "$${\frac{1}{6}}{\frac{\\sqrt{7}}{\\sqrt{3}}}$$",
-            "D": "$${\frac{1}{18}}{\\sqrt{7}}$$"
+            "A": "$$\\frac{{\\sqrt{7}}}{{\\sqrt{36}}{\\sqrt{3}}}$$",
+            "B": "$${\\frac{1}{18}}{\\sqrt{21}}$$",
+            "C": "$${\\frac{1}{6}}{\\frac{\\sqrt{7}}{\\sqrt{3}}}$$",
+            "D": "$${\\frac{1}{18}}{\\sqrt{7}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5547,10 +5547,10 @@
         "question_number": "401668",
         "question": "Quyidagi sonlardan qaysi biri s 11 80 ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{11}}}{{\\sqrt{16}}{\\sqrt{5}}}$$",
-            "B": "$${\frac{1}{20}}{\\sqrt{55}}$$",
-            "C": "$$\frac{1}{4}\frac{\\sqrt{11}}{\\sqrt{5}}$$",
-            "D": "$${\frac{1}{20}}{\\sqrt{11}}$$"
+            "A": "$$\\frac{{\\sqrt{11}}}{{\\sqrt{16}}{\\sqrt{5}}}$$",
+            "B": "$${\\frac{1}{20}}{\\sqrt{55}}$$",
+            "C": "$$\\frac{1}{4}\\frac{\\sqrt{11}}{\\sqrt{5}}$$",
+            "D": "$${\\frac{1}{20}}{\\sqrt{11}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5559,12 +5559,12 @@
     },
     {
         "question_number": "401669",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{13}{80}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{13}{80}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{13}}}{{\\sqrt{16}}{\\sqrt{5}}}$$",
-            "B": "$${\frac{1}{20}}{\\sqrt{65}}$$",
-            "C": "$$\frac{1}{4}\frac{\\sqrt{13}}{\\sqrt{5}}$$",
-            "D": "$${\frac{1}{20}}{\\sqrt{13}}$$"
+            "A": "$$\\frac{{\\sqrt{13}}}{{\\sqrt{16}}{\\sqrt{5}}}$$",
+            "B": "$${\\frac{1}{20}}{\\sqrt{65}}$$",
+            "C": "$$\\frac{1}{4}\\frac{\\sqrt{13}}{\\sqrt{5}}$$",
+            "D": "$${\\frac{1}{20}}{\\sqrt{13}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5573,12 +5573,12 @@
     },
     {
         "question_number": "401670",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{17}{112}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{17}{112}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{\\sqrt{17}}{\\sqrt{16}\\sqrt{7}}$$",
-            "B": "$${\frac{1}{28}}{\\sqrt{119}}$$",
-            "C": "$$\frac{1}{4}\frac{\\sqrt{17}}{\\sqrt{7}}$$",
-            "D": "$${\frac{1}{28}}{\\sqrt{17}}$$"
+            "A": "$$\\frac{\\sqrt{17}}{\\sqrt{16}\\sqrt{7}}$$",
+            "B": "$${\\frac{1}{28}}{\\sqrt{119}}$$",
+            "C": "$$\\frac{1}{4}\\frac{\\sqrt{17}}{\\sqrt{7}}$$",
+            "D": "$${\\frac{1}{28}}{\\sqrt{17}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5587,12 +5587,12 @@
     },
     {
         "question_number": "401671",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{23}{44}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{23}{44}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{\\sqrt{23}}{\\sqrt{4}\\sqrt{11}}$$",
-            "B": "$${\frac{1}{22}}{\\sqrt{253}}$$",
-            "C": "$$\frac{1}{2}\frac{\\sqrt{23}}{\\sqrt{11}}$$",
-            "D": "$${\frac{1}{22}}{\\sqrt{23}}$$"
+            "A": "$$\\frac{\\sqrt{23}}{\\sqrt{4}\\sqrt{11}}$$",
+            "B": "$${\\frac{1}{22}}{\\sqrt{253}}$$",
+            "C": "$$\\frac{1}{2}\\frac{\\sqrt{23}}{\\sqrt{11}}$$",
+            "D": "$${\\frac{1}{22}}{\\sqrt{23}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5601,12 +5601,12 @@
     },
     {
         "question_number": "401672",
-        "question": "Quyidagi sonlardan qaysi biri $ \\sqrt{\frac{19}{52}}$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$ \\sqrt{\\frac{19}{52}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{\\sqrt{19}}{\\sqrt{4}\\sqrt{13}}$$",
-            "B": "$${\frac{1}{26}}{\\sqrt{247}}$$",
-            "C": "$$\frac{1}{2}\frac{\\sqrt{19}}{\\sqrt{13}}$$",
-            "D": "$$\frac{1}{26}{\\sqrt{19}}$$"
+            "A": "$$\\frac{\\sqrt{19}}{\\sqrt{4}\\sqrt{13}}$$",
+            "B": "$${\\frac{1}{26}}{\\sqrt{247}}$$",
+            "C": "$$\\frac{1}{2}\\frac{\\sqrt{19}}{\\sqrt{13}}$$",
+            "D": "$$\\frac{1}{26}{\\sqrt{19}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5615,12 +5615,12 @@
     },
     {
         "question_number": "401673",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{13}{68}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{13}{68}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{13}}}{{\\sqrt{4}}{\\sqrt{17}}}$$",
-            "B": "$${\frac{1}{34}}{\\sqrt{221}}$$",
-            "C": "$$\frac{1}{2}\frac{\\sqrt{13}}{\\sqrt{17}}$$",
-            "D": "$${\frac{1}{34}}{\\sqrt{13}}$$"
+            "A": "$$\\frac{{\\sqrt{13}}}{{\\sqrt{4}}{\\sqrt{17}}}$$",
+            "B": "$${\\frac{1}{34}}{\\sqrt{221}}$$",
+            "C": "$$\\frac{1}{2}\\frac{\\sqrt{13}}{\\sqrt{17}}$$",
+            "D": "$${\\frac{1}{34}}{\\sqrt{13}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5629,12 +5629,12 @@
     },
     {
         "question_number": "401674",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{17}{76}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{17}{76}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{17}}}{{\\sqrt{4}}{\\sqrt{19}}}$$",
-            "B": "$${\frac{1}{38}}{\\sqrt{323}}$$",
+            "A": "$$\\frac{{\\sqrt{17}}}{{\\sqrt{4}}{\\sqrt{19}}}$$",
+            "B": "$${\\frac{1}{38}}{\\sqrt{323}}$$",
             "C": "$$\\dfrac{1}{2}\\dfrac{\\sqrt{17}}{\\sqrt{19}}$$",
-            "D": "$${\frac{1}{38}}{\\sqrt{17}}$$"
+            "D": "$${\\frac{1}{38}}{\\sqrt{17}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5643,12 +5643,12 @@
     },
     {
         "question_number": "401675",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{11}{92}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{11}{92}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{11}}}{{\\sqrt{4}}{\\sqrt{23}}}$$",
-            "B": "$${\frac{1}{46}}{\\sqrt{253}}$$",
-            "C": "$$\frac{1}{2}\frac{\\sqrt{11}}{\\sqrt{23}}$$",
-            "D": "$${\frac{1}{46}}{\\sqrt{11}}$$"
+            "A": "$$\\frac{{\\sqrt{11}}}{{\\sqrt{4}}{\\sqrt{23}}}$$",
+            "B": "$${\\frac{1}{46}}{\\sqrt{253}}$$",
+            "C": "$$\\frac{1}{2}\\frac{\\sqrt{11}}{\\sqrt{23}}$$",
+            "D": "$${\\frac{1}{46}}{\\sqrt{11}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5657,12 +5657,12 @@
     },
     {
         "question_number": "401676",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{17}{48}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{17}{48}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{17}}}{{\\sqrt{16}}{\\sqrt{3}}}$$",
-            "B": "$${\frac{1}{12}}{\\sqrt{51}}$$",
-            "C": "$$\frac{1}{4}\frac{\\sqrt{17}}{\\sqrt{3}}$$",
-            "D": "$${\frac{1}{12}}{\\sqrt{17}}$$"
+            "A": "$$\\frac{{\\sqrt{17}}}{{\\sqrt{16}}{\\sqrt{3}}}$$",
+            "B": "$${\\frac{1}{12}}{\\sqrt{51}}$$",
+            "C": "$$\\frac{1}{4}\\frac{\\sqrt{17}}{\\sqrt{3}}$$",
+            "D": "$${\\frac{1}{12}}{\\sqrt{17}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5671,12 +5671,12 @@
     },
     {
         "question_number": "401677",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{13}{80}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{13}{80}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{13}}}{{\\sqrt{16}}{\\sqrt{5}}}$$",
-            "B": "$${\frac{1}{20}}{\\sqrt{65}}$$",
-            "C": "$$\frac{1}{4}\frac{\\sqrt{13}}{\\sqrt{5}}$$",
-            "D": "$${\frac{1}{20}}{\\sqrt{13}}$$"
+            "A": "$$\\frac{{\\sqrt{13}}}{{\\sqrt{16}}{\\sqrt{5}}}$$",
+            "B": "$${\\frac{1}{20}}{\\sqrt{65}}$$",
+            "C": "$$\\frac{1}{4}\\frac{\\sqrt{13}}{\\sqrt{5}}$$",
+            "D": "$${\\frac{1}{20}}{\\sqrt{13}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5685,12 +5685,12 @@
     },
     {
         "question_number": "401678",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{11}{112}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{11}{112}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{11}}}{{\\sqrt{16}}{\\sqrt{7}}}$$",
-            "B": "$${\frac{1}{28}}{\\sqrt{77}}$$",
-            "C": "$${\frac{1}{4}}{\frac{\\sqrt{11}}{\\sqrt{7}}}$$",
-            "D": "$${\frac{1}{28}}{\\sqrt{11}}$$"
+            "A": "$$\\frac{{\\sqrt{11}}}{{\\sqrt{16}}{\\sqrt{7}}}$$",
+            "B": "$${\\frac{1}{28}}{\\sqrt{77}}$$",
+            "C": "$${\\frac{1}{4}}{\\frac{\\sqrt{11}}{\\sqrt{7}}}$$",
+            "D": "$${\\frac{1}{28}}{\\sqrt{11}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5699,12 +5699,12 @@
     },
     {
         "question_number": "401679",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{7}{176}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{7}{176}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{7}}}{{\\sqrt{16}}{\\sqrt{11}}}$$",
-            "B": "$${\frac{1}{44}}{\\sqrt{77}}$$",
-            "C": "$${\frac{1}{4}}{\frac{\\sqrt{7}}{\\sqrt{11}}}$$",
-            "D": "$${\frac{1}{44}}{\\sqrt{7}}$$"
+            "A": "$$\\frac{{\\sqrt{7}}}{{\\sqrt{16}}{\\sqrt{11}}}$$",
+            "B": "$${\\frac{1}{44}}{\\sqrt{77}}$$",
+            "C": "$${\\frac{1}{4}}{\\frac{\\sqrt{7}}{\\sqrt{11}}}$$",
+            "D": "$${\\frac{1}{44}}{\\sqrt{7}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5713,12 +5713,12 @@
     },
     {
         "question_number": "401680",
-        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\frac{5}{208}}$$ ga teng emas?",
+        "question": "Quyidagi sonlardan qaysi biri $$\\sqrt{\\frac{5}{208}}$$ ga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{5}}}{{\\sqrt{16}}{\\sqrt{13}}}$$",
-            "B": "$${\frac{1}{52}}{\\sqrt{65}}$$",
-            "C": "$${\frac{1}{4}}{\frac{\\sqrt{5}}{\\sqrt{13}}}$$",
-            "D": "$${\frac{1}{52}}{\\sqrt{5}}$$"
+            "A": "$$\\frac{{\\sqrt{5}}}{{\\sqrt{16}}{\\sqrt{13}}}$$",
+            "B": "$${\\frac{1}{52}}{\\sqrt{65}}$$",
+            "C": "$${\\frac{1}{4}}{\\frac{\\sqrt{5}}{\\sqrt{13}}}$$",
+            "D": "$${\\frac{1}{52}}{\\sqrt{5}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5769,7 +5769,7 @@
     },
     {
         "question_number": "704073",
-        "question": "$ x^2+x-30$ kvadrat uchhadni chiziqli ko‘paytuvchilarga ajrating.",
+        "question": "$$ x^2+x-30$$ kvadrat uchhadni chiziqli ko‘paytuvchilarga ajrating.",
         "answers": {
             "A": "(x + 5)(x −6)",
             "B": "(x + 6)(x −5)",
@@ -5797,7 +5797,7 @@
     },
     {
         "question_number": "704075",
-        "question": "$ x^2+x-30$ ni ko‘paytuvchilarga ajrating.",
+        "question": "$$ x^2+x-30$$ ni ko‘paytuvchilarga ajrating.",
         "answers": {
             "A": "(4 + 2c)(6 −2c)",
             "B": "(4 −2c)(6 −2c)",
@@ -5839,10 +5839,10 @@
     },
     {
         "question_number": "704078",
-        "question": "$$\frac{y^{2\\pi}-x^{2\\pi}}{x^{\\pi}+y^{\\pi}}$$ ni qisqartiring.",
+        "question": "$$\\frac{y^{2\\pi}-x^{2\\pi}}{x^{\\pi}+y^{\\pi}}$$ ni qisqartiring.",
         "answers": {
             "A": "$$x^{\\pi}+y^{\\pi}$$",
-            "B": "$-x^{\\pi}+y^{\\pi}$.",
+            "B": "$$-x^{\\pi}+y^{\\pi}$$.",
             "C": "x −y",
             "D": "$$x^{\\pi}-y^{\\pi}$$"
         },
@@ -5853,12 +5853,12 @@
     },
     {
         "question_number": "704079",
-        "question": "$\\dfrac{x\\sqrt[4]{\\pi}\\,+y\\sqrt[4]{\\pi}}{y^2\\sqrt[4]{\\pi}\\,-\\,x^2\\sqrt[4]{\\pi}^2}$ ni qisqartiring.",
+        "question": "$$\\dfrac{x\\sqrt[4]{\\pi}\\,+y\\sqrt[4]{\\pi}}{y^2\\sqrt[4]{\\pi}\\,-\\,x^2\\sqrt[4]{\\pi}^2}$$ ni qisqartiring.",
         "answers": {
-            "A": "$ \frac1{x\\sqrt[4]{\\pi}\\,+\\,y\\sqrt[4]{\\pi}}$.",
+            "A": "$$ \\frac1{x\\sqrt[4]{\\pi}\\,+\\,y\\sqrt[4]{\\pi}}$$.",
             "B": "$$x^{{\\sqrt{\\pi}}}+y^{{\\sqrt{\\pi}}}$$",
             "C": "$$x^{{\\sqrt{\\pi}}}-y^{{\\sqrt{\\pi}}}$$",
-            "D": "$$\frac{1}{-\\,x^{\\sqrt[4]{\\pi}}\\,+\\,y^{\\sqrt[4]{\\pi}}}$$"
+            "D": "$$\\frac{1}{-\\,x^{\\sqrt[4]{\\pi}}\\,+\\,y^{\\sqrt[4]{\\pi}}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5895,12 +5895,12 @@
     },
     {
         "question_number": "704082",
-        "question": "$${\frac{y^{2}-x^{2}}{2x y}}:{\frac{x+y}{2y}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{y^{2}-x^{2}}{2x y}}:{\\frac{x+y}{2y}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{x-y}{y}$$",
-            "B": "$$\frac{x-y}{y(1+y)}$$",
-            "C": "$$1-{\frac{x}{y}}$$",
-            "D": "$$\frac{y-x}{x}$$"
+            "A": "$$\\frac{x-y}{y}$$",
+            "B": "$$\\frac{x-y}{y(1+y)}$$",
+            "C": "$$1-{\\frac{x}{y}}$$",
+            "D": "$$\\frac{y-x}{x}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -5909,7 +5909,7 @@
     },
     {
         "question_number": "704083",
-        "question": "$\\sqrt{\\sqrt{56}+2\\sqrt{5}}\\cdot\\sqrt{\\sqrt{56}-2\\sqrt{5}}$ ni hisoblang.",
+        "question": "$$\\sqrt{\\sqrt{56}+2\\sqrt{5}}\\cdot\\sqrt{\\sqrt{56}-2\\sqrt{5}}$$ ni hisoblang.",
         "answers": {
             "A": "2",
             "B": "6",
@@ -5923,7 +5923,7 @@
     },
     {
         "question_number": "704084",
-        "question": "$${\frac{1-b^{-1}+b^{-2}}{1-b+b^{2}}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{1-b^{-1}+b^{-2}}{1-b+b^{2}}}$$ ni soddalashtiring.",
         "answers": {
             "A": "$$b^{-1}$$",
             "B": "$$b^{-2}$$",
@@ -5937,11 +5937,11 @@
     },
     {
         "question_number": "719068",
-        "question": "$ \frac{3}{7}\\cdot(1\frac{2}{5}a+2,1)+\frac{3}{5}\\cdot(\frac{2}{3}a-\frac{5}{6})$. ni soddalashtiring.",
+        "question": "$$ \\frac{3}{7}\\cdot(1\\frac{2}{5}a+2,1)+\\frac{3}{5}\\cdot(\\frac{2}{3}a-\\frac{5}{6})$$. ni soddalashtiring.",
         "answers": {
-            "A": "$$a+{\frac{2}{5}}$$",
-            "B": "$$a+{\frac{3}{4}}$$",
-            "C": "$$1{\frac{2}{3}}a-{\frac{2}{5}}$$",
+            "A": "$$a+{\\frac{2}{5}}$$",
+            "B": "$$a+{\\frac{3}{4}}$$",
+            "C": "$$1{\\frac{2}{3}}a-{\\frac{2}{5}}$$",
             "D": "0, 6 + a"
         },
         "correct_answer": {
@@ -5951,7 +5951,7 @@
     },
     {
         "question_number": "719069",
-        "question": "$\frac{2}{3}\\cdot(1\frac{1}{2}a-2\frac{1}{4})-1\frac{1}{5}\\cdot(2\frac{1}{2}a-\frac{5}{6})$ ni soddalashtiring.",
+        "question": "$$\\frac{2}{3}\\cdot(1\\frac{1}{2}a-2\\frac{1}{4})-1\\frac{1}{5}\\cdot(2\\frac{1}{2}a-\\frac{5}{6})$$ ni soddalashtiring.",
         "answers": {
             "A": "a −5",
             "B": "7a −7",
@@ -5967,10 +5967,10 @@
         "question_number": "719070",
         "question": "Agar ab = 9 va 3b = 8, 1c bo‘lsa, ac ni hisoblang.",
         "answers": {
-            "A": "$$3{\frac{1}{3}}$$",
-            "B": "$$2{\frac{5}{8}}$$",
-            "C": "$$2{\frac{4}{9}}$$",
-            "D": "$$2{\frac{1}{2}}$$"
+            "A": "$$3{\\frac{1}{3}}$$",
+            "B": "$$2{\\frac{5}{8}}$$",
+            "C": "$$2{\\frac{4}{9}}$$",
+            "D": "$$2{\\frac{1}{2}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -5979,7 +5979,7 @@
     },
     {
         "question_number": "719071",
-        "question": "$$2{\frac{1}{3}}\\cdot({\frac{6}{7}}m-3)-1{\frac{2}{3}}\\cdot({\frac{6}{5}}m-6)$$ ni soddalashtiring.",
+        "question": "$$2{\\frac{1}{3}}\\cdot({\\frac{6}{7}}m-3)-1{\\frac{2}{3}}\\cdot({\\frac{6}{5}}m-6)$$ ni soddalashtiring.",
         "answers": {
             "A": "m −2",
             "B": "4",
@@ -5993,7 +5993,7 @@
     },
     {
         "question_number": "719072",
-        "question": "$\\dfrac{\\sqrt{32}+\\sqrt{98}\\:{\\color{red}-}\\:\\sqrt{50}}{\\sqrt{72}}:\\dfrac1{\\sqrt2}$ ni hisoblang.",
+        "question": "$$\\dfrac{\\sqrt{32}+\\sqrt{98}\\:{\\color{red}-}\\:\\sqrt{50}}{\\sqrt{72}}:\\dfrac1{\\sqrt2}$$ ni hisoblang.",
         "answers": {
             "A": "2",
             "B": "1",
@@ -6007,7 +6007,7 @@
     },
     {
         "question_number": "719073",
-        "question": "$${\frac{\\sqrt[3]{-24}+\\sqrt[3]{81}+\\sqrt[3]{192}+3\\sqrt[3]{-375}}{\\sqrt[3]{-375}}}-1$$ ni hisoblang.",
+        "question": "$${\\frac{\\sqrt[3]{-24}+\\sqrt[3]{81}+\\sqrt[3]{192}+3\\sqrt[3]{-375}}{\\sqrt[3]{-375}}}-1$$ ni hisoblang.",
         "answers": {
             "A": "−1",
             "B": "1",
@@ -6021,7 +6021,7 @@
     },
     {
         "question_number": "719074",
-        "question": "$${\frac{x^{3}-8}{x^{2}+2x+4}}-{\frac{x^{3}+8}{x^{2}-2x+4}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{x^{3}-8}{x^{2}+2x+4}}-{\\frac{x^{3}+8}{x^{2}-2x+4}}$$ ni soddalashtiring.",
         "answers": {
             "A": "−4",
             "B": "4x",
@@ -6035,7 +6035,7 @@
     },
     {
         "question_number": "719075",
-        "question": "$\\sqrt{a\\,-\\,2a^{1/2}b^{1/2}\\,+\\,b}\\,-\\,\\dfrac{a\\,-\\,b}{a^{1/2}\\,-\\,b^{1/2}}$ ni soddalashtiring (b > a > 0).",
+        "question": "$$\\sqrt{a\\,-\\,2a^{1/2}b^{1/2}\\,+\\,b}\\,-\\,\\dfrac{a\\,-\\,b}{a^{1/2}\\,-\\,b^{1/2}}$$ ni soddalashtiring (b > a > 0).",
         "answers": {
             "A": "$$2a^{1/2}-2b^{1/2}$$",
             "B": "$$-2a^{1/2}$$",
@@ -6049,7 +6049,7 @@
     },
     {
         "question_number": "719076",
-        "question": "$\\left(\\dfrac{\\sqrt{2+\\sqrt{3}}}{\\sqrt{2-\\sqrt{3}}}+\\dfrac{\\sqrt{2-\\sqrt{3}}}{\\sqrt{2+\\sqrt{3}}}\right)^2$-2 ni hisoblang.",
+        "question": "$$\\left(\\dfrac{\\sqrt{2+\\sqrt{3}}}{\\sqrt{2-\\sqrt{3}}}+\\dfrac{\\sqrt{2-\\sqrt{3}}}{\\sqrt{2+\\sqrt{3}}}\\right)^2$$-2 ni hisoblang.",
         "answers": {
             "A": "12",
             "B": "14",
@@ -6077,7 +6077,7 @@
     },
     {
         "question_number": "719078",
-        "question": "$\\left(\frac{a^{3}-b^{3}}{a-b}+ab\right):$ ($a+b$) + $a-b^{3}$ ifodani soddalashtiring.",
+        "question": "$$\\left(\\frac{a^{3}-b^{3}}{a-b}+ab\\right):$$ ($$a+b$$) + $$a-b^{3}$$ ifodani soddalashtiring.",
         "answers": {
             "A": "2b",
             "B": "2a",
@@ -6091,7 +6091,7 @@
     },
     {
         "question_number": "719079",
-        "question": "$$\\left(9x^{-3}-x^{-3}y^{2}\right)\\cdot\\left({\frac{1}{x}}\right)^{-3}$$ ning x = −6, 07 va y = 5 bo‘lgandagi qiymatini hisoblang.",
+        "question": "$$\\left(9x^{-3}-x^{-3}y^{2}\\right)\\cdot\\left({\\frac{1}{x}}\\right)^{-3}$$ ning x = −6, 07 va y = 5 bo‘lgandagi qiymatini hisoblang.",
         "answers": {
             "A": "14, 07",
             "B": "−16",
@@ -6105,7 +6105,7 @@
     },
     {
         "question_number": "719080",
-        "question": "$$\frac{27^{\frac{1}{2}}\\cdot{\\sqrt[3]{4^{2}}}}{\\sqrt{3}\\cdot2^{\frac{1}{3}}}$$ ni hisoblang.",
+        "question": "$$\\frac{27^{\\frac{1}{2}}\\cdot{\\sqrt[3]{4^{2}}}}{\\sqrt{3}\\cdot2^{\\frac{1}{3}}}$$ ni hisoblang.",
         "answers": {
             "A": "6",
             "B": "12",
@@ -6119,7 +6119,7 @@
     },
     {
         "question_number": "719081",
-        "question": "$${\frac{1}{4+2{\\sqrt{3}}}}-{\frac{1}{4-2{\\sqrt{3}}}}$$ ni hisoblang.",
+        "question": "$${\\frac{1}{4+2{\\sqrt{3}}}}-{\\frac{1}{4-2{\\sqrt{3}}}}$$ ni hisoblang.",
         "answers": {
             "A": "$${\\sqrt{3}}$$",
             "B": "− $${\\sqrt{3}}$$",
@@ -6147,12 +6147,12 @@
     },
     {
         "question_number": "719083",
-        "question": "$$\frac{x y-x+y-y^{2}}{x^{2}-y^{2}}$$ kasrni qisqartiring.",
+        "question": "$$\\frac{x y-x+y-y^{2}}{x^{2}-y^{2}}$$ kasrni qisqartiring.",
         "answers": {
-            "A": "$$-{\frac{1-y}{x+y}}$$",
-            "B": "$$\frac{1-y}{x-y}$$",
-            "C": "$$\frac{y}{x+y}$$",
-            "D": "$$-{\frac{x}{x-y}}$$"
+            "A": "$$-{\\frac{1-y}{x+y}}$$",
+            "B": "$$\\frac{1-y}{x-y}$$",
+            "C": "$$\\frac{y}{x+y}$$",
+            "D": "$$-{\\frac{x}{x-y}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6161,7 +6161,7 @@
     },
     {
         "question_number": "719084",
-        "question": "$\\sqrt{313^2-312^2}$ ni hisoblang.",
+        "question": "$$\\sqrt{313^2-312^2}$$ ni hisoblang.",
         "answers": {
             "A": "25",
             "B": "1",
@@ -6175,12 +6175,12 @@
     },
     {
         "question_number": "719085",
-        "question": "$${\frac{2^{0}\\cdot\\left(x^{0}+y^{0}+z^{0}\right)^{-2}}{6^{-1}\\cdot a^{-3}}}\\ (x y z\neq0)$$ ni soddalashtiring.",
+        "question": "$${\\frac{2^{0}\\cdot\\left(x^{0}+y^{0}+z^{0}\\right)^{-2}}{6^{-1}\\cdot a^{-3}}}\\ (x y z\\neq0)$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$-{\frac{3}{2}}a^{3}$$",
+            "A": "$$-{\\frac{3}{2}}a^{3}$$",
             "B": "$$6a^{3}$$",
-            "C": "$${\frac{4}{3}}a^{3}$$",
-            "D": "$$\frac{2}{3}a^{3}$$"
+            "C": "$${\\frac{4}{3}}a^{3}$$",
+            "D": "$$\\frac{2}{3}a^{3}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -6189,7 +6189,7 @@
     },
     {
         "question_number": "105894",
-        "question": "$ \frac{\\sqrt[3]{\\left(5+2\\sqrt{6}\right)^2}}{\\sqrt[3]{5-\\sqrt{24}}}\\;{\\color{red}-}\\;6\\;{\\color{red}-}\\;\\sqrt{24}$ . ni hisoblang.",
+        "question": "$$ \\frac{\\sqrt[3]{\\left(5+2\\sqrt{6}\\right)^2}}{\\sqrt[3]{5-\\sqrt{24}}}\\;{\\color{red}-}\\;6\\;{\\color{red}-}\\;\\sqrt{24}$$ . ni hisoblang.",
         "answers": {
             "A": "−1",
             "B": "−3",
@@ -6217,12 +6217,12 @@
     },
     {
         "question_number": "315118",
-        "question": "$$\frac{y^{2}-4y-5}{y^{2}-1}$$ ni qisqartiring.",
+        "question": "$$\\frac{y^{2}-4y-5}{y^{2}-1}$$ ni qisqartiring.",
         "answers": {
-            "A": "$\frac{y-5}{y-1}$",
-            "B": "$ \frac{5-y}{y-1}$",
-            "C": "$\\dfrac{y+5}{y-1}$.",
-            "D": "$$\frac{y-5}{y+1}$$"
+            "A": "$$\\frac{y-5}{y-1}$$",
+            "B": "$$ \\frac{5-y}{y-1}$$",
+            "C": "$$\\dfrac{y+5}{y-1}$$.",
+            "D": "$$\\frac{y-5}{y+1}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6231,7 +6231,7 @@
     },
     {
         "question_number": "315119",
-        "question": "$${\frac{19}{\\sqrt{20}-1}}-2{\\sqrt{5}}+4$$ ni soddalashtiring.",
+        "question": "$${\\frac{19}{\\sqrt{20}-1}}-2{\\sqrt{5}}+4$$ ni soddalashtiring.",
         "answers": {
             "A": "6",
             "B": "5",
@@ -6245,12 +6245,12 @@
     },
     {
         "question_number": "315120",
-        "question": "$$\frac{n^{2}-8n+7}{n^{2}-1}$$ ni qisqartiring.",
+        "question": "$$\\frac{n^{2}-8n+7}{n^{2}-1}$$ ni qisqartiring.",
         "answers": {
-            "A": "$${\frac{n+7}{n-1}}$$",
-            "B": "$$\frac{n-7}{n+1}$$",
-            "C": "$$\frac{n+7}{n+1}$$",
-            "D": "$$\frac{n-7}{n-1}$$"
+            "A": "$${\\frac{n+7}{n-1}}$$",
+            "B": "$$\\frac{n-7}{n+1}$$",
+            "C": "$$\\frac{n+7}{n+1}$$",
+            "D": "$$\\frac{n-7}{n-1}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -6259,11 +6259,11 @@
     },
     {
         "question_number": "315121",
-        "question": "$ \frac{19}{\\sqrt{20}+1}+4-2\\sqrt{5}$. ni soddalashtiring.",
+        "question": "$$ \\frac{19}{\\sqrt{20}+1}+4-2\\sqrt{5}$$. ni soddalashtiring.",
         "answers": {
             "A": "6",
             "B": "3",
-            "C": "$4\\sqrt{5}-7$.",
+            "C": "$$4\\sqrt{5}-7$$.",
             "D": "$$4{\\sqrt{5}}-6$$"
         },
         "correct_answer": {
@@ -6273,12 +6273,12 @@
     },
     {
         "question_number": "315122",
-        "question": "$\\dfrac{4+\\sqrt{8}}{4-\\sqrt{8}}-\\dfrac{4-\\sqrt{8}}{4+\\sqrt{8}}$. ning qiymatini toping.",
+        "question": "$$\\dfrac{4+\\sqrt{8}}{4-\\sqrt{8}}-\\dfrac{4-\\sqrt{8}}{4+\\sqrt{8}}$$. ning qiymatini toping.",
         "answers": {
             "A": "$$4{\\sqrt{2}}$$",
-            "B": "$$\frac{3{\\sqrt{8}}}{8}$$",
-            "C": "$$4{\frac{2}{5}}$$",
-            "D": "$$\frac{{\\sqrt{8}}+8}{4}$$"
+            "B": "$$\\frac{3{\\sqrt{8}}}{8}$$",
+            "C": "$$4{\\frac{2}{5}}$$",
+            "D": "$$\\frac{{\\sqrt{8}}+8}{4}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6287,11 +6287,11 @@
     },
     {
         "question_number": "315123",
-        "question": "$$({\frac{4a}{4-a^{2}}}-{\frac{a-2}{4+2a}})\\cdot{\frac{2}{a+2}}+{\frac{a+1}{2-a}}$$ ni soddalashtiring.",
+        "question": "$$({\\frac{4a}{4-a^{2}}}-{\\frac{a-2}{4+2a}})\\cdot{\\frac{2}{a+2}}+{\\frac{a+1}{2-a}}$$ ni soddalashtiring.",
         "answers": {
             "A": "−1",
-            "B": "$$\frac{2+a}{2-a}$$",
-            "C": "$$\frac{3+a}{2-a}$$",
+            "B": "$$\\frac{2+a}{2-a}$$",
+            "C": "$$\\frac{3+a}{2-a}$$",
             "D": "1"
         },
         "correct_answer": {
@@ -6301,12 +6301,12 @@
     },
     {
         "question_number": "315124",
-        "question": "$${\frac{1-x^{2}}{1+x^{2}}}\\cdot\\left({\frac{1}{(x-1)^{2}}}-{\frac{x}{1-x^{2}}}\right)$$ ni soddalashtiring.",
+        "question": "$${\\frac{1-x^{2}}{1+x^{2}}}\\cdot\\left({\\frac{1}{(x-1)^{2}}}-{\\frac{x}{1-x^{2}}}\\right)$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{1}{1-x}$$",
+            "A": "$$\\frac{1}{1-x}$$",
             "B": "−1",
-            "C": "$$\frac{x+1}{1-x}$$",
-            "D": "$$\frac{1}{x-1}$$"
+            "C": "$$\\frac{x+1}{1-x}$$",
+            "D": "$$\\frac{1}{x-1}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6315,7 +6315,7 @@
     },
     {
         "question_number": "315125",
-        "question": "$${\frac{x^{-3}+8}{x^{-2}-2x^{-1}+4}}$$ ning x = 0, 25 dagi qiymatini hisoblang.",
+        "question": "$${\\frac{x^{-3}+8}{x^{-2}-2x^{-1}+4}}$$ ning x = 0, 25 dagi qiymatini hisoblang.",
         "answers": {
             "A": "6",
             "B": "3",
@@ -6329,12 +6329,12 @@
     },
     {
         "question_number": "315126",
-        "question": "$a^{3}$ - $ab$ - $b^{3}$ - $a^{3}$ - $ab$ - $b^{2}$ - $a^{3}$ - $b^{3}$ ni soddalashtiring.",
+        "question": "$$a^{3}$$ - $$ab$$ - $$b^{3}$$ - $$a^{3}$$ - $$ab$$ - $$b^{2}$$ - $$a^{3}$$ - $$b^{3}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{2b}{b^{2}-a^{2}}$$",
-            "B": "$$\frac{2a}{a^{2}-b^{2}}$$",
-            "C": "$$\frac{2b}{a^{2}-b^{2}}$$",
-            "D": "$$\frac{2a}{b^{2}-a^{2}}$$"
+            "A": "$$\\frac{2b}{b^{2}-a^{2}}$$",
+            "B": "$$\\frac{2a}{a^{2}-b^{2}}$$",
+            "C": "$$\\frac{2b}{a^{2}-b^{2}}$$",
+            "D": "$$\\frac{2a}{b^{2}-a^{2}}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -6357,7 +6357,7 @@
     },
     {
         "question_number": "315128",
-        "question": "$ a^2+\frac{9}{a^2}=31$ bo'lsa, $ a-\frac{3}{a}$ . a nimaga teng?",
+        "question": "$$ a^2+\\frac{9}{a^2}=31$$ bo'lsa, $$ a-\\frac{3}{a}$$ . a nimaga teng?",
         "answers": {
             "A": "3",
             "B": "−3",
@@ -6371,7 +6371,7 @@
     },
     {
         "question_number": "315129",
-        "question": "(a + b - 2)(a + b) - (a - b)${}^{2}$ + 1 ni ko‘paytuvchilarga ajrating.",
+        "question": "(a + b - 2)(a + b) - (a - b)$${}^{2}$$ + 1 ni ko‘paytuvchilarga ajrating.",
         "answers": {
             "A": "(2a −1)(2b −1)",
             "B": "(2a + 1)(2b + 1)",
@@ -6385,12 +6385,12 @@
     },
     {
         "question_number": "315130",
-        "question": "$\\dfrac{5x+6}{x^{2}-4}-\\dfrac{x}{x^{2}-4}:\\dfrac{x}{x-2}+1$ . ifodani soddalashtiring.",
+        "question": "$$\\dfrac{5x+6}{x^{2}-4}-\\dfrac{x}{x^{2}-4}:\\dfrac{x}{x-2}+1$$ . ifodani soddalashtiring.",
         "answers": {
             "A": "1",
             "B": "−1",
-            "C": "$$\frac{x-2}{x+2}$$",
-            "D": "$$\frac{x+2}{x-2}$$"
+            "C": "$$\\frac{x-2}{x+2}$$",
+            "D": "$$\\frac{x+2}{x-2}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -6399,12 +6399,12 @@
     },
     {
         "question_number": "315131",
-        "question": "$$\\left(\frac{1}{a(a+1)}+\frac{1}{(a+1)(a+2)}\right),\frac{a^{2}+2a}{8},$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{1}{a(a+1)}+\\frac{1}{(a+1)(a+2)}\\right),\\frac{a^{2}+2a}{8},$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{1}{6}$$",
-            "B": "$$\frac{1}{8}$$",
-            "C": "$$\frac{3}{4}$$",
-            "D": "$$\frac{1}{4}$$"
+            "A": "$$\\frac{1}{6}$$",
+            "B": "$$\\frac{1}{8}$$",
+            "C": "$$\\frac{3}{4}$$",
+            "D": "$$\\frac{1}{4}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -6413,7 +6413,7 @@
     },
     {
         "question_number": "315132",
-        "question": "$$4{\\sqrt{7{\frac{1}{2}}-{\frac{2{\\sqrt{10}}}{2{\\sqrt{3}}-{\\sqrt{10}}}}}}+8+3{\\sqrt{10}}$$ ni soddalashtiring.",
+        "question": "$$4{\\sqrt{7{\\frac{1}{2}}-{\\frac{2{\\sqrt{10}}}{2{\\sqrt{3}}-{\\sqrt{10}}}}}}+8+3{\\sqrt{10}}$$ ni soddalashtiring.",
         "answers": {
             "A": "$$2-3{\\sqrt{10}}$$",
             "B": "10",
@@ -6427,12 +6427,12 @@
     },
     {
         "question_number": "315133",
-        "question": "$${\frac{x^{3}-2x^{2}}{3x+3}}:{\frac{x^{2}-4}{3x^{2}+9x+6}}.$$ ni soddalashtiring.",
+        "question": "$${\\frac{x^{3}-2x^{2}}{3x+3}}:{\\frac{x^{2}-4}{3x^{2}+9x+6}}.$$ ni soddalashtiring.",
         "answers": {
             "A": "$${x^{2}}$$",
-            "B": "$$\frac{x^{2}(x+1)}{x+2}$$",
-            "C": "$$\frac{x^{2}(x-1)}{x+2}$$",
-            "D": "$${\frac{x^{2}(x-2)}{x+2}}$$"
+            "B": "$$\\frac{x^{2}(x+1)}{x+2}$$",
+            "C": "$$\\frac{x^{2}(x-1)}{x+2}$$",
+            "D": "$${\\frac{x^{2}(x-2)}{x+2}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6441,12 +6441,12 @@
     },
     {
         "question_number": "315134",
-        "question": "$ (\frac{1}{m^2-m}-\frac{1}{m-1})*{\frac{m}{m+2}}+{\frac{m+1}{m+2}}$ ni soddalashtiring.",
+        "question": "$$ (\\frac{1}{m^2-m}-\\frac{1}{m-1})*{\\frac{m}{m+2}}+{\\frac{m+1}{m+2}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{2m-2}{m^{2}-4}$$",
-            "B": "$$\frac{m}{m-2}$$",
-            "C": "$$\frac{2}{m^{2}-4}$$",
-            "D": "$$\frac{m}{m+2}$$"
+            "A": "$$\\frac{2m-2}{m^{2}-4}$$",
+            "B": "$$\\frac{m}{m-2}$$",
+            "C": "$$\\frac{2}{m^{2}-4}$$",
+            "D": "$$\\frac{m}{m+2}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -6469,7 +6469,7 @@
     },
     {
         "question_number": "315136",
-        "question": "$\\dfrac{\\sqrt[3]{\\Big(5+2\\sqrt{6}\\Big)^2}}{\\sqrt[3]{5-\\sqrt{24}}}$ - 6 - $\\sqrt{24}$ = ni hisoblang.",
+        "question": "$$\\dfrac{\\sqrt[3]{\\Big(5+2\\sqrt{6}\\Big)^2}}{\\sqrt[3]{5-\\sqrt{24}}}$$ - 6 - $$\\sqrt{24}$$ = ni hisoblang.",
         "answers": {
             "A": "−1",
             "B": "−3",
@@ -6497,7 +6497,7 @@
     },
     {
         "question_number": "315138",
-        "question": "$\\dfrac{1}{2+\\sqrt{3}}+\\dfrac{2}{\\sqrt{3}-1}-1$ ni hisoblang.",
+        "question": "$$\\dfrac{1}{2+\\sqrt{3}}+\\dfrac{2}{\\sqrt{3}-1}-1$$ ni hisoblang.",
         "answers": {
             "A": "2",
             "B": "3",
@@ -6511,7 +6511,7 @@
     },
     {
         "question_number": "315139",
-        "question": "$\\sqrt{t^{5}+3}-\\sqrt{t^{5}-2}=2$ bolsa,$\\sqrt{t^5+3}+\\sqrt{t^5-2}$  ning qiymati nechaga teng bo‘ladi?",
+        "question": "$$\\sqrt{t^{5}+3}-\\sqrt{t^{5}-2}=2$$ bolsa,$$\\sqrt{t^5+3}+\\sqrt{t^5-2}$$  ning qiymati nechaga teng bo‘ladi?",
         "answers": {
             "A": "2",
             "B": "3, 5",
@@ -6525,12 +6525,12 @@
     },
     {
         "question_number": "315140",
-        "question": "Agar $${\frac{4b+a}{5a-7b}}={\frac{7}{8}}$$ bo‘lsa, $$\frac{3a^{2}-4a b+b^{2}}{5a^{2}+3b^{2}}$$ ning qiymati nimaga teng bo‘ladi?",
+        "question": "Agar $${\\frac{4b+a}{5a-7b}}={\\frac{7}{8}}$$ bo‘lsa, $$\\frac{3a^{2}-4a b+b^{2}}{5a^{2}+3b^{2}}$$ ning qiymati nimaga teng bo‘ladi?",
         "answers": {
-            "A": "$\frac{1}{3}$",
-            "B": "$\frac{22}{47$",
+            "A": "$$\\frac{1}{3}$$",
+            "B": "$$\\frac{22}{47$$",
             "C": "0, 5",
-            "D": "$\frac{9}{22}$"
+            "D": "$$\\frac{9}{22}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6539,7 +6539,7 @@
     },
     {
         "question_number": "315141",
-        "question": "$\\sqrt{13+z^{3}}-\\sqrt{z^{3}-14}=3,375$ bo'lsa, $\\sqrt{13+z^{3}}+\\sqrt{z^{3}-14}$ ning qiymati nechaga teng bo'ladi?",
+        "question": "$$\\sqrt{13+z^{3}}-\\sqrt{z^{3}-14}=3,375$$ bo'lsa, $$\\sqrt{13+z^{3}}+\\sqrt{z^{3}-14}$$ ning qiymati nechaga teng bo'ladi?",
         "answers": {
             "A": "5",
             "B": "6",
@@ -6553,12 +6553,12 @@
     },
     {
         "question_number": "315142",
-        "question": "$${\frac{x^{3}+1}{x^{4}+x^{2}+1}}$$ kasrni qisqartiring.",
+        "question": "$${\\frac{x^{3}+1}{x^{4}+x^{2}+1}}$$ kasrni qisqartiring.",
         "answers": {
-            "A": "$$\frac{x-1}{x^{2}-x+1}$$",
-            "B": "$$\frac{x}{x+2}$$",
-            "C": "$$\frac{x+1}{x^{2}+x+1}$$",
-            "D": "$$\frac{x-2}{x^{2}-x-1}$$"
+            "A": "$$\\frac{x-1}{x^{2}-x+1}$$",
+            "B": "$$\\frac{x}{x+2}$$",
+            "C": "$$\\frac{x+1}{x^{2}+x+1}$$",
+            "D": "$$\\frac{x-2}{x^{2}-x-1}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -6595,7 +6595,7 @@
     },
     {
         "question_number": "315145",
-        "question": "n ning nechta butun qiymatida $${\frac{n^{2}-5n-2}{n+1}}$$ kasr butun son bo‘ladi?",
+        "question": "n ning nechta butun qiymatida $${\\frac{n^{2}-5n-2}{n+1}}$$ kasr butun son bo‘ladi?",
         "answers": {
             "A": "6",
             "B": "2",
@@ -6611,9 +6611,9 @@
         "question_number": "315146",
         "question": "Agar ( √ 3 + 2)a = 1 va ( √ 3 −2)b = −1 bo‘lsa, $$(a+1)^{-1}-(b+1)^{-1}$$ ning qiymatini hisoblang.",
         "answers": {
-            "A": "$$\frac{1}{\\sqrt{3}}$$",
+            "A": "$$\\frac{1}{\\sqrt{3}}$$",
             "B": "0, 5",
-            "C": "$$\frac{2}{\\sqrt{3}}$$",
+            "C": "$$\\frac{2}{\\sqrt{3}}$$",
             "D": "$${\\sqrt{3}}$$"
         },
         "correct_answer": {
@@ -6623,7 +6623,7 @@
     },
     {
         "question_number": "315147",
-        "question": "Agar $a(x-1)^{2}+b(x-1)+c=2x^{2}-5x+8$ ayniyat bo‘lsa, a + b + c yig‘indi nechaga teng bo‘ladi?",
+        "question": "Agar $$a(x-1)^{2}+b(x-1)+c=2x^{2}-5x+8$$ ayniyat bo‘lsa, a + b + c yig‘indi nechaga teng bo‘ladi?",
         "answers": {
             "A": "7",
             "B": "8",
@@ -6637,7 +6637,7 @@
     },
     {
         "question_number": "315148",
-        "question": "Agar $x+\\dfrac{5x+1}{x^2-x-12}=\\dfrac{a}{x+3}+\\dfrac{b}{x-4}$ . ayniyat bo‘lsa, b −a ni toping.",
+        "question": "Agar $$x+\\dfrac{5x+1}{x^2-x-12}=\\dfrac{a}{x+3}+\\dfrac{b}{x-4}$$ . ayniyat bo‘lsa, b −a ni toping.",
         "answers": {
             "A": "6",
             "B": "−1",
@@ -6651,12 +6651,12 @@
     },
     {
         "question_number": "315149",
-        "question": "$$\\left(\frac{a^{\frac{1}{2}}+1}{a^{\frac{1}{2}}-1}+\frac{a^{\frac{1}{2}}-1}{a^{\frac{1}{2}}+1}=\frac{4}{a-1}\right)^{-3}-\frac{1}{4}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{a^{\\frac{1}{2}}+1}{a^{\\frac{1}{2}}-1}+\\frac{a^{\\frac{1}{2}}-1}{a^{\\frac{1}{2}}+1}=\\frac{4}{a-1}\\right)^{-3}-\\frac{1}{4}$$ ni soddalashtiring.",
         "answers": {
-            "A": "3 8$$\frac{3}{8}$$",
-            "B": "−$$\frac{5}{8}$$",
-            "C": "$$\frac{1}{8}$$",
-            "D": "−$$\frac{1}{8}$$"
+            "A": "3 8$$\\frac{3}{8}$$",
+            "B": "−$$\\frac{5}{8}$$",
+            "C": "$$\\frac{1}{8}$$",
+            "D": "−$$\\frac{1}{8}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -6667,8 +6667,8 @@
         "question_number": "315150",
         "question": "Agar $$x=({\\sqrt{8}}-5)/2$$ bo‘lsa, (x + 1)(x + 2)(x + 3)(x + 4) ning qiymatini hisoblang.",
         "answers": {
-            "A": "$$\frac{7}{16}$$",
-            "B": "−$$\frac{7}{16}$$",
+            "A": "$$\\frac{7}{16}$$",
+            "B": "−$$\\frac{7}{16}$$",
             "C": "1",
             "D": "−1"
         },
@@ -6679,7 +6679,7 @@
     },
     {
         "question_number": "315151",
-        "question": "$\\left\\{\begin{array}{r}x^3-y^3=152,\\ x-y=2.\\end{array}\right.$ x · y -?",
+        "question": "$$\\left\\{\\begin{array}{r}x^3-y^3=152,\\ x-y=2.\\end{array}\\right.$$ x · y -?",
         "answers": {
             "A": "12",
             "B": "4",
@@ -6693,7 +6693,7 @@
     },
     {
         "question_number": "315152",
-        "question": "Agar $a=39-\\sqrt{432}$ bo'las, $\\sqrt{a}$ + $\\sqrt{3}$ . ifodaning qiymatini aniqlang.",
+        "question": "Agar $$a=39-\\sqrt{432}$$ bo'las, $$\\sqrt{a}$$ + $$\\sqrt{3}$$ . ifodaning qiymatini aniqlang.",
         "answers": {
             "A": "4",
             "B": "6",
@@ -6707,7 +6707,7 @@
     },
     {
         "question_number": "315153",
-        "question": "$${\\Bigg(}{\frac{\\sqrt{y}-\\sqrt{x}}{y-\\sqrt{x y}+x}}+{\frac{x}{x{\\sqrt{x}}+y{\\sqrt{y}}}}{\\Bigg)} * \frac{x\\sqrt{x}\\,+\\,y\\sqrt{y}}{y}$$ ni soddalashtiring.",
+        "question": "$${\\Bigg(}{\\frac{\\sqrt{y}-\\sqrt{x}}{y-\\sqrt{x y}+x}}+{\\frac{x}{x{\\sqrt{x}}+y{\\sqrt{y}}}}{\\Bigg)} * \\frac{x\\sqrt{x}\\,+\\,y\\sqrt{y}}{y}$$ ni soddalashtiring.",
         "answers": {
             "A": "$${\\sqrt{x}}+{\\sqrt{y}}$$",
             "B": "$${\\sqrt{x}}-{\\sqrt{y}}$$",
@@ -6721,12 +6721,12 @@
     },
     {
         "question_number": "315154",
-        "question": "Agar $${\frac{{{4}{x}^{{{2}}}-{4}{x}{y}+{3}{y}^{{{2}}}}}{{{2}{y}^{{{2}}}+{2}{x}{y}-{5}{x}^{{{2}}}}}}={1}$$ bo‘lsa, $$\frac{2x-y}{2x+y}$$ ning qiymati nimaga teng?",
+        "question": "Agar $${\\frac{{{4}{x}^{{{2}}}-{4}{x}{y}+{3}{y}^{{{2}}}}}{{{2}{y}^{{{2}}}+{2}{x}{y}-{5}{x}^{{{2}}}}}}={1}$$ bo‘lsa, $$\\frac{2x-y}{2x+y}$$ ning qiymati nimaga teng?",
         "answers": {
-            "A": "−$$\frac{1}{5}$$",
+            "A": "−$$\\frac{1}{5}$$",
             "B": "−2",
-            "C": "$$\frac{1}{2}$$",
-            "D": "−$$\frac{1}{2}$$"
+            "C": "$$\\frac{1}{2}$$",
+            "D": "−$$\\frac{1}{2}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6735,12 +6735,12 @@
     },
     {
         "question_number": "315155",
-        "question": "Agar $ \frac{4x^2\\:-\\:4xy\\:+\\:3y^2}{2y^2\\:+\\:2xy\\:-\\:5x^2}=1$. bo‘lsa, $$\frac{4x-y}{4x+y}$$ ning qiymati nimaga teng?",
+        "question": "Agar $$ \\frac{4x^2\\:-\\:4xy\\:+\\:3y^2}{2y^2\\:+\\:2xy\\:-\\:5x^2}=1$$. bo‘lsa, $$\\frac{4x-y}{4x+y}$$ ning qiymati nimaga teng?",
         "answers": {
-            "A": "$$\frac{1}{7}$$",
+            "A": "$$\\frac{1}{7}$$",
             "B": "−2",
-            "C": "$$\frac{1}{2}$$",
-            "D": "−$$\frac{1}{2}$$"
+            "C": "$$\\frac{1}{2}$$",
+            "D": "−$$\\frac{1}{2}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6749,7 +6749,7 @@
     },
     {
         "question_number": "315156",
-        "question": "Ifodani soddalashtiring:   $$\\left({\frac{20}{\\sqrt{6}+1}}+{\frac{4}{\\sqrt{6}-2}}-{\frac{12}{3-\\sqrt{6}}}\right). \\left(2\\sqrt{6}+12\right)$$",
+        "question": "Ifodani soddalashtiring:   $$\\left({\\frac{20}{\\sqrt{6}+1}}+{\\frac{4}{\\sqrt{6}-2}}-{\\frac{12}{3-\\sqrt{6}}}\\right). \\left(2\\sqrt{6}+12\\right)$$",
         "answers": {
             "A": "−115",
             "B": "127",
@@ -6763,7 +6763,7 @@
     },
     {
         "question_number": "315157",
-        "question": "Agar $ a+a^{-1}=6$bo'lsa, $ a^3+a^{-3}$ . ni hisoblang.",
+        "question": "Agar $$ a+a^{-1}=6$$bo'lsa, $$ a^3+a^{-3}$$ . ni hisoblang.",
         "answers": {
             "A": "216",
             "B": "198",
@@ -6777,7 +6777,7 @@
     },
     {
         "question_number": "315158",
-        "question": "$\\sqrt{17\\,\\!-\\,12\\sqrt{2}}$ .(9 + 6$\\sqrt{2}$) . ning qiymatini hisoblang.",
+        "question": "$$\\sqrt{17\\,\\!-\\,12\\sqrt{2}}$$ .(9 + 6$$\\sqrt{2}$$) . ning qiymatini hisoblang.",
         "answers": {
             "A": "$$2{\\sqrt{2}}$$",
             "B": "3",
@@ -6791,12 +6791,12 @@
     },
     {
         "question_number": "704085",
-        "question": "$$\frac{y^{2}-4y-5}{y^{2}-1}$$ ni qisqartiring.",
+        "question": "$$\\frac{y^{2}-4y-5}{y^{2}-1}$$ ni qisqartiring.",
         "answers": {
-            "A": "$$\frac{y-5}{y-1}$$",
-            "B": "$ \frac{5-y}{y-1}$.",
-            "C": "$$\frac{y+5}{y-1}$$",
-            "D": "$$\frac{y-5}{y+1}$$"
+            "A": "$$\\frac{y-5}{y-1}$$",
+            "B": "$$ \\frac{5-y}{y-1}$$.",
+            "C": "$$\\frac{y+5}{y-1}$$",
+            "D": "$$\\frac{y-5}{y+1}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6805,7 +6805,7 @@
     },
     {
         "question_number": "704086",
-        "question": "$\\dfrac{19}{\\sqrt{20}\\,-\\,1}\\,-\\,2\\sqrt{5}\\,+\\,4$ ni soddalashtiring.",
+        "question": "$$\\dfrac{19}{\\sqrt{20}\\,-\\,1}\\,-\\,2\\sqrt{5}\\,+\\,4$$ ni soddalashtiring.",
         "answers": {
             "A": "6",
             "B": "5",
@@ -6819,12 +6819,12 @@
     },
     {
         "question_number": "704087",
-        "question": "$${\frac{n^{2}-8n+7}{n^{2}-1}}$$ ni qisqartiring.",
+        "question": "$${\\frac{n^{2}-8n+7}{n^{2}-1}}$$ ni qisqartiring.",
         "answers": {
-            "A": "$ \frac{n+7}{n-1}$.",
-            "B": "$$\frac{n-7}{n+1}$$",
-            "C": "$$\frac{n+7}{n+1}$$",
-            "D": "$$\frac{n-7}{n-1}$$"
+            "A": "$$ \\frac{n+7}{n-1}$$.",
+            "B": "$$\\frac{n-7}{n+1}$$",
+            "C": "$$\\frac{n+7}{n+1}$$",
+            "D": "$$\\frac{n-7}{n-1}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -6833,7 +6833,7 @@
     },
     {
         "question_number": "704088",
-        "question": "$\\dfrac{19}{\\sqrt{20}+1}+4-2\\sqrt{5}$. ni soddalashtiring.",
+        "question": "$$\\dfrac{19}{\\sqrt{20}+1}+4-2\\sqrt{5}$$. ni soddalashtiring.",
         "answers": {
             "A": "6",
             "B": "3",
@@ -6847,12 +6847,12 @@
     },
     {
         "question_number": "704089",
-        "question": "$${\frac{4+{\\sqrt{8}}}{4-{\\sqrt{8}}}}-{\frac{4-{\\sqrt{8}}}{4+{\\sqrt{8}}}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{4+{\\sqrt{8}}}{4-{\\sqrt{8}}}}-{\\frac{4-{\\sqrt{8}}}{4+{\\sqrt{8}}}}$$ ning qiymatini toping.",
         "answers": {
             "A": "$$4{\\sqrt{2}}$$",
-            "B": "$$\frac{3\\sqrt{8}}{8}$$",
-            "C": "$$4{\frac{2}{5}}$$",
-            "D": "$$\frac{{\\sqrt{8}}+8}{4}$$"
+            "B": "$$\\frac{3\\sqrt{8}}{8}$$",
+            "C": "$$4{\\frac{2}{5}}$$",
+            "D": "$$\\frac{{\\sqrt{8}}+8}{4}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6861,11 +6861,11 @@
     },
     {
         "question_number": "704090",
-        "question": "$$\\left(\frac{4a}{4\\,-\\,a^{2}}\\,-\\,\frac{a\\,-\\,2}{4\\,+\\,2a}\right)\\cdot\frac{2}{a\\,+\\,2}\\,+\\,\frac{a\\,+\\,1}{2\\,-\\,a}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{4a}{4\\,-\\,a^{2}}\\,-\\,\\frac{a\\,-\\,2}{4\\,+\\,2a}\\right)\\cdot\\frac{2}{a\\,+\\,2}\\,+\\,\\frac{a\\,+\\,1}{2\\,-\\,a}$$ ni soddalashtiring.",
         "answers": {
             "A": "−1",
-            "B": "$$\frac{2+a}{2-a}$$",
-            "C": "$$\frac{3+a}{2-a}$$",
+            "B": "$$\\frac{2+a}{2-a}$$",
+            "C": "$$\\frac{3+a}{2-a}$$",
             "D": "1"
         },
         "correct_answer": {
@@ -6875,12 +6875,12 @@
     },
     {
         "question_number": "704091",
-        "question": "$\\dfrac{1\\,-\\,x^2}{1\\,+\\,x^2}\\cdot(\\dfrac{1}{(x\\,-\\,1)^2}\\,-\\,\\dfrac{x}{1\\,-\\,x^2})^2$ ni soddalashtiring.",
+        "question": "$$\\dfrac{1\\,-\\,x^2}{1\\,+\\,x^2}\\cdot(\\dfrac{1}{(x\\,-\\,1)^2}\\,-\\,\\dfrac{x}{1\\,-\\,x^2})^2$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{1}{1-x}$$",
+            "A": "$$\\frac{1}{1-x}$$",
             "B": "−1",
-            "C": "$$\frac{x+1}{1-x}$$",
-            "D": "$$\frac{1}{x-1}$$"
+            "C": "$$\\frac{x+1}{1-x}$$",
+            "D": "$$\\frac{1}{x-1}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -6889,7 +6889,7 @@
     },
     {
         "question_number": "704092",
-        "question": "$$\frac{x^{-3}+8}{x^{-2}-2x^{-1}+4},$$ ning x = 0, 25 dagi qiymatini hisoblang.",
+        "question": "$$\\frac{x^{-3}+8}{x^{-2}-2x^{-1}+4},$$ ning x = 0, 25 dagi qiymatini hisoblang.",
         "answers": {
             "A": "6",
             "B": "3",
@@ -6903,12 +6903,12 @@
     },
     {
         "question_number": "704093",
-        "question": "$${\frac{a^{2}+a b+b^{2}}{a^{3}-b^{3}}}+{\frac{a^{2}-a b+b^{2}}{a^{3}+b^{3}}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{a^{2}+a b+b^{2}}{a^{3}-b^{3}}}+{\\frac{a^{2}-a b+b^{2}}{a^{3}+b^{3}}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{2b}{b^{2}-a^{2}}$$",
-            "B": "$$\frac{2a}{a^{2}-b^{2}}$$",
-            "C": "$$\frac{2b}{a^{2}-b^{2}}$$",
-            "D": "$$\frac{2a}{b^{2}-a^{2}}$$"
+            "A": "$$\\frac{2b}{b^{2}-a^{2}}$$",
+            "B": "$$\\frac{2a}{a^{2}-b^{2}}$$",
+            "C": "$$\\frac{2b}{a^{2}-b^{2}}$$",
+            "D": "$$\\frac{2a}{b^{2}-a^{2}}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -6931,7 +6931,7 @@
     },
     {
         "question_number": "704095",
-        "question": "$$a^{2}+{\frac{9}{a^{2}}}=31$$ bolsa , $$a-{\frac{3}{a}}$$ a nimaga teng?",
+        "question": "$$a^{2}+{\\frac{9}{a^{2}}}=31$$ bolsa , $$a-{\\frac{3}{a}}$$ a nimaga teng?",
         "answers": {
             "A": "3",
             "B": "−3",
@@ -6945,7 +6945,7 @@
     },
     {
         "question_number": "704096",
-        "question": "(a + b - 2)(a + b) - (a - b)${}^{2}$ + 1 ni ko‘paytuvchilarga ajrating.",
+        "question": "(a + b - 2)(a + b) - (a - b)$${}^{2}$$ + 1 ni ko‘paytuvchilarga ajrating.",
         "answers": {
             "A": "(2a −1)(2b −1)",
             "B": "(2a + 1)(2b + 1)",
@@ -6959,12 +6959,12 @@
     },
     {
         "question_number": "704097",
-        "question": "$${\frac{5x+6}{x^{2}-4}}-{\frac{x}{x^{2}-4}}:{\frac{x}{x-2}}+1$$ ifodani soddalashtiring.",
+        "question": "$${\\frac{5x+6}{x^{2}-4}}-{\\frac{x}{x^{2}-4}}:{\\frac{x}{x-2}}+1$$ ifodani soddalashtiring.",
         "answers": {
             "A": "1",
             "B": "−1",
-            "C": "$$\frac{x-2}{x+2}$$",
-            "D": "$$\frac{x+2}{x-2}$$2"
+            "C": "$$\\frac{x-2}{x+2}$$",
+            "D": "$$\\frac{x+2}{x-2}$$2"
         },
         "correct_answer": {
             "answer": "D",
@@ -6973,12 +6973,12 @@
     },
     {
         "question_number": "704098",
-        "question": "$$\\left(\frac{1}{a(a+1)}+\frac{1}{(a+1)(a+2)}\right)\\cdot\frac{a^{2}+2a}{8}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{1}{a(a+1)}+\\frac{1}{(a+1)(a+2)}\\right)\\cdot\\frac{a^{2}+2a}{8}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{1}{6}$$",
-            "B": "$$\frac{1}{8}$$",
-            "C": "$$\frac{3}{4}$$",
-            "D": "$$\frac{1}{4}$$"
+            "A": "$$\\frac{1}{6}$$",
+            "B": "$$\\frac{1}{8}$$",
+            "C": "$$\\frac{3}{4}$$",
+            "D": "$$\\frac{1}{4}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -6987,11 +6987,11 @@
     },
     {
         "question_number": "704099",
-        "question": "$$4{\\sqrt{7{\frac{1}{2}}-{\frac{2{\\sqrt{10}}}{2{\\sqrt{3}}-{\\sqrt{10}}}}}}+8+3{\\sqrt{10}}$$ ni soddalashtiring.",
+        "question": "$$4{\\sqrt{7{\\frac{1}{2}}-{\\frac{2{\\sqrt{10}}}{2{\\sqrt{3}}-{\\sqrt{10}}}}}}+8+3{\\sqrt{10}}$$ ni soddalashtiring.",
         "answers": {
             "A": "$$2-3{\\sqrt{10}}$$",
             "B": "10",
-            "C": "$3\\sqrt{10}-2$",
+            "C": "$$3\\sqrt{10}-2$$",
             "D": "−10"
         },
         "correct_answer": {
@@ -7001,7 +7001,7 @@
     },
     {
         "question_number": "719086",
-        "question": "$$\frac{3+\\sqrt{7}}{3-\\sqrt{7}}+\frac{3-\\sqrt{7}}{3+\\sqrt{7}}.$$ ning qiymatini toping.",
+        "question": "$$\\frac{3+\\sqrt{7}}{3-\\sqrt{7}}+\\frac{3-\\sqrt{7}}{3+\\sqrt{7}}.$$ ning qiymatini toping.",
         "answers": {
             "A": "$$4+{\\sqrt{7}}$$",
             "B": "16",
@@ -7015,12 +7015,12 @@
     },
     {
         "question_number": "719087",
-        "question": "$${\frac{4-{\\sqrt{2}}}{4+{\\sqrt{2}}}}+{\frac{4+{\\sqrt{2}}}{4-{\\sqrt{2}}}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{4-{\\sqrt{2}}}{4+{\\sqrt{2}}}}+{\\frac{4+{\\sqrt{2}}}{4-{\\sqrt{2}}}}$$ ning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{8{\\sqrt{2}}}{7}$$",
+            "A": "$$\\frac{8{\\sqrt{2}}}{7}$$",
             "B": "$$8{\\sqrt{2}}$$",
             "C": "6",
-            "D": "$$2{\frac{4}{7}}$$"
+            "D": "$$2{\\frac{4}{7}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -7029,12 +7029,12 @@
     },
     {
         "question_number": "719088",
-        "question": "$$\\left(\frac{x^{\frac{1}{2}}-y^{\frac{1}{2}}}{x-y}-\frac{1}{x^{\frac{1}{2}}-y^{\frac{1}{2}}}\right)\\cdot\frac{x+2x^{\frac{1}{2}}\\cdot y^{\frac{1}{2}}+y}{2y^{\frac{1}{2}}}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{x^{\\frac{1}{2}}-y^{\\frac{1}{2}}}{x-y}-\\frac{1}{x^{\\frac{1}{2}}-y^{\\frac{1}{2}}}\\right)\\cdot\\frac{x+2x^{\\frac{1}{2}}\\cdot y^{\\frac{1}{2}}+y}{2y^{\\frac{1}{2}}}$$ ni soddalashtiring.",
         "answers": {
             "A": "$${\\sqrt{x}}+{\\sqrt{y}}$$",
-            "B": "$$\frac{1}{{\\sqrt{x}}-{\\sqrt{y}}}$$",
-            "C": "$$\frac{\\sqrt{y}-\\sqrt{x}}{2(\\sqrt{x}+\\sqrt{y})}$$",
-            "D": "$$\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{y}-\\sqrt{x}}.$$"
+            "B": "$$\\frac{1}{{\\sqrt{x}}-{\\sqrt{y}}}$$",
+            "C": "$$\\frac{\\sqrt{y}-\\sqrt{x}}{2(\\sqrt{x}+\\sqrt{y})}$$",
+            "D": "$$\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{y}-\\sqrt{x}}.$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -7043,12 +7043,12 @@
     },
     {
         "question_number": "719089",
-        "question": "$$\frac{x^{2}-25}{x^{2}-6x+5}$$ ni qisqartiring.",
+        "question": "$$\\frac{x^{2}-25}{x^{2}-6x+5}$$ ni qisqartiring.",
         "answers": {
-            "A": "$$\frac{x+5}{x-1}$$",
-            "B": "$$\frac{x-5}{x-1}$$",
-            "C": "$$\frac{x+5}{x+1}$$",
-            "D": "$$\frac{x-5}{x+1}$$"
+            "A": "$$\\frac{x+5}{x-1}$$",
+            "B": "$$\\frac{x-5}{x-1}$$",
+            "C": "$$\\frac{x+5}{x+1}$$",
+            "D": "$$\\frac{x-5}{x+1}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7057,7 +7057,7 @@
     },
     {
         "question_number": "719090",
-        "question": "$$2{\\sqrt{3}}+3-{\frac{11}{{\\sqrt{12}}-1}}$$ ni soddalashtiring.",
+        "question": "$$2{\\sqrt{3}}+3-{\\frac{11}{{\\sqrt{12}}-1}}$$ ni soddalashtiring.",
         "answers": {
             "A": "$$2{\\sqrt{3}}-4$$",
             "B": "4",
@@ -7071,7 +7071,7 @@
     },
     {
         "question_number": "719091",
-        "question": "$$ 13${}^{2} - (a + 7)${}^{2}$ - (5 - x)*(19 + a)$$ ni soddalashtiring.",
+        "question": "$$ 13$${}^{2} - (a + 7)$${}^{2}$$ - (5 - x)*(19 + a)$$ ni soddalashtiring.",
         "answers": {
             "A": "0",
             "B": "50",
@@ -7085,12 +7085,12 @@
     },
     {
         "question_number": "719092",
-        "question": "$$\\left(\frac{1}{\\sqrt{a}+\\sqrt{b}}-\frac{\\sqrt{a}+\\sqrt{b}}{a-b}\right)\\cdot\frac{\\sqrt{a}-\\sqrt{b}}{2\\sqrt{b}}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{1}{\\sqrt{a}+\\sqrt{b}}-\\frac{\\sqrt{a}+\\sqrt{b}}{a-b}\\right)\\cdot\\frac{\\sqrt{a}-\\sqrt{b}}{2\\sqrt{b}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{\\sqrt{b}-\\sqrt{a}}{\\sqrt{a}+\\sqrt{b}}$$",
-            "B": "$$\frac{{\\sqrt{a}}-{\\sqrt{b}}}{{\\sqrt{a}}+{\\sqrt{b}}}$$",
-            "C": "$$\frac{\\sqrt{b}+\\sqrt{a}}{\\sqrt{a}-\\sqrt{b}}$$",
-            "D": "$$-{\frac{1}{\\sqrt{a}+\\sqrt{b}}}$$"
+            "A": "$$\\frac{\\sqrt{b}-\\sqrt{a}}{\\sqrt{a}+\\sqrt{b}}$$",
+            "B": "$$\\frac{{\\sqrt{a}}-{\\sqrt{b}}}{{\\sqrt{a}}+{\\sqrt{b}}}$$",
+            "C": "$$\\frac{\\sqrt{b}+\\sqrt{a}}{\\sqrt{a}-\\sqrt{b}}$$",
+            "D": "$$-{\\frac{1}{\\sqrt{a}+\\sqrt{b}}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -7099,12 +7099,12 @@
     },
     {
         "question_number": "719093",
-        "question": "$${\frac{1}{2+{\\sqrt{3}}}}-{\frac{2}{{\\sqrt{5}}-{\\sqrt{3}}}}+{\frac{1}{2+{\\sqrt{5}}}}$$ ning qiymatini toping.",
+        "question": "$${\\frac{1}{2+{\\sqrt{3}}}}-{\\frac{2}{{\\sqrt{5}}-{\\sqrt{3}}}}+{\\frac{1}{2+{\\sqrt{5}}}}$$ ning qiymatini toping.",
         "answers": {
             "A": "4",
             "B": "0",
             "C": "$${\\sqrt{5}}-{\\sqrt{3}}$$",
-            "D": "$-2\\sqrt{3}$ ."
+            "D": "$$-2\\sqrt{3}$$ ."
         },
         "correct_answer": {
             "answer": "D",
@@ -7113,12 +7113,12 @@
     },
     {
         "question_number": "719094",
-        "question": "$$\frac{4}{9}\\cdot\\left(4\frac{1}{2}y-3\frac{3}{4}\right)-\frac{2}{7}\\cdot\\left(1\frac{1}{6}-3\frac{1}{2}y\right)$$ ni soddalashtiring.",
+        "question": "$$\\frac{4}{9}\\cdot\\left(4\\frac{1}{2}y-3\\frac{3}{4}\\right)-\\frac{2}{7}\\cdot\\left(1\\frac{1}{6}-3\\frac{1}{2}y\\right)$$ ni soddalashtiring.",
         "answers": {
             "A": "3y −2",
             "B": "2y + 1",
             "C": "3y −1",
-            "D": "$${\frac{2}{3}}y-{\frac{1}{3}}$$"
+            "D": "$${\\frac{2}{3}}y-{\\frac{1}{3}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7127,7 +7127,7 @@
     },
     {
         "question_number": "719095",
-        "question": "Agar $a-b=1$ va $(a^{2}-b^{2})(a-b)=9$ bo'lsa, $a^{2}+b^{2}$ ning qiymatini toping.",
+        "question": "Agar $$a-b=1$$ va $$(a^{2}-b^{2})(a-b)=9$$ bo'lsa, $$a^{2}+b^{2}$$ ning qiymatini toping.",
         "answers": {
             "A": "39",
             "B": "41",
@@ -7141,7 +7141,7 @@
     },
     {
         "question_number": "719096",
-        "question": "$(a+1)^{-1}+(b+1)^{-1}$ ning $a=(2+\\sqrt{3})^{-1}$ va $b=(2-\\sqrt{3})^{-1}$ bo‘lgandagi qiymatini hisoblang.",
+        "question": "$$(a+1)^{-1}+(b+1)^{-1}$$ ning $$a=(2+\\sqrt{3})^{-1}$$ va $$b=(2-\\sqrt{3})^{-1}$$ bo‘lgandagi qiymatini hisoblang.",
         "answers": {
             "A": "6",
             "B": "1",
@@ -7155,12 +7155,12 @@
     },
     {
         "question_number": "719097",
-        "question": "Javoblardan qaysi biri $$\\sqrt{\frac{3}{80}}$$ ifodaga teng emas?",
+        "question": "Javoblardan qaysi biri $$\\sqrt{\\frac{3}{80}}$$ ifodaga teng emas?",
         "answers": {
-            "A": "$$\frac{{\\sqrt{3}}}{{\\sqrt{16}}\\cdot{\\sqrt{5}}}$$",
-            "B": "$$\frac{\\sqrt{15}}{20}$$",
-            "C": "$$\frac{\\sqrt{3}}{4\\sqrt{5}}$$",
-            "D": "$$\frac{\\sqrt{3}}{5\\sqrt{4}}$$"
+            "A": "$$\\frac{{\\sqrt{3}}}{{\\sqrt{16}}\\cdot{\\sqrt{5}}}$$",
+            "B": "$$\\frac{\\sqrt{15}}{20}$$",
+            "C": "$$\\frac{\\sqrt{3}}{4\\sqrt{5}}$$",
+            "D": "$$\\frac{\\sqrt{3}}{5\\sqrt{4}}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -7169,12 +7169,12 @@
     },
     {
         "question_number": "719098",
-        "question": "$$\frac{2^{\frac{1}{4}}\\cdot\\sqrt[3]{5}}{\\sqrt[3]{100}}$$ ni hisoblang.",
+        "question": "$$\\frac{2^{\\frac{1}{4}}\\cdot\\sqrt[3]{5}}{\\sqrt[3]{100}}$$ ni hisoblang.",
         "answers": {
-            "A": "$2^{\frac{11}{12}}\\cdot5^{-\frac{1}{3}}$",
-            "B": "$2^{\frac{1}{12}}\\cdot5$",
-            "C": "$2^{-\frac{5}{12}}\\cdot5^{-\frac{1}{3}}$.",
-            "D": "$2^{\frac{5}{12}}\\cdot5^{\frac{1}{3}}$"
+            "A": "$$2^{\\frac{11}{12}}\\cdot5^{-\\frac{1}{3}}$$",
+            "B": "$$2^{\\frac{1}{12}}\\cdot5$$",
+            "C": "$$2^{-\\frac{5}{12}}\\cdot5^{-\\frac{1}{3}}$$.",
+            "D": "$$2^{\\frac{5}{12}}\\cdot5^{\\frac{1}{3}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -7183,12 +7183,12 @@
     },
     {
         "question_number": "719099",
-        "question": "$$x=-\frac{23}{48}$$ bo‘lganda $$\\sqrt{3x+2}$$ ifodaning qiymatini toping.",
+        "question": "$$x=-\\frac{23}{48}$$ bo‘lganda $$\\sqrt{3x+2}$$ ifodaning qiymatini toping.",
         "answers": {
-            "A": "$$\frac{3}{4}$$",
-            "B": "$$\frac{1}{4}$$",
-            "C": "$$\frac{1}{2}$$",
-            "D": "$$x=-{\frac{23}{48}}$$ manoga ega emas"
+            "A": "$$\\frac{3}{4}$$",
+            "B": "$$\\frac{1}{4}$$",
+            "C": "$$\\frac{1}{2}$$",
+            "D": "$$x=-{\\frac{23}{48}}$$ manoga ega emas"
         },
         "correct_answer": {
             "answer": "A",
@@ -7197,12 +7197,12 @@
     },
     {
         "question_number": "719100",
-        "question": "$${\frac{x^{0,5}}{x^{0,5}-5}}-{\frac{5}{x^{0,5}+5}}+{\frac{x}{25-x}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{x^{0,5}}{x^{0,5}-5}}-{\\frac{5}{x^{0,5}+5}}+{\\frac{x}{25-x}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{x}{x-25}$$",
-            "B": "$$\frac{x}{25-x}$$",
-            "C": "$$\frac{25}{x-25}$$",
-            "D": "$$\frac{25}{25-x}$$"
+            "A": "$$\\frac{x}{x-25}$$",
+            "B": "$$\\frac{x}{25-x}$$",
+            "C": "$$\\frac{25}{x-25}$$",
+            "D": "$$\\frac{25}{25-x}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -7211,12 +7211,12 @@
     },
     {
         "question_number": "719101",
-        "question": "$$\frac{a^{\frac{3}{2}}-b^{\frac{3}{2}}}{a^{\frac{3}{2}}b^{\frac{1}{2}}+a b+a^{\frac{1}{2}}b^{\frac{3}{2}}}$$ ni soddalashtiring.",
+        "question": "$$\\frac{a^{\\frac{3}{2}}-b^{\\frac{3}{2}}}{a^{\\frac{3}{2}}b^{\\frac{1}{2}}+a b+a^{\\frac{1}{2}}b^{\\frac{3}{2}}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{{\\sqrt{a}}-{\\sqrt{b}}}{{\\sqrt{a b}}}$$",
-            "B": "$$\frac{{\\sqrt{a}}+{\\sqrt{b}}}{{\\sqrt{a b}}}$$",
-            "C": "$$-{\frac{{\\sqrt{a}}-{\\sqrt{b}}}{\\sqrt{a b}}}$$",
-            "D": "$$-{\frac{{\\sqrt{{{a}}}+{\\sqrt{{{b}}}}}}{{\\sqrt{{{a}{b}}}}}}$$"
+            "A": "$$\\frac{{\\sqrt{a}}-{\\sqrt{b}}}{{\\sqrt{a b}}}$$",
+            "B": "$$\\frac{{\\sqrt{a}}+{\\sqrt{b}}}{{\\sqrt{a b}}}$$",
+            "C": "$$-{\\frac{{\\sqrt{a}}-{\\sqrt{b}}}{\\sqrt{a b}}}$$",
+            "D": "$$-{\\frac{{\\sqrt{{{a}}}+{\\sqrt{{{b}}}}}}{{\\sqrt{{{a}{b}}}}}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7225,12 +7225,12 @@
     },
     {
         "question_number": "719102",
-        "question": "$${\frac{25-x}{25-5x}}+{\frac{3x+5}{x^{2}-5x}}$$ ifodani soddalashtiring.",
+        "question": "$${\\frac{25-x}{25-5x}}+{\\frac{3x+5}{x^{2}-5x}}$$ ifodani soddalashtiring.",
         "answers": {
             "A": "5",
             "B": "1",
-            "C": "$$\frac{x+5}{x}$$",
-            "D": "$$\frac{x-5}{5x}$$"
+            "C": "$$\\frac{x+5}{x}$$",
+            "D": "$$\\frac{x-5}{5x}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -7239,10 +7239,10 @@
     },
     {
         "question_number": "719103",
-        "question": "$\\sqrt{\\dfrac{a^0\\cdot a^{-3,5}\\cdot b^2}{a^{0,5}\\cdot b^{-1}}}$ ifodani a = 10 va b = 4 dagi qiymatini hisoblang.",
+        "question": "$$\\sqrt{\\dfrac{a^0\\cdot a^{-3,5}\\cdot b^2}{a^{0,5}\\cdot b^{-1}}}$$ ifodani a = 10 va b = 4 dagi qiymatini hisoblang.",
         "answers": {
-            "A": "$$\frac{2}{25}$$",
-            "B": "$$\frac{1}{50}$$",
+            "A": "$$\\frac{2}{25}$$",
+            "B": "$$\\frac{1}{50}$$",
             "C": "$$20{\\sqrt{10}}$$",
             "D": "$$40{\\sqrt{20}}$$"
         },
@@ -7253,9 +7253,9 @@
     },
     {
         "question_number": "719104",
-        "question": "$$\\left(\frac{a^{2}-b^{2}}{a^{\frac{3}{2}}+ab^{\frac{1}{2}}}-\frac{a-b}{a^{\frac{1}{2}}+b^{\frac{1}{2}}}\right):\\left(\frac{a}{b}\right)^{-1}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{a^{2}-b^{2}}{a^{\\frac{3}{2}}+ab^{\\frac{1}{2}}}-\\frac{a-b}{a^{\\frac{1}{2}}+b^{\\frac{1}{2}}}\\right):\\left(\\frac{a}{b}\\right)^{-1}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$\\sqrt{a}$ - $\\sqrt{b}$ .",
+            "A": "$$\\sqrt{a}$$ - $$\\sqrt{b}$$ .",
             "B": "$${\\sqrt{a}}+{\\sqrt{b}}$$",
             "C": "$$\\sqrt{a b}$$",
             "D": "$$\\sqrt{a-b}$$"
@@ -7267,10 +7267,10 @@
     },
     {
         "question_number": "719105",
-        "question": "$5\\sqrt{27}\\:-\\:\\sqrt[5]{32}\\:-\\:\\sqrt[3]{108}\\:-\\:3\\sqrt{75}$ ning qiymatini hisoblang.",
+        "question": "$$5\\sqrt{27}\\:-\\:\\sqrt[5]{32}\\:-\\:\\sqrt[3]{108}\\:-\\:3\\sqrt{75}$$ ning qiymatini hisoblang.",
         "answers": {
-            "A": "$\\sqrt{3}\\,-\\,2\\,-\\,3\\sqrt[3]{4}$",
-            "B": "$-2-3\\sqrt[3]{4}$ .",
+            "A": "$$\\sqrt{3}\\,-\\,2\\,-\\,3\\sqrt[3]{4}$$",
+            "B": "$$-2-3\\sqrt[3]{4}$$ .",
             "C": "$$2-3{\\sqrt[3]{4}}$$",
             "D": "$$-{\\sqrt{3}}-3{\\sqrt[3]{4}}$$"
         },
@@ -7281,12 +7281,12 @@
     },
     {
         "question_number": "719106",
-        "question": "$$\frac{a^{2}-16a b+64b^{2}}{a^{2}-14a b+48b^{2}}$$ kasrni qisqartiring.",
+        "question": "$$\\frac{a^{2}-16a b+64b^{2}}{a^{2}-14a b+48b^{2}}$$ kasrni qisqartiring.",
         "answers": {
-            "A": "$$\frac{a-8b}{a-6b}$$",
-            "B": "$$\frac{a+8b}{a-6b}$$",
-            "C": "$$\frac{a-8b}{a+6b}$$",
-            "D": "$$\frac{a-6b}{a+8b}$$"
+            "A": "$$\\frac{a-8b}{a-6b}$$",
+            "B": "$$\\frac{a+8b}{a-6b}$$",
+            "C": "$$\\frac{a-8b}{a+6b}$$",
+            "D": "$$\\frac{a-6b}{a+8b}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7295,12 +7295,12 @@
     },
     {
         "question_number": "719107",
-        "question": "$$\\left(\frac{x+3}{x-3}-\frac{x}{x+3}\right):\frac{x+1}{x+3}$$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{x+3}{x-3}-\\frac{x}{x+3}\\right):\\frac{x+1}{x+3}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{9}{x+3}$$",
-            "B": "$$\frac{9}{3-x}$$",
-            "C": "$$\frac{9}{x-3}$$",
-            "D": "$$-{\frac{9}{x+3}}$$"
+            "A": "$$\\frac{9}{x+3}$$",
+            "B": "$$\\frac{9}{3-x}$$",
+            "C": "$$\\frac{9}{x-3}$$",
+            "D": "$$-{\\frac{9}{x+3}}$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -7311,10 +7311,10 @@
         "question_number": "719108",
         "question": "$$1-{\\cfrac{1}{1+{\\cfrac{1}{1-{\\cfrac{1}{a}}}}}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{3a}{2a-1}$$",
-            "B": "$$\frac{a}{2a-1}$$",
-            "C": "$$\frac{3a-2}{2a-1}$$",
-            "D": "$$\frac{1}{2a-1}$$"
+            "A": "$$\\frac{3a}{2a-1}$$",
+            "B": "$$\\frac{a}{2a-1}$$",
+            "C": "$$\\frac{3a-2}{2a-1}$$",
+            "D": "$$\\frac{1}{2a-1}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -7323,7 +7323,7 @@
     },
     {
         "question_number": "719109",
-        "question": "Agar $ 4^x+4^{-x}=23$ bo'lsa, $ 2^x+2^{-x}$ ni aniqlang.",
+        "question": "Agar $$ 4^x+4^{-x}=23$$ bo'lsa, $$ 2^x+2^{-x}$$ ni aniqlang.",
         "answers": {
             "A": "5",
             "B": "$$\\sqrt{21}$$",
@@ -7337,7 +7337,7 @@
     },
     {
         "question_number": "719110",
-        "question": "$$\frac{71^{2}+94\\cdot42-23^{2}}{62^{2}-32^{2}}$$ ni hisoblang.",
+        "question": "$$\\frac{71^{2}+94\\cdot42-23^{2}}{62^{2}-32^{2}}$$ ni hisoblang.",
         "answers": {
             "A": "3",
             "B": "1",
@@ -7351,7 +7351,7 @@
     },
     {
         "question_number": "719111",
-        "question": "$$\\left({\frac{1}{1-a}}-a\right):{\frac{a^{2}-a+1}{a^{2}-2a+1}}$$ ni soddalashtiring.",
+        "question": "$$\\left({\\frac{1}{1-a}}-a\\right):{\\frac{a^{2}-a+1}{a^{2}-2a+1}}$$ ni soddalashtiring.",
         "answers": {
             "A": "1 −a",
             "B": "1 + a",
@@ -7365,11 +7365,11 @@
     },
     {
         "question_number": "719112",
-        "question": "$\frac{a^6+3a^4b^2+3a^2b^4+b^6}{a^2+b^2}$ ni soddalashtiring.",
+        "question": "$$\\frac{a^6+3a^4b^2+3a^2b^4+b^6}{a^2+b^2}$$ ni soddalashtiring.",
         "answers": {
             "A": "$$a^{3}+b^{3}$$",
             "B": "$$a^{4}+b^{4}$$",
-            "C": "$\\left(a^{2}+b^{2}\right)^{2}$",
+            "C": "$$\\left(a^{2}+b^{2}\\right)^{2}$$",
             "D": "$$(a+b)^{3}$$"
         },
         "correct_answer": {
@@ -7379,12 +7379,12 @@
     },
     {
         "question_number": "719113",
-        "question": "$$\\left({\frac{9m^{-3}}{5n^{-1}}}\right)^{-2}\\cdot81m^{-6}n^{3}$$ ni soddalashtiring.",
+        "question": "$$\\left({\\frac{9m^{-3}}{5n^{-1}}}\\right)^{-2}\\cdot81m^{-6}n^{3}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$\\left(\\dfrac{81}{5}\right)^2n$",
+            "A": "$$\\left(\\dfrac{81}{5}\\right)^2n$$",
             "B": "25n",
             "C": "$$25m^{-12}n^{5}$$",
-            "D": "$$\\left({\frac{81}{5}}\right)^{2}m^{-12}n^{5}$$"
+            "D": "$$\\left({\\frac{81}{5}}\\right)^{2}m^{-12}n^{5}$$"
         },
         "correct_answer": {
             "answer": "B",
@@ -7393,7 +7393,7 @@
     },
     {
         "question_number": "719114",
-        "question": "$${\frac{a^{3}-6a^{2}+7a}{a^{3}\\left(a-3\right)^{2}-2a^{3}}}\\ \\mathrm{ning}\\ a=-{\frac{1}{2}}$$ bo‘lgandagi qiymatini toping.",
+        "question": "$${\\frac{a^{3}-6a^{2}+7a}{a^{3}\\left(a-3\\right)^{2}-2a^{3}}}\\ \\mathrm{ning}\\ a=-{\\frac{1}{2}}$$ bo‘lgandagi qiymatini toping.",
         "answers": {
             "A": "2",
             "B": "3",
@@ -7407,12 +7407,12 @@
     },
     {
         "question_number": "719115",
-        "question": "$${\frac{{\frac{x}{x-{\\sqrt{2}}}}-{\frac{{\\sqrt{2}}}{x+{\\sqrt{2}}}}}{\frac{x^{2}+2}{x^{2}+x{\\sqrt{2}}}}}$$ ni soddalashtiring.",
+        "question": "$${\\frac{{\\frac{x}{x-{\\sqrt{2}}}}-{\\frac{{\\sqrt{2}}}{x+{\\sqrt{2}}}}}{\\frac{x^{2}+2}{x^{2}+x{\\sqrt{2}}}}}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{x}{x-{\\sqrt{2}}}$$",
-            "B": "$$\frac{1}{x-\\sqrt{2}}$$",
-            "C": "$$\frac{x}{x^{2}+{\\sqrt{2}}}$$",
-            "D": "$$\frac{x}{x+{\\sqrt{2}}}$$"
+            "A": "$$\\frac{x}{x-{\\sqrt{2}}}$$",
+            "B": "$$\\frac{1}{x-\\sqrt{2}}$$",
+            "C": "$$\\frac{x}{x^{2}+{\\sqrt{2}}}$$",
+            "D": "$$\\frac{x}{x+{\\sqrt{2}}}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7421,7 +7421,7 @@
     },
     {
         "question_number": "105469",
-        "question": "n ning nechta butun qiymatida $$\frac{n^{2}-5n-2}{n+1}$$ kasr butun son bo'ladi?",
+        "question": "n ning nechta butun qiymatida $$\\frac{n^{2}-5n-2}{n+1}$$ kasr butun son bo'ladi?",
         "answers": {
             "A": "6",
             "B": "2",
@@ -7435,11 +7435,11 @@
     },
     {
         "question_number": "105476",
-        "question": "Agar $(\\sqrt{3}+2)a=1$ va $(\\sqrt{3}-2)b=-1$. bo'lsa, $$$(a+1)^{-1}-(\\dot{b}+1)^{-1}$$ ning qiymatini hisoblang.",
+        "question": "Agar $$(\\sqrt{3}+2)a=1$$ va $$(\\sqrt{3}-2)b=-1$$. bo'lsa, $$$$(a+1)^{-1}-(\\dot{b}+1)^{-1}$$ ning qiymatini hisoblang.",
         "answers": {
-            "A": "$$\frac{1}{\\sqrt{3}}$$",
+            "A": "$$\\frac{1}{\\sqrt{3}}$$",
             "B": "0, 5",
-            "C": "$$\frac{2}{\\sqrt{3}}$$",
+            "C": "$$\\frac{2}{\\sqrt{3}}$$",
             "D": "$${\\sqrt{3}}$$"
         },
         "correct_answer": {
@@ -7449,7 +7449,7 @@
     },
     {
         "question_number": "108248",
-        "question": "Agar $a(x-1)^{2}+b(x-1)+c=2x^{2}-5x+8$ ayniyat bo'lsa, a + b + c yig'indi nechaga teng bo'ladi?",
+        "question": "Agar $$a(x-1)^{2}+b(x-1)+c=2x^{2}-5x+8$$ ayniyat bo'lsa, a + b + c yig'indi nechaga teng bo'ladi?",
         "answers": {
             "A": "7",
             "B": "8",
@@ -7463,7 +7463,7 @@
     },
     {
         "question_number": "108265",
-        "question": "Agar $ \frac{5x+1}{x^2-x-12}=\frac{a}{x+3}+\frac{b}{x-4}$ . ayniyat bo'lsa, b −a ni toping.",
+        "question": "Agar $$ \\frac{5x+1}{x^2-x-12}=\\frac{a}{x+3}+\\frac{b}{x-4}$$ . ayniyat bo'lsa, b −a ni toping.",
         "answers": {
             "A": "6",
             "B": "−1",
@@ -7477,12 +7477,12 @@
     },
     {
         "question_number": "109066",
-        "question": "$\\left(\frac{a^{\frac{1}{2}}+1}{a^{\frac{1}{2}}-1}+\frac{a^{\frac{1}{2}}-1}{a^{\frac{1}{2}}+1}-\frac{4}{a-1}\right)^{-3}-\frac{1}{4}$ ni soddalashtiring.",
+        "question": "$$\\left(\\frac{a^{\\frac{1}{2}}+1}{a^{\\frac{1}{2}}-1}+\\frac{a^{\\frac{1}{2}}-1}{a^{\\frac{1}{2}}+1}-\\frac{4}{a-1}\\right)^{-3}-\\frac{1}{4}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$$\frac{3}{8}$$",
-            "B": "−$$\frac{5}{8}$$",
-            "C": "$$\frac{1}{8}$$",
-            "D": "−$$\frac{1}{8}$$"
+            "A": "$$\\frac{3}{8}$$",
+            "B": "−$$\\frac{5}{8}$$",
+            "C": "$$\\frac{1}{8}$$",
+            "D": "−$$\\frac{1}{8}$$"
         },
         "correct_answer": {
             "answer": "D",
@@ -7491,10 +7491,10 @@
     },
     {
         "question_number": "121817",
-        "question": "Agar $x=(\\sqrt{8}-5)/2$. bo'lsa, (x + 1)(x + 2)(x + 3)(x + 4) ning qiymatini hisoblang.",
+        "question": "Agar $$x=(\\sqrt{8}-5)/2$$. bo'lsa, (x + 1)(x + 2)(x + 3)(x + 4) ning qiymatini hisoblang.",
         "answers": {
-            "A": "$$\frac{7}{16}$$",
-            "B": "−$$\frac{7}{16}$$",
+            "A": "$$\\frac{7}{16}$$",
+            "B": "−$$\\frac{7}{16}$$",
             "C": "1",
             "D": "−1"
         },
@@ -7505,7 +7505,7 @@
     },
     {
         "question_number": "131394",
-        "question": "$$\\left\\{\begin{array}{l l}{x^{3}-y^{3}=152,}\\ {x-y=2.}\\end{array}\right.$$ x · y -?",
+        "question": "$$\\left\\{\\begin{array}{l l}{x^{3}-y^{3}=152,}\\ {x-y=2.}\\end{array}\\right.$$ x · y -?",
         "answers": {
             "A": "12",
             "B": "4",
@@ -7519,7 +7519,7 @@
     },
     {
         "question_number": "131674",
-        "question": "Agar $a=39-\\sqrt{432}$ bo'lsa, $\\sqrt{a}+\\sqrt{3}$ ifodaning qiymatini aniqlang.",
+        "question": "Agar $$a=39-\\sqrt{432}$$ bo'lsa, $$\\sqrt{a}+\\sqrt{3}$$ ifodaning qiymatini aniqlang.",
         "answers": {
             "A": "4",
             "B": "6",
@@ -7533,9 +7533,9 @@
     },
     {
         "question_number": "136837",
-        "question": "$$\\left({\frac{{\\sqrt{y}}-{\\sqrt{x}}}{y-{\\sqrt{x y}}+x}}+{\frac{x}{x{\\sqrt{x}}+y{\\sqrt{y}}}}\right).\\dfrac{x\\sqrt{x}\\,+\\,y\\sqrt{y}}{y}$$ ni soddalashtiring.",
+        "question": "$$\\left({\\frac{{\\sqrt{y}}-{\\sqrt{x}}}{y-{\\sqrt{x y}}+x}}+{\\frac{x}{x{\\sqrt{x}}+y{\\sqrt{y}}}}\\right).\\dfrac{x\\sqrt{x}\\,+\\,y\\sqrt{y}}{y}$$ ni soddalashtiring.",
         "answers": {
-            "A": "$\\sqrt{x}+\\sqrt{y}$ .",
+            "A": "$$\\sqrt{x}+\\sqrt{y}$$ .",
             "B": "$${\\sqrt{x}}-{\\sqrt{y}}$$",
             "C": "1",
             "D": "$${\\sqrt{y}}$$"
@@ -7547,12 +7547,12 @@
     },
     {
         "question_number": "140397",
-        "question": "Agar $$ \frac{4x^2\\,-\\,4xy\\,+\\,3y^2}{2y^2\\,+\\,2xy\\,-\\,5x^2}=1$bo`lsa, $ \frac{2x\\,-\\,y}{2x\\,+\\,y}$$ ning qiymati nimaga teng?",
+        "question": "Agar $$ \\frac{4x^2\\,-\\,4xy\\,+\\,3y^2}{2y^2\\,+\\,2xy\\,-\\,5x^2}=1$$bo`lsa, $$ \\frac{2x\\,-\\,y}{2x\\,+\\,y}$$ ning qiymati nimaga teng?",
         "answers": {
-            "A": "−$$\frac{1}{5}$$",
+            "A": "−$$\\frac{1}{5}$$",
             "B": "−2",
-            "C": "$$\frac{1}{2}$$",
-            "D": "−$$\frac{1}{2}$$"
+            "C": "$$\\frac{1}{2}$$",
+            "D": "−$$\\frac{1}{2}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7561,12 +7561,12 @@
     },
     {
         "question_number": "140430",
-        "question": "Agar $${\frac{4x^{2}-4x y+3y^{2}}{2y^{2}+2x y-5x^{2}}}=1$$ bo'lsa, $$\frac{4x-y}{4x+y}$$ ning qiymati nimaga teng?",
+        "question": "Agar $${\\frac{4x^{2}-4x y+3y^{2}}{2y^{2}+2x y-5x^{2}}}=1$$ bo'lsa, $$\\frac{4x-y}{4x+y}$$ ning qiymati nimaga teng?",
         "answers": {
-            "A": "$$\frac{1}{7}$$",
+            "A": "$$\\frac{1}{7}$$",
             "B": "−2",
-            "C": "$$\frac{1}{2}$$",
-            "D": "−$$\frac{1}{2}$$"
+            "C": "$$\\frac{1}{2}$$",
+            "D": "−$$\\frac{1}{2}$$"
         },
         "correct_answer": {
             "answer": "A",
@@ -7575,7 +7575,7 @@
     },
     {
         "question_number": "146236",
-        "question": "Ifodani soddalashtiring:   $$\\left({\frac{20}{\\sqrt{6}+1}}+{\frac{4}{\\sqrt{6}-2}}-{\frac{12}{3-{\\sqrt{6}}}}\right).(}}2{\\sqrt{6}}+12{\bigr)}$$",
+        "question": "Ifodani soddalashtiring:   $$\\left({\\frac{20}{\\sqrt{6}+1}}+{\\frac{4}{\\sqrt{6}-2}}-{\\frac{12}{3-{\\sqrt{6}}}}\\right).(}}2{\\sqrt{6}}+12{\\bigr)}$$",
         "answers": {
             "A": "−115",
             "B": "127",
@@ -7622,7 +7622,7 @@
             "A": "f (x) = $$\\cos^{2}x-\\cos x$$",
             "B": "f (x) = cos x + sin x",
             "C": "f (x) = (1 −cos2x) · ctgx −2x",
-            "D": "$$f\\left(x\right)=e^{x}+\\operatorname{ctg}x$$"
+            "D": "$$f\\left(x\\right)=e^{x}+\\operatorname{ctg}x$$"
         },
         "correct_answer": {
             "answer": "C",
@@ -7659,7 +7659,7 @@
     },
     {
         "question_number": "315161",
-        "question": "Agar $$f(x)=(3+{\frac{1}{x}})(11+4x)$$ bo‘lsa, $$f(-{\frac{1}{2}})$$ ni toping.",
+        "question": "Agar $$f(x)=(3+{\\frac{1}{x}})(11+4x)$$ bo‘lsa, $$f(-{\\frac{1}{2}})$$ ni toping.",
         "answers": {
             "A": "9",
             "B": "−3",
@@ -7673,7 +7673,7 @@
     },
     {
         "question_number": "315162",
-        "question": "Agar $$f(x)=(2x+3)({\frac{3}{x}}-3)$$ bo‘lsa, f(−1) ni toping.",
+        "question": "Agar $$f(x)=(2x+3)({\\frac{3}{x}}-3)$$ bo‘lsa, f(−1) ni toping.",
         "answers": {
             "A": "0",
             "B": "6",
@@ -7687,7 +7687,7 @@
     },
     {
         "question_number": "315163",
-        "question": "Agar $$f(x)=(2x-{\frac{1}{3}})(4x+{\frac{1}{4}})$$ bo‘lsa, $$f({\frac{1}{2}})$$ ni toping.",
+        "question": "Agar $$f(x)=(2x-{\\frac{1}{3}})(4x+{\\frac{1}{4}})$$ bo‘lsa, $$f({\\frac{1}{2}})$$ ni toping.",
         "answers": {
             "A": "−4, 5",
             "B": "7 12",
@@ -7701,7 +7701,7 @@
     },
     {
         "question_number": "315164",
-        "question": "k ning qanday qiymatlarida $$y={\frac{k}{x}}-1$$ funksiyaning graﬁgi C(−2; −3) nuqtadan o‘tadi?",
+        "question": "k ning qanday qiymatlarida $$y={\\frac{k}{x}}-1$$ funksiyaning graﬁgi C(−2; −3) nuqtadan o‘tadi?",
         "answers": {
             "A": "1",
             "B": "4",
@@ -7715,7 +7715,7 @@
     },
     {
         "question_number": "315165",
-        "question": "k ning qanday qiymatida $y=k x^{3}+2\nonumber$ funksiyaning graﬁgi B(−2; −14) nuqtadan o‘tadi?",
+        "question": "k ning qanday qiymatida $$y=k x^{3}+2\\nonumber$$ funksiyaning graﬁgi B(−2; −14) nuqtadan o‘tadi?",
         "answers": {
             "A": "2",
             "B": "1",
@@ -7729,7 +7729,7 @@
     },
     {
         "question_number": "315166",
-        "question": "k ning qanday qiymatida $y=k x^{2}-2\nonumber$. funksiyaning graﬁgi A(−1; 0) nuqtadan o‘tadi?",
+        "question": "k ning qanday qiymatida $$y=k x^{2}-2\\nonumber$$. funksiyaning graﬁgi A(−1; 0) nuqtadan o‘tadi?",
         "answers": {
             "A": "4",
             "B": "−3",
@@ -7743,7 +7743,7 @@
     },
     {
         "question_number": "315167",
-        "question": "Quyidagilardan qaysilari o‘suvchi funksiyalar? 1) $$y=3^{-x}$$; 2) $$({\\sqrt[3]{10}})^{x}$$; 3) $$y=({\frac{11}{9}})^{x}$$; 4) $y=(\\dfrac{5}{3})^x$; 5) $y=(0,84)^x$",
+        "question": "Quyidagilardan qaysilari o‘suvchi funksiyalar? 1) $$y=3^{-x}$$; 2) $$({\\sqrt[3]{10}})^{x}$$; 3) $$y=({\\frac{11}{9}})^{x}$$; 4) $$y=(\\dfrac{5}{3})^x$$; 5) $$y=(0,84)^x$$",
         "answers": {
             "A": "1; 2; 4",
             "B": "1; 2; 3",
@@ -7759,10 +7759,10 @@
         "question_number": "315168",
         "question": "Toq funksiyani ko‘rsating.",
         "answers": {
-            "A": "$f\\left(x\right)=\\cos^2x−\\cos x$",
+            "A": "$$f\\left(x\\right)=\\cos^2x−\\cos x$$",
             "B": "f (x) = cos x + sin x",
             "C": "f (x) = (1 −cos2x) · ctgx −2x",
-            "D": "$$f\\left(x\right)=e^{x}+\\operatorname{ctg}x$$"
+            "D": "$$f\\left(x\\right)=e^{x}+\\operatorname{ctg}x$$"
         },
         "correct_answer": {
             "answer": "C",
