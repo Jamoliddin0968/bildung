@@ -19,7 +19,7 @@ class Command(BaseCommand):
             f'Subject "{subject.name}" created'))
 
         # Чтение данных из JSON файла
-        with open('apps/quiz/datas/matematika.json', 'r', encoding='utf-8') as file:
+        with open('apps/quiz/datas/matem.json', 'r', encoding='utf-8') as file:
             data_list = json.load(file)
 
         answers = []
